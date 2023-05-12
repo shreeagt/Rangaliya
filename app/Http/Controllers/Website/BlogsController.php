@@ -43,7 +43,8 @@ class BlogsController extends Controller
             'og_image'=>$og_image
         );
         }
-        return view('Website.blogs',['blogArray'=>$blogArray,'blogs'=>$blogs,'blog_categories' => $blog_categories, 'blogsLatest' => $blogsLatest]);
+        // return view('Website.blogs',['blogArray'=>$blogArray,'blogs'=>$blogs,'blog_categories' => $blog_categories, 'blogsLatest' => $blogsLatest]);
+        return view('Website.blogsrang',['blogArray'=>$blogArray,'blogs'=>$blogs,'blog_categories' => $blog_categories, 'blogsLatest' => $blogsLatest]);
     }
 
     /**
@@ -76,7 +77,8 @@ class BlogsController extends Controller
         ->where('blogs.blog_url','=',$blogUrl)
        ->first();
        
-        return view('Website.blog_view',['blog_details'=>$blog_details,'blogs'=>$blogs,'blog_categories' => $blog_categories,'blog_cat'=>$blog_cat,'blogsLatest' => $blogsLatest]);
+        // return view('Website.blog_view',['blog_details'=>$blog_details,'blogs'=>$blogs,'blog_categories' => $blog_categories,'blog_cat'=>$blog_cat,'blogsLatest' => $blogsLatest]);
+         return view('Website.blog_viewrang',['blog_details'=>$blog_details,'blogs'=>$blogs,'blog_categories' => $blog_categories,'blog_cat'=>$blog_cat,'blogsLatest' => $blogsLatest]);
 
     }
 

@@ -160,7 +160,7 @@
 								<div class="elementor-element elementor-element-e4b1ec9 elementor-widget elementor-widget-image" data-id="e4b1ec9" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
 						<!-- <img width="59" height="36" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/logo-black.svg" class="attachment-large size-large" alt="image" loading="lazy" />		 -->
-                            RangRilya	
+                            Rangaliya	
 					</div>
 				</div>
 				<div class="elementor-element elementor-element-1e1eb9e elementor-widget elementor-widget-heading" data-id="1e1eb9e" data-element_type="widget" data-widget_type="heading.default">

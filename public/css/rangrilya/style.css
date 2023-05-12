@@ -8863,9 +8863,9 @@ body .wp-block-cover-text {
   content: "\f376";
 }
 
-.ion-android-close:before {
+/* .ion-android-close:before {
   content: "\f2d7";
-}
+} */
 
 .ion-android-cloud:before {
   content: "\f37a";
@@ -20123,9 +20123,9 @@ html {
   content: "\e63c";
 }
 
-.ti-eye:before {
+/* .ti-eye:before {
   content: "\e63d";
-}
+} */
 
 .ti-export:before {
   content: "\e63e";
@@ -27987,9 +27987,9 @@ figure.pro-img-item {
   align-items: center;
 }
 
-.quantity:not(.hidden) .modify-qty[data-click=minus]:before {
+/* .quantity:not(.hidden) .modify-qty[data-click=minus]:before {
   content: "\f462";
-}
+} */
 
 .quantity:not(.hidden) .modify-qty[data-click=plus] {
   right: 0;
@@ -28004,9 +28004,9 @@ figure.pro-img-item {
   align-items: center;
 }
 
-.quantity:not(.hidden) .modify-qty[data-click=plus]:before {
+/* .quantity:not(.hidden) .modify-qty[data-click=plus]:before {
   content: "\f489";
-}
+} */
 
 .quantity:not(.hidden) .qty {
   height: 100%;

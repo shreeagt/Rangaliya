@@ -20,7 +20,8 @@ class ShopController extends Controller
         
         $categories = Category::all();
         $products = Product::orderBy("product_title")->paginate(2);
-        return view('Website.our-product',compact('products','categories'));
+        // return view('Website.our-product',compact('products','categories'));
+        return view('Website.our-productrang',compact('products','categories'));
     }
 
     /**

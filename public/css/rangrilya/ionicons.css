@@ -180,9 +180,9 @@
     content: "\f376";
   }
   
-  .ion-android-close:before {
+  /* .ion-android-close:before {
     content: "\f2d7";
-  }
+  } */
   
   .ion-android-cloud:before {
     content: "\f37a";

@@ -16,6 +16,12 @@ Route::get('/', 'Website\LandingPageController@index')->name('landing-page');
 Route::get('/about', function () {
     return view('website.about');
 });
+
+// Route::get('/product', function () {
+//     return view('website.product');
+// });
+
+
 Route::get('/our-product', 'Website\ShopController@index')->name('shop.index');
 Route::get('/product-view/{name}', 'Website\ShopController@serviceDetails');
 
