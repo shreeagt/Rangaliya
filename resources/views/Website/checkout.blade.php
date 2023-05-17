@@ -177,9 +177,11 @@
                             Rs {{ ($newSubtotal) }} <br>
                         @endif
                         @endif
+
                         @if(isset($newTax))
                         Rs {{ ($newTax) }} <br>
                         @endif
+                        
                         @if(isset($newTotal))
                         Rs {{ ($newTotal) }} <br>
                         @endif

@@ -108,7 +108,7 @@
                                     <div class="elementor-element elementor-element-7a6c77c elementor-align-left elementor-widget elementor-widget-button" data-id="7a6c77c" data-element_type="widget" data-widget_type="button.default">
                                        <div class="elementor-widget-container">
                                           <div class="elementor-button-wrapper">
-                                             <a href="https://mintie.boostifythemes.com/about-v1" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                             <a href="/about" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                              <span class="elementor-button-content-wrapper">
                                              <span class="elementor-button-text">Our History</span>
                                              </span>
@@ -326,7 +326,7 @@
                                     </div>
                                     <div class="elementor-element elementor-element-f09242b elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="f09242b" data-element_type="widget" data-widget_type="text-editor.default">
                                        <div class="elementor-widget-container">
-                                          <p>Mintie offers multiple payment options so the customers can easily to access their favorite one</p>
+                                          <p>Rangaliya offers multiple payment options so the customers can easily to access their favorite one</p>
                                        </div>
                                     </div>
                                  </div>
@@ -432,7 +432,7 @@
                                           <h2 class="elementor-heading-title elementor-size-default">Deals Of The Day</h2>
                                        </div>
                                     </div>
-                                    <div class="elementor-element elementor-element-0432fdc elementor-widget elementor-widget-mintie-countdown" data-id="0432fdc" data-element_type="widget" data-widget_type="mintie-countdown.default">
+                                    <!-- <div class="elementor-element elementor-element-0432fdc elementor-widget elementor-widget-mintie-countdown" data-id="0432fdc" data-element_type="widget" data-widget_type="mintie-countdown.default">
                                        <div class="elementor-widget-container">
                                           <div class="countdown-mintie-widget">
                                              <div class="container-box-countdown">
@@ -453,7 +453,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                    </div>
+                                    </div> -->
                                     <div class="elementor-element elementor-element-dca9cd2 elementor-widget elementor-widget-mintie-product-slider" data-id="dca9cd2" data-element_type="widget" data-widget_type="mintie-product-slider.default">
                                        <div class="elementor-widget-container">
                                           <div class="mintie-products-slider">
@@ -461,8 +461,8 @@
                                                 <div class="products js-products-slider" data-arrow="">
                                                    <div class="product type-product post-9704 status-publish first instock product_cat-home-arts product_tag-accessories product_tag-decor product_tag-fragrances has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
                                                       <div class="mintie-style-style3">
-                                                         <span class="onsale">
-                                                         -30%			</span>
+                                                         <!-- <span class="onsale">
+                                                         -30%			</span> -->
                                                          <div class="product-image-wrapper">
                                                             <a href="https://mintie.boostifythemes.com/shop/acai-canoe/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
                                                             <img decoding="async" width="300" height="300" src="{{asset('img/rangrilya/pr-3-300x300.jpg') }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{asset('img/rangrilya/pr-3-300x300.jpg') }}" />	
@@ -484,7 +484,7 @@
                                                             </div> -->
                                                             <span class="open-label-shop sale-product">
                                                             </span>
-                                                            <div class="box-loop-product-stock">
+                                                            <!-- <div class="box-loop-product-stock">
                                                                <div class="loop-product-stock">
                                                                   <div class="status-bar">
                                                                      <div class="sold-bar" style="width: 200%"></div>
@@ -498,7 +498,7 @@
                                                                      </div>
                                                                   </div>
                                                                </div>
-                                                            </div>
+                                                            </div> -->
                                                          </div>
                                                          <div class="content-info-product">
                                                             <a href="https://mintie.boostifythemes.com/shop/acai-canoe/ ">
@@ -507,7 +507,9 @@
                                                                </h2>
                                                             </a>
                                                             <div class="mintie-transform-loop-price">
-                                                               <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>30.00</bdi></span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>21.00</bdi></span></ins></span>
+                                                               <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount">
+                                                                  <!-- <bdi><span class="woocommerce-Price-currencySymbol">₹</span>30.00</bdi> -->
+                                                               </span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>21.00</bdi></span></ins></span>
                                                             </div>
                                                          </div>
                                                       </div>
@@ -616,7 +618,7 @@
                         <div class="elementor-element elementor-element-0ddc93a elementor-align-center elementor-widget elementor-widget-button" data-id="0ddc93a" data-element_type="widget" data-widget_type="button.default">
                            <div class="elementor-widget-container">
                               <div class="elementor-button-wrapper">
-                                 <a href="https://mintie.boostifythemes.com/shop" class="elementor-button-link elementor-button elementor-size-sm" role="button">
+                                 <a href="/our-product" class="elementor-button-link elementor-button elementor-size-sm" role="button">
                                  <span class="elementor-button-content-wrapper">
                                  <span class="elementor-button-text">Shop Now</span>
                                  </span>
@@ -643,8 +645,8 @@
                                                 <div class="mintie-products-tab-head-buttons">
                                                    <div class="tabs-filter">
                                                       <span class="mintie-products-tab-btn ready active" data-id="0f25041">New Arrivals</span>
-                                                      <span class="mintie-products-tab-btn" data-id="87839f1">Bestsellers</span>
-                                                      <span class="mintie-products-tab-btn" data-id="e8c1d54">On Sale</span>
+                                                      <!-- <span class="mintie-products-tab-btn" data-id="87839f1">Bestsellers</span>
+                                                      <span class="mintie-products-tab-btn" data-id="e8c1d54">On Sale</span> -->
                                                    </div>
                                                 </div>
                                              </div>
@@ -1406,12 +1408,9 @@
                                                                {{Carbon\Carbon::parse($item->created_at)->format('M d, Y')}}
                                                                </time>
                                                                <span class="if-item if-comment">
-                                                               <a href="#">3 Comments<span class="screen-reader-text"> {{ substr($item->blog_description, 0, 150)}} ...</span>
+                                                               <a href="#"><span class="screen-reader-text"> {{ substr($item->blog_description, 0, 150)}} ...</span>
                                                                </a></span>	
                                                                </span>
-                                                            </div>
-                                                            <div class="blog-read-more">
-                                                               <a href="#" class="read-more">Add to Cart</a>
                                                             </div>
                                                          </div>
                                                       </div>

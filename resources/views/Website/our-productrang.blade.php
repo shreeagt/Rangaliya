@@ -9,6 +9,21 @@
    .products .product:hover .product-quick-view-btn span, .products .product:hover .product-action-wishlist a, .products .product:hover .product-action-compare a {
    color: #000;
    }
+
+   form.product_type_externals {
+    background: #2d3448;
+}
+
+button.product_type_external {
+    border: 0;
+}
+button.product_type_external:hover {
+   background: #2d3448;
+}
+
+button.product_type_external:hover {
+    background-color: #2d3448!important;
+}
 </style>
 <div id="theme-page-header">
    <div class="page-header ">
@@ -174,7 +189,7 @@
                                              <div class="mintie-add-btn mintie-add-btn-replace">
 												
 													@if ($product->quantity > 0)
-														<form action="{{ route('cart.store', $product) }}" method="POST">
+														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
 														{{ csrf_field() }}
 														<button type="submit" data-quantity="1" class="product_type_external" data-product_id="9669" data-product_sku="OF58296-HF1" title="Add To Cart" rel="nofollow">Add to Cart</button>
 													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
@@ -836,7 +851,7 @@
                                     </div>
                                     <div class="elementor-element elementor-element-32a7dad elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="32a7dad" data-element_type="widget" data-widget_type="text-editor.default">
                                        <div class="elementor-widget-container">
-                                          <p>Mintie offers multiple payment options so the customers can easily to access their favorite one</p>
+                                          <p>Rangaliya offers multiple payment options so the customers can easily to access their favorite one</p>
                                        </div>
                                     </div>
                                  </div>

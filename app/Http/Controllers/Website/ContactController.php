@@ -1,12 +1,36 @@
 <?php
 
 namespace App\Http\Controllers\Website;
-
+use App\Model\Contact;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
 class ContactController extends Controller
 {
+
+        /**
+     * Show the form for creating a new resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function sendMail(Request $request)
+    {
+
+        $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+            // 'g-recaptcha-response' => ['required', new ReCaptcha]
+        ]);
+  
+        // $input = $request->all();
+        Contact::create($request->all());
+  
+        return redirect()->back()->with(['success' => 'Thank you for contact us.
+         we will contact you shortly.']);
+    
+    }
+
     /**
      * Display a listing of the resource.
      *

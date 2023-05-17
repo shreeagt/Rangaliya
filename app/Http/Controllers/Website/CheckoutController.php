@@ -47,7 +47,8 @@ class CheckoutController extends Controller
             $paypalToken = null;
         }
 
-        return view('Website.checkout')->with([
+        // return view('Website.checkout')->with([
+        return view('Website.checkoutrang')->with([
             'cart_products'=>$cart_products,
             'cart_subtotal'=>getNumbers()->get('cart_subtotal'),
             'paypalToken' => $paypalToken,
