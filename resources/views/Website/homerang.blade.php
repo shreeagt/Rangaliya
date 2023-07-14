@@ -83,7 +83,7 @@
                                  <div class="elementor-widget-wrap elementor-element-populated">
                                     <div class="elementor-element elementor-element-278b661 elementor-invisible elementor-widget elementor-widget-image" data-id="278b661" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;zoomInUp&quot;}" data-widget_type="image.default">
                                        <div class="elementor-widget-container">
-                                          <img decoding="async" width="530" height="502" src="{{asset('img/rangrilya/banner-h5-1.png') }}" sizes="(max-width: 530px) 100vw, 530px" />															
+                                          <img decoding="async" width="530" height="502" src="{{asset('img/new1/IMG_7091.jpg') }}" sizes="(max-width: 530px) 100vw, 530px" />															
                                        </div>
                                     </div>
                                  </div>
@@ -118,7 +118,7 @@
                                     </div>
                                     <div class="elementor-element elementor-element-bf6d959 elementor-widget elementor-widget-image" data-id="bf6d959" data-element_type="widget" data-widget_type="image.default">
                                        <div class="elementor-widget-container">
-                                          <img decoding="async" width="320" height="75" src="{{asset('img/rangrilya/banner-h5-2.jpg') }}" class="attachment-large size-large" alt="image" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/banner-h5-2.jpg 320w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/banner-h5-2-300x70.jpg 300w" sizes="(max-width: 320px) 100vw, 320px" />															
+                                          <img decoding="async" width="320" height="75" src="{{asset('img/new1/rangaliya.jpg') }}" class="attachment-large size-large" alt="image" loading="lazy" src="img/new1/rangaliya.jpg" sizes="(max-width: 320px) 100vw, 320px" />															
                                        </div>
                                     </div>
                                  </div>
@@ -464,9 +464,9 @@
                                                          <span class="onsale">
                                                          -30%			</span>
                                                          <div class="product-image-wrapper">
-                                                            <a href="https://mintie.boostifythemes.com/shop/acai-canoe/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-                                                            <img decoding="async" width="300" height="300" src="{{asset('img/rangrilya/pr-3-300x300.jpg') }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{asset('img/rangrilya/pr-3-300x300.jpg') }}" />	
-                                                            <img decoding="async" class="hover-product-image" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-4.jpg" alt="image-product-hover">
+                                                            <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                                            <img decoding="async" width="300" height="300" src="{{asset('img/new1/IMG_7100.jpg') }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{asset('img/rangrilya/pr-3-300x300.jpg') }}" />	
+                                                            <img decoding="async" class="hover-product-image" src="img/new1/IMG_7101.jpg" alt="image-product-hover">
                                                             </a>
                                                             <div class="mintie-add-btn mintie-add-btn-replace">
                                                                <a href="?add-to-cart=9704" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9704" data-product_sku="OF58296-HFF" title="Add &ldquo;Acai Canoe&rdquo; to your cart" rel="nofollow">Add to cart</a>			
@@ -515,7 +515,7 @@
                                                    <div class="product type-product post-9710 status-publish outofstock product_cat-home-fragrances product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
                                                       <div class="mintie-style-style3">
                                                          <div class="product-image-wrapper">
-                                                            <a href="https://mintie.boostifythemes.com/shop/wooden-dice/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-6-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-6-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-7.jpg" alt="image-product-hover">
+                                                            <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7104.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7103.jpg" alt="image-product-hover">
                                                             </a>
                                                             <div class="mintie-add-btn mintie-add-btn-replace">
                                                                <a href="https://mintie.boostifythemes.com/shop/wooden-dice/" data-quantity="1" class="product_type_simple" data-product_id="9710" data-product_sku="OF58296-HF" title="Read more about &ldquo;Wooden Dice&rdquo;" rel="nofollow">Add to Cart</a>			
@@ -552,7 +552,7 @@
                                                    <div class="product type-product post-9715 status-publish last instock product_cat-ceramics product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-woosb">
                                                       <div class="mintie-style-style3">
                                                          <div class="product-image-wrapper">
-                                                            <a href="https://mintie.boostifythemes.com/shop/candle-diffuser-bundle-1/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-8-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-8-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-9.jpg" alt="image-product-hover">
+                                                            <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7126.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7125.jpg" alt="image-product-hover">
                                                             </a>
                                                             <div class="mintie-add-btn mintie-add-btn-replace">
                                                                <a href="https://mintie.boostifythemes.com/shop/candle-diffuser-bundle-1/" data-quantity="1" class="product_type_woosb add_to_cart_button " data-product_id="9715" data-product_sku="" title="Read more about &ldquo;Candle &amp; Diffuser Bundle #1&rdquo;" rel="nofollow">Add to Cart</a>			
@@ -643,8 +643,6 @@
                                                 <div class="mintie-products-tab-head-buttons">
                                                    <div class="tabs-filter">
                                                       <span class="mintie-products-tab-btn ready active" data-id="0f25041">New Arrivals</span>
-                                                      <span class="mintie-products-tab-btn" data-id="87839f1">Bestsellers</span>
-                                                      <span class="mintie-products-tab-btn" data-id="e8c1d54">On Sale</span>
                                                    </div>
                                                 </div>
                                              </div>
@@ -654,7 +652,7 @@
                                                       <li class="product type-product post-9829 status-publish first instock product_cat-ceramics product_cat-home-arts product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
                                                          <div class="mintie-style-style3">
                                                             <div class="product-image-wrapper">
-                                                               <a href="https://mintie.boostifythemes.com/shop/marble-tabletop-sculpture/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-32-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-32-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-33.jpg" alt="image-product-hover">
+                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7210.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-32-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7209.jpg" alt="image-product-hover">
                                                                </a>
                                                                <div class="mintie-add-btn mintie-add-btn-replace">
                                                                   <a href="?add-to-cart=9829" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9829" data-product_sku="" title="Add &ldquo;Marble Tabletop Sculpture&rdquo; to your cart" rel="nofollow">Add to cart</a>			
@@ -690,7 +688,7 @@
                                                       <li class="product type-product post-9833 status-publish instock product_cat-kids-crafts product_tag-accessories product_tag-arts product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
                                                          <div class="mintie-style-style3">
                                                             <div class="product-image-wrapper">
-                                                               <a href="https://mintie.boostifythemes.com/shop/koala-rattle/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-34-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-34-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-35.jpg" alt="image-product-hover">
+                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7194.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7193.jpg" alt="image-product-hover">
                                                                </a>
                                                                <div class="mintie-add-btn mintie-add-btn-replace">
                                                                   <a href="?add-to-cart=9833" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9833" data-product_sku="" title="Add &ldquo;Koala Rattle&rdquo; to your cart" rel="nofollow">Add to cart</a>			
@@ -726,7 +724,7 @@
                                                       <li class="product type-product post-9837 status-publish instock product_cat-ceramics product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
                                                          <div class="mintie-style-style3">
                                                             <div class="product-image-wrapper">
-                                                               <a href="https://mintie.boostifythemes.com/shop/ema-white-vase/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-36-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-36-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-37.jpg" alt="image-product-hover">
+                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7098.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7099.jpg" alt="image-product-hover">
                                                                </a>
                                                                <div class="mintie-add-btn mintie-add-btn-replace">
                                                                   <a href="?add-to-cart=9837" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9837" data-product_sku="" title="Add &ldquo;Ema White Vase&rdquo; to your cart" rel="nofollow">Add to cart</a>			
@@ -762,7 +760,7 @@
                                                       <li class="product type-product post-9849 status-publish last instock product_cat-home-accessories product_tag-accessories product_tag-crafting product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
                                                          <div class="mintie-style-style3">
                                                             <div class="product-image-wrapper">
-                                                               <a href="https://mintie.boostifythemes.com/shop/curly-willow-orb/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-41-300x300.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-41-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-41-1.jpg" alt="image-product-hover">
+                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7126.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7125.jpg" alt="image-product-hover">
                                                                </a>
                                                                <div class="mintie-add-btn mintie-add-btn-replace">
                                                                   <a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>			
