@@ -191,7 +191,7 @@ button.product_type_external:hover {
 													@if ($product->quantity > 0)
 														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
 														{{ csrf_field() }}
-														<button type="submit" data-quantity="1" class="product_type_external" data-product_id="9669" data-product_sku="OF58296-HF1" title="Add To Cart" rel="nofollow">Add to Cart</button>
+														<button type="submit" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9669" data-product_sku="OF58296-HF1" title="Add To Cart" rel="nofollow">Add to Cart</button>
 													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
 
 														</form>
