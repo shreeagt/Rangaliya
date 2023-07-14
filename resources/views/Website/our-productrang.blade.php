@@ -9,6 +9,21 @@
    .products .product:hover .product-quick-view-btn span, .products .product:hover .product-action-wishlist a, .products .product:hover .product-action-compare a {
    color: #000;
    }
+
+   form.product_type_externals {
+    background: #2d3448;
+}
+
+button.product_type_external {
+    border: 0;
+}
+button.product_type_external:hover {
+   background: #2d3448;
+}
+
+button.product_type_external:hover {
+    background-color: #2d3448!important;
+}
 </style>
 <div id="theme-page-header">
    <div class="page-header ">
@@ -174,7 +189,7 @@
                                              <div class="mintie-add-btn mintie-add-btn-replace">
 												
 													@if ($product->quantity > 0)
-														<form action="{{ route('cart.store', $product) }}" method="POST">
+														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
 														{{ csrf_field() }}
 														<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	
 													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
@@ -836,7 +851,7 @@
                                     </div>
                                     <div class="elementor-element elementor-element-32a7dad elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="32a7dad" data-element_type="widget" data-widget_type="text-editor.default">
                                        <div class="elementor-widget-container">
-                                          <p>Mintie offers multiple payment options so the customers can easily to access their favorite one</p>
+                                          <p>Rangaliya offers multiple payment options so the customers can easily to access their favorite one</p>
                                        </div>
                                     </div>
                                  </div>

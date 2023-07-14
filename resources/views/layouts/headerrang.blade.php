@@ -260,7 +260,7 @@
                                     <div class="elementor-element elementor-element-e43dbba elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="e43dbba" data-element_type="widget" data-widget_type="image.default">
                                        <div class="elementor-widget-container">
                                           <a href="{{ route('landing-page') }}">
-                                               <h1>Rangaliyas</h1>
+                                               <h1>Rangaliya</h1>
                                              </br>
                                              <p>Artistic Walls, Beautiful Home</p>
                                           </a>
@@ -427,29 +427,29 @@
                                  <div class="boostify-menu-sidebar boostify--hover-none show-logo-yes show-form-">
                                     <div class="boostify-menu-sidebar--wrapper">
                                        <div class="logo-sidebar">
-                                          <a href="/" class="custom-logo-link" rel="home">
+                                          <a href="{{ route('landing-page') }}" class="custom-logo-link" rel="home">
                                           <!-- <img width="59" height="36" src="{{asset('img/rangrilya/logo-black.svg') }}" class="custom-logo" alt="image" decoding="async" /> -->
-                                          <h1>Rangaliyas</h1>
+                                          <h1>Rangaliya</h1>
                                              </br>
                                              <p>Artistic Walls, Beautiful Home</p>
                                          </a>						
                                        </div>
                                        <nav class="boostify-menu-dropdown menu-1" aria-label="Dropdown navigation">
                                           <ul id="menu-menu-7" class="boostify-dropdown-menu">
-                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-596">
-                                                <a href="/">Home</a>
+                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor  menu-item-596">
+                                                <a href="{{ route('landing-page') }}">Home</a>
                                              </li>
                                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12449"><a href="{{route('shop.index') }}">Shop</a></li>
-                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-609">
+                                             <li class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-609">
                                                <a href="/about">About</a>
                                              </li>
-                                             <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-609">
+                                             <li class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-609">
                                                <a href="/contact">Contact</a>
                                              </li>
-                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12060">
+                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-12060">
                                                 <a href="/blogs">Blog</a>
                                              </li>
-                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-12060">
+                                             <li class="menu-item menu-item-type-custom menu-item-object-custom  menu-item-12060">
                                         
                                                 @guest
                                                 <a class="header-wishlist" href="{{ route('login') }}">
@@ -489,10 +489,10 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-36cdb82 elementor-widget elementor-widget-image" data-id="36cdb82" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <a href="/">
-                              <h4>Rangaliyas</h4>
+                              <a href="{{ route('landing-page') }}">
+                              <h4 style="text-align:center">Rangaliyas</h4>
                                              </br>
-                               <p>Artistic Walls, Beautiful Home</p>
+                               <p style="text-align:center">Artistic Walls, Beautiful Home</p>
                               <!-- <img width="59" height="36" src="{{asset('img/rangrilya/logo-black.svg') }}" class="attachment-large size-large" alt="image" loading="lazy" />								</a> -->
                            </div>
                         </div>
@@ -521,7 +521,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-9642e98 elementor-widget elementor-widget-image" data-id="9642e98" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <a href="/">
+                              <a href="{{ route('landing-page') }}">
                               <h1>Rangaliya</h1>
                                              </br>
                                              <p>Artistic Walls, Beautiful Home</p>
@@ -553,7 +553,7 @@
                                        </div>
                                        <nav class="boostify-menu-dropdown menu-1" aria-label="Dropdown navigation">
                                           <ul id="menu-menu-9" class="boostify-dropdown-menu">
-                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-596"><a href="/">Home</a>
+                                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children menu-item-596"><a href="{{ route('landing-page') }}">Home</a>
                                              </li>
                                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12449">
                                                 <a href="/our-product">Shop</a>

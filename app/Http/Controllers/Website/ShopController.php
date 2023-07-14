@@ -19,7 +19,8 @@ class ShopController extends Controller
     {
         
         $categories = Category::all();
-        $products = Product::orderBy("product_title")->paginate(2);
+        $products = Product::orderBy("product_title")->get();
+        // $products = Product::orderBy("product_title")->paginate(2);
         // return view('Website.our-product',compact('products','categories'));
         return view('Website.our-productrang',compact('products','categories'));
     }
@@ -39,7 +40,8 @@ class ShopController extends Controller
         
         $product = Product::where('product_title','=',$requestUri)->firstOrFail();
         //dd($product);
-        return view('Website.product')->with([ 'product' => $product,
+        // return view('Website.product')->with([ 'product' => $product,
+        return view('Website.productrang')->with([ 'product' => $product,
         'categories' => $categories,'tab'=>$tab]);
 
     }

@@ -15,6 +15,7 @@
 						<li><a href="/admin/tabs"> <span> Product Tab </span> </a> </li> 
 						<li><a href="/admin/Imagetabs"> <span> Product Image</span> </a> </li> 
 						<li><a href="/admin/purches"> <span>Inventory</span> </a> </li> 
+						
 					</ul>
 				</li>
 				
@@ -23,6 +24,11 @@
 				<li> <div class="hitarea expandable-hitarea"><a href="/admin/orders"><i class="fa fa-tachometer" aria-hidden="true"></i> <span> Orders </span> </a></div> </li>
 
 				<li> <div class="hitarea expandable-hitarea"><a href="/admin/coupons"><i class="fa fa-tachometer" aria-hidden="true"></i> <span> Coupons </span> </a></div> </li>
+
+				<li> <div class="hitarea expandable-hitarea"><a href="/admin/contact"><i class="fa fa-tachometer" aria-hidden="true"></i> <span> Contact </span> </a></div> </li> 
+
+				<!-- <li><a href="/admin/contact"> <span> Contact </span> </a> </li>  -->
+
 
 				<li class="expandable">
 					<div class="hitarea expandable-hitarea"> <i class="fa fa-sliders" aria-hidden="true"></i> <span>  Team </span> <i class="fa fa-angle-down" aria-hidden="true"></i> </div>

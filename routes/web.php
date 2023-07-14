@@ -29,10 +29,12 @@ Route::get('/blogs','Website\BlogsController@index')->name('blog.index');
 Route::get('/blogs/{id}', 'Website\BlogsController@show')->name('blog.show');
 Route::get('/blog/{blogUrl}', 'Website\BlogsController@blogDetails');
 
+
 Route::get('/teams','Website\TeamController@index')->name('team');
 Route::get('/teams/{teamUrl}', 'Website\TeamController@teamDetails');
 
 Route::get('/contact', 'Website\ContactController@index')->name('contact');
+Route::post('/contact/store','Website\ContactController@sendMail')->name('contactme');
 
 Route::get('/news/{newsUrl}', 'Website\NewsController@newsDetails');
 Route::get('/news', 'Website\NewsController@index')->name('news');
@@ -66,6 +68,7 @@ Route::middleware('auth')->group(function () {
         Route::get('/my-orders', 'Website\OrdersController@index')->name('order.index');
         Route::get('/my-orders/view/{order}', 'Website\OrdersController@show')->name('orders.show');
 
+   
 });
 
 Route::get('/admin/login','Admin\AdminController@login')->name('admin.login');
@@ -159,6 +162,8 @@ Route::group(['prefix' => '/admin','middleware'=>'admin-auth'], function () {
      Route::get('/purches','Admin\PurchesController@showPurches')->name('purches.index');
      Route::get('/purchesEntry','Admin\PurchesController@purchesEntry')->name('purches.entry');
      Route::post('/store-purchase','Admin\PurchesController@storePurchase')->name('admin.store-purchase');
+
+     Route::get('/contact','Admin\ContactController@index')->name('contact-index');
 });
 
 Route::any('/ckfinder/connector', '\CKSource\CKFinderBridge\Controller\CKFinderController@requestAction')

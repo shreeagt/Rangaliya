@@ -73,10 +73,10 @@
                            <!-- <a href="{{ route('cart.destroy', $item->product_cart_id) }}" class="remove" aria-label="Remove this item" data-product_id="9788" data-product_sku="OF58296-HFS">×</a>						 -->
                         </td>
                         <td class="product-thumbnail">
-                           <a href="{{ url('/services-view/'.$item->product_url) }}"><img width="300" height="300" src="{{$item->images}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image" decoding="async" loading="lazy" srcset="{{$item->images}}" sizes="(max-width: 300px) 100vw, 300px"></a>						
+                           <a href="{{ url('/product-view/'.$item->product_title) }}"><img width="300" height="300" src="{{$item->images}}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="image" decoding="async" loading="lazy" srcset="{{$item->images}}" sizes="(max-width: 300px) 100vw, 300px"></a>						
                         </td>
                         <td class="product-name" data-title="Product">
-                           <a href="{{ url('/services-view/'.$item->product_url) }}">{{ $item->product_title}}</a>						
+                           <a href="{{ url('/product-view/'.$item->product_title) }}">{{ $item->product_title}}</a>						
                         </td>
                         <td class="product-price" data-title="Price">
                            <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>{{ (int)$item['price']  }}</bdi></span>						
@@ -169,8 +169,9 @@
 <script>
     (function(){
         const classname = document.querySelectorAll('.quantity')
-
+// alert("hello");
         Array.from(classname).forEach(function(element) {
+
             element.addEventListener('change', function() {
                 const id = element.getAttribute('data-id')
                 const productQuantity = element.getAttribute('data-productQuantity')
