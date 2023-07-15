@@ -645,11 +645,6 @@
                                                 <div class="mintie-products-tab-head-buttons">
                                                    <div class="tabs-filter">
                                                       <span class="mintie-products-tab-btn ready active" data-id="0f25041">New Arrivals</span>
-<<<<<<< HEAD
-=======
-                                                      <!-- <span class="mintie-products-tab-btn" data-id="87839f1">Bestsellers</span>
-                                                      <span class="mintie-products-tab-btn" data-id="e8c1d54">On Sale</span> -->
->>>>>>> 9e96a52f56f8b73ec1e571acf6295baacde3837c
                                                    </div>
                                                 </div>
                                              </div>
