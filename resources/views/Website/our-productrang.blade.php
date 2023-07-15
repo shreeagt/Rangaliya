@@ -62,74 +62,40 @@ button.product_type_external:hover {
          <div class="elementor-section-wrap">
             <section class="elementor-section elementor-top-section elementor-element elementor-element-3756b41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3756b41" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-acbf47b elementor-widget elementor-widget-mintie-category-box" data-id="acbf47b" data-element_type="widget" data-widget_type="mintie-category-box.default">
-                           <div class="elementor-widget-container">
-                              <div class="mintie-category-box-wrapper">
-                                 <div class="mintie-category-box-image hover-effect_2">
-                                    <a href="#"  class="mintie-category-box-link"></a>
-                                    <img decoding="async" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/cate-h1-ok.jpg" alt="image">
-                                 </div>
-                                 <div class="mintie-category-box-content">
-                                    <h3 class="mintie-category-box-title">
-                                       <a href="#" >
-                                       Home Arts					</a>
-                                    </h3>
-                                    <p class="mintie-category-description effect-ef_none">
-                                       24 Items				
-                                    </p>
-                                 </div>
-                              </div>
+                   @foreach($categories as $index => $category)
+                   <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
+                       <div class="elementor-widget-wrap elementor-element-populated">
+                           <div class="elementor-element elementor-element-acbf47b elementor-widget elementor-widget-mintie-category-box" data-id="acbf47b" data-element_type="widget" data-widget_type="mintie-category-box.default">
+                               <div class="elementor-widget-container">
+                                   <div class="mintie-category-box-wrapper">
+                                       <div class="mintie-category-box-image hover-effect_2">
+                                           <a href="#" class="mintie-category-box-link"></a>
+                                           <img decoding="async" src="{{ $category->banner_image }}" alt="image">
+                                       </div>
+                                       <div class="mintie-category-box-content">
+                                           <h3 class="mintie-category-box-title">
+                                               <a href="#">
+                                                   {{ $category->category_name }}
+                                               </a>
+                                           </h3>
+                                           <p class="mintie-category-description effect-ef_none">
+                                               @if ($index === 0)
+                                               24 Items
+                                               @elseif ($index === 1)
+                                               53 Items
+                                               @elseif ($index === 2)
+                                               47 Items
+                                               @endif
+                                           </p>
+                                       </div>
+                                   </div>
+                               </div>
                            </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-acce7f4" data-id="acce7f4" data-element_type="column">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-e378fa5 elementor-widget elementor-widget-mintie-category-box" data-id="e378fa5" data-element_type="widget" data-widget_type="mintie-category-box.default">
-                           <div class="elementor-widget-container">
-                              <div class="mintie-category-box-wrapper">
-                                 <div class="mintie-category-box-image hover-effect_2">
-                                    <a href="#"  class="mintie-category-box-link"></a>
-                                    <img decoding="async" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/cate-h1-ok.jpg" alt="image">
-                                 </div>
-                                 <div class="mintie-category-box-content">
-                                    <h3 class="mintie-category-box-title">
-                                       <a href="#" >Work Art</a>
-                                    </h3>
-                                    <p class="mintie-category-description effect-ef_none">53 Items</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-d945809" data-id="d945809" data-element_type="column">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-ed4aa5d elementor-widget elementor-widget-mintie-category-box" data-id="ed4aa5d" data-element_type="widget" data-widget_type="mintie-category-box.default">
-                           <div class="elementor-widget-container">
-                              <div class="mintie-category-box-wrapper">
-                                 <div class="mintie-category-box-image hover-effect_2">
-                                    <a href="#"  class="mintie-category-box-link"></a>
-                                    <img decoding="async" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/cate-h1-3.jpg" alt="image">
-                                 </div>
-                                 <div class="mintie-category-box-content">
-                                    <h3 class="mintie-category-box-title">
-                                       <a href="#" >
-                                       Kids’ Crafts					</a>
-                                    </h3>
-                                    <p class="mintie-category-description effect-ef_none">
-                                       47 Items				
-                                    </p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                       </div>
+                   </div>
+                   @endforeach
                </div>
-            </section>
+           </section>
             <section class="elementor-section elementor-top-section elementor-element elementor-element-d6efc6b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cd711f" data-id="7cd711f" data-element_type="column">
