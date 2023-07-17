@@ -17,7 +17,20 @@ class LandingPageController extends Controller
      */
     public function index()
     {
-        $products = Product::get();
+        // $products = Product::get();
+       // $products=Product::all();
+       //$products = Product::latest()->take(3)->get();
+       $products = Product::orderBy('created_at', 'desc')
+       ->take(4)
+       //->where('best_seller', 1)
+       ->where('home', 1)
+       ->get();
+        // $newarrival = Carbon::now()->subDays(7);
+        // $products=Product::where('created_at', '>', $newarrival)
+        // ->orderBy('created_at', 'desc')
+        // ->limit(3)
+        // ->get();
+    
         $blogs=Blog::where('blog_status','=','Publish')->paginate(3);
         $teams=Team::where('status','=','Y')->orderBy('name','ASC')->paginate(4);
         $blogsLatest = Blog::where('blog_status','=','Publish')->orderBy('updated_at','DESC')->limit(5)->get()->toArray();
@@ -47,11 +60,10 @@ class LandingPageController extends Controller
     }
 
     // return view('Website.home',['blogArray'=>$blogArray,'blogs'=>$blogs,'blog_categories' => $blog_categories, 'blogsLatest' => $blogsLatest , 'teams'=>$teams]);
-    return view('Website.homerang',['blogArray'=>$blogArray,'blogs'=>$blogs,'blog_categories' => $blog_categories, 'blogsLatest' => $blogsLatest , 'teams'=>$teams]);
+    return view('Website.homerang',['blogAr ray'=>$blogArray,'blogs'=>$blogs,'blog_categories' => $blog_categories, 'blogsLatest' => $blogsLatest , 'teams'=>$teams, 'products' => $products]);
 
         // return view('Website.home')->with(['products'=> $products,'blogs'=>$blogs]);
     }
-
 
      
     // $blogs=Blog::where('blog_status','=','Publish')->get();

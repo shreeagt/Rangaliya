@@ -392,215 +392,114 @@
                   </div>
                </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-ddadd13 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ddadd13" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <!-- deals of the day start -->
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-d6efc6b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9a3ae79" data-id="9a3ae79" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cd711f" data-id="7cd711f" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
-                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-6c81c74 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6c81c74" data-element_type="section">
-                           <div class="elementor-container elementor-column-gap-default">
-                              <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-a34abeb" data-id="a34abeb" data-element_type="column">
-                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-84493c5 elementor-view-default elementor-widget elementor-widget-icon" data-id="84493c5" data-element_type="widget" data-widget_type="icon.default">
-                                       <div class="elementor-widget-container">
-                                          <div class="elementor-icon-wrapper">
-                                             <div class="elementor-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 511 347.95">
-                                                   <defs>
-                                                      <style>.cls-1h1{fill:#ce373a;}.cls-2h1{fill:#f4a2a6;}</style>
-                                                   </defs>
-                                                   <title>heading-icon</title>
-                                                   <path class="cls-1h1" d="M412.49,215.45A52.15,52.15,0,0,1,430,200.7c56.58,33.21,44,95.51,38.7,114A2,2,0,0,1,465,315a70.74,70.74,0,0,0-14.44-20.1c-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-2h1" d="M412.49,215.45c32.57,22,39,54.46,38.06,79.4-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-1h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15a71.21,71.21,0,0,0,18.45-18,2,2,0,0,1,3.64.91c2.09,19.09,4.08,82.62-57.28,105.85a53.26,53.26,0,0,1-13.5-15.07C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-2h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15-2.66,24.62-13.44,56.52-48.69,73.72C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-1h1" d="M296.71,241.87a54.17,54.17,0,0,1,6.8-15.42c65.6.92,85.39,61.31,89.95,80a2,2,0,0,1-3.11,2.1c-8.88-6.3-18.62-9.66-28.14-11.71-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-1h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,4.65-8.62,8.45-18.25,9.42-29.17a2,2,0,0,1,3.62-1c11.24,15.56,44.35,69.81,2.49,120.33a56.67,56.67,0,0,1-11.82-3C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-2h1" d="M296.71,241.87c36.4,6.67,55.68,33.42,65.5,54.93-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-2h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,10.66,20.52,21.17,53.64,3.71,87.17C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-1h1" d="M188.77,297.14a55.74,55.74,0,0,1,1.92-12c62.9-18.61,99.74,33.18,109.64,49.64a2,2,0,0,1-2.36,2.93,71,71,0,0,0-25.51-3.15c-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-1h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07a71.53,71.53,0,0,0-.51-25.71,2,2,0,0,1,3.15-2c15.35,11.53,63.09,53.49,38.11,114.16a55.26,55.26,0,0,1-12.21.67C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-2h1" d="M188.77,297.14c40.43-5.32,68.43,18.72,83.69,37.4-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
-                                                   <path class="cls-2h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07,17,17.1,38,47.42,28.54,87.08C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
-                                                   <path d="M1.28,280.57C23,312.84,59.22,321.32,98,317.84a53.94,53.94,0,0,1,41.5,63.24C132.56,416,87.35,426,70.17,400.38a31.64,31.64,0,0,1-4.79-23.91c3.94-20,29.78-25.8,39.45-11.37,3.87,5.79,4.28,14.18-.41,19.32a13.14,13.14,0,1,0-16.74,17.95c3.94,2.05,14.43,2.17,22.81-3.45,14.08-9.42,15.91-28.66,6.84-42.2-17.09-25.51-60.16-16.32-66.71,16.83a46.6,46.6,0,0,0,7,35.2c16.27,24.29,49.48,26.8,72.48,11.4,36.33-24.34,32.91-80.86-4.65-106.57a366,366,0,0,0,55.79-17.11c-1.49,28.23,16.66,49.33,44.74,51.35,13.62,1,31.58-5.85,50.41-5.85,21,0,23.41,7.42,29.79,4.45a7.5,7.5,0,0,0,4-4.64c1-3.36-.12-5.28-3.18-10.43-9.33-15.68-23.1-31.22-38.86-41.75a7.53,7.53,0,0,0-8.36,12.52,112.7,112.7,0,0,1,26.42,25.36c-23.1-2.7-44.51,5.38-57.39,5.38-21.25,0-36.33-17.25-31.85-41.66a77.51,77.51,0,0,1,37.87-.34,7.53,7.53,0,1,0,3.66-14.6,86.51,86.51,0,0,0-8.57-1.69c25.75-13.12,29.54-17.34,58.78-31.58-4.78,23.7,6.89,44.83,29.87,53.82,18.09,7.08,48.79,1.72,71.1,20.76a7.54,7.54,0,0,0,12.32-6.92,136,136,0,0,0-17.48-45c-12.74-20.67-30-34.75-50.65-41.7,29.8-10.52,54.46-14.8,74.55-15.51-15,17.74-15.73,41.61-.05,61C420.65,284.44,450,295,460,322.52a7.53,7.53,0,0,0,14.12.08c6-16,9-40.62,5.81-61.17a7.53,7.53,0,0,0-14.88,2.3,113,113,0,0,1-.58,35.69C450,279.88,428,269.55,420.11,259.87c-14.39-17.75-8.7-38.49,9.81-50.39A77.51,77.51,0,0,1,456.5,237.7a7.52,7.52,0,1,0,13.24-7.14,86.92,86.92,0,0,0-10-14.69c26.44,9.89,36.84,25.89,37.33,26.66a7.52,7.52,0,0,0,12.78-7.94c-.65-1.06-16.33-25.82-56.58-36.55,21.25-13.71,35.21-34.73,40.82-61.79a135.43,135.43,0,0,0,1.07-48.31,7.53,7.53,0,0,0-13.93-2.3c-14.48,25.5-45.17,30.94-59.76,43.76-19.9,17.49-22.29,43.06-7.77,63.79-31.67.07-63.75,8.35-93.37,19.63a89,89,0,0,0,9.34-27.7,7.52,7.52,0,0,0-14.86-2.38,77.71,77.71,0,0,1-15.22,34.7c-21.17-4.82-33.92-22.31-26.41-44,4.08-11.81,21.29-29,28.18-52.28a112.58,112.58,0,0,1,12.91,34.24,7.52,7.52,0,0,0,14.79-2.77c-6-32.23-25.68-55.59-26.51-56.56a7.53,7.53,0,0,0-13.26,4.88c0,29.36-24,49.17-30.34,67.57-8.81,25.5,2.24,49.27,25.65,59.76q-16.89,8.13-34.51,18.08l-.22.13A508.8,508.8,0,0,1,204.72,270c6.25-26.54.78-52.85-16.18-76.92A135.38,135.38,0,0,0,154,159.31a7.53,7.53,0,0,0-11.2,8.59c8.72,28-8.29,54.11-8.9,73.54-.65,20.63,9.7,38.17,28.6,45.88C111,305.5,44.23,317.44,13.77,272.17a7.53,7.53,0,1,0-12.49,8.4ZM431.43,140.71c9.36-8.23,32.87-14.71,50.35-31.53,0,37.12-14.9,68.1-49.12,82.85C416.47,177.24,414.19,155.87,431.43,140.71ZM307.69,234.26l.26-.12c37.37,2.28,61.68,26.63,74.24,61.12-22.18-9.86-46.48-7.93-58.08-12.47C302.93,274.5,297.53,253.82,307.69,234.26ZM149,241.91c.39-12.45,11.73-34,11.39-58.3,27,25.36,39.56,57.36,26.91,92.49C165.56,277.79,148.22,265,149,241.91Z" transform="translate(0 -81.84)"></path>
-                                                </svg>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-8b20b36 elementor-widget elementor-widget-heading" data-id="8b20b36" data-element_type="widget" data-widget_type="heading.default">
-                                       <div class="elementor-widget-container">
-                                          <h2 class="elementor-heading-title elementor-size-default">Deals Of The Day</h2>
-                                       </div>
-                                    </div>
-                                    <!-- <div class="elementor-element elementor-element-0432fdc elementor-widget elementor-widget-mintie-countdown" data-id="0432fdc" data-element_type="widget" data-widget_type="mintie-countdown.default">
-                                       <div class="elementor-widget-container">
-                                          <div class="countdown-mintie-widget">
-                                             <div class="container-box-countdown">
-                                                <div class="mintie-countdown-wrapper nomal" data-date="03/10/2022">
-                                                   <div class="mintie-countdown-item">
-                                                      <span id="days-644a073ebeb9b" class="mintie-countdown-digit mintie-count"></span>
-                                                   </div>
-                                                   <div class="mintie-countdown-item">
-                                                      <span id="hours-644a073ebeb9e" class="mintie-countdown-digit"></span>
-                                                   </div>
-                                                   <div class="mintie-countdown-item">
-                                                      <span id="minutes-644a073ebeb9f" class="mintie-countdown-digit"></span>
-                                                   </div>
-                                                   <div class="mintie-countdown-item">
-                                                      <span id="seconds-644a073ebeba1" class="mintie-countdown-digit"></span>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div> -->
-                                    <div class="elementor-element elementor-element-dca9cd2 elementor-widget elementor-widget-mintie-product-slider" data-id="dca9cd2" data-element_type="widget" data-widget_type="mintie-product-slider.default">
-                                       <div class="elementor-widget-container">
-                                          <div class="mintie-products-slider">
-                                             <div class="product-js-products-slider woocommerce" data-show="4" data-show-tablet="3" data-show-mobile="2">
-                                                <div class="products js-products-slider" data-arrow="">
-                                                   <div class="product type-product post-9704 status-publish first instock product_cat-home-arts product_tag-accessories product_tag-decor product_tag-fragrances has-post-thumbnail sale shipping-taxable purchasable product-type-simple">
-                                                      <div class="mintie-style-style3">
-                                                         <!-- <span class="onsale">
-                                                         -30%			</span> -->
-                                                         <div class="product-image-wrapper">
-                                                            <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
-                                                            <img decoding="async" width="300" height="300" src="{{asset('img/new1/IMG_7100.jpg') }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{asset('img/rangrilya/pr-3-300x300.jpg') }}" />	
-                                                            <img decoding="async" class="hover-product-image" src="img/new1/IMG_7101.jpg" alt="image-product-hover">
-                                                            </a>
-                                                            <div class="mintie-add-btn mintie-add-btn-replace">
-                                                               <a href="?add-to-cart=9704" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9704" data-product_sku="OF58296-HFF" title="Add &ldquo;Acai Canoe&rdquo; to your cart" rel="nofollow">Add to cart</a>			
-                                                            </div>
-                                                            <!-- <div class="loop-action loop-action--visible-on-mobile">
-                                                               <div class="product-action-wishlist hint--bounce hint--left" data-hint="Add to Wishlist">
-                                                                  <a href="#" class="woosw-btn woosw-btn-9704" data-id="9704">Add to wishlist</a>		
-                                                               </div>
-                                                               <div class="product-quick-view-btn hint--bounce hint--left" data-hint="Quick view" data-pid="9704">
-                                                                  <span class="ti-eye"></span>
-                                                               </div>
-                                                               <div class="product-action-compare hint--bounce hint--left" data-hint="Compare">
-                                                                  <a href="#" class="woosc-btn woosc-btn-9704 " data-id="9704">Compare</a>		
-                                                               </div>
-                                                            </div> -->
-                                                            <span class="open-label-shop sale-product">
-                                                            </span>
-                                                            <!-- <div class="box-loop-product-stock">
-                                                               <div class="loop-product-stock">
-                                                                  <div class="status-bar">
-                                                                     <div class="sold-bar" style="width: 200%"></div>
-                                                                  </div>
-                                                                  <div class="product-stock-status">
-                                                                     <div class="sold-available">
-                                                                        <span class="label">Sold: </span>
-                                                                        <span class="value">18</span>
-                                                                        <span class="icon">/</span>
-                                                                        <span class="value">9</span>
-                                                                     </div>
-                                                                  </div>
-                                                               </div>
-                                                            </div> -->
-                                                         </div>
-                                                         <div class="content-info-product">
-                                                            <a href="https://mintie.boostifythemes.com/shop/acai-canoe/ ">
-                                                               <h2 class="woocommerce-loop-product__title">
-                                                                  Acai Canoe			
-                                                               </h2>
-                                                            </a>
-                                                            <div class="mintie-transform-loop-price">
-                                                               <span class="price"><del aria-hidden="true"><span class="woocommerce-Price-amount amount">
-                                                                  <!-- <bdi><span class="woocommerce-Price-currencySymbol">₹</span>30.00</bdi> -->
-                                                               </span></del> <ins><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>21.00</bdi></span></ins></span>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                   <div class="product type-product post-9710 status-publish outofstock product_cat-home-fragrances product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
-                                                      <div class="mintie-style-style3">
-                                                         <div class="product-image-wrapper">
-                                                            <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7104.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7103.jpg" alt="image-product-hover">
-                                                            </a>
-                                                            <div class="mintie-add-btn mintie-add-btn-replace">
-                                                               <a href="https://mintie.boostifythemes.com/shop/wooden-dice/" data-quantity="1" class="product_type_simple" data-product_id="9710" data-product_sku="OF58296-HF" title="Read more about &ldquo;Wooden Dice&rdquo;" rel="nofollow">Add to Cart</a>			
-                                                            </div>
-                                                            <!-- <div class="loop-action loop-action--visible-on-mobile">
-                                                               <div class="product-action-wishlist hint--bounce hint--left" data-hint="Add to Wishlist">
-                                                                  <a href="#" class="woosw-btn woosw-btn-9710" data-id="9710">Add to wishlist</a>		
-                                                               </div>
-                                                               <div class="product-quick-view-btn hint--bounce hint--left" data-hint="Quick view" data-pid="9710">
-                                                                  <span class="ti-eye"></span>
-                                                               </div>
-                                                               <div class="product-action-compare hint--bounce hint--left" data-hint="Compare">
-                                                                  <a href="#" class="woosc-btn woosc-btn-9710 " data-id="9710">Compare</a>		
-                                                               </div>
-                                                            </div> -->
-                                                            <span class="open-label-shop ">
-                                                            </span>
-                                                            <span class="mintie-product-label sold-out-label">Sold out</span>
-                                                            <div class="box-loop-product-stock">
-                                                            </div>
-                                                         </div>
-                                                         <div class="content-info-product">
-                                                            <a href="https://mintie.boostifythemes.com/shop/wooden-dice/ ">
-                                                               <h2 class="woocommerce-loop-product__title">
-                                                                  Wooden Dice			
-                                                               </h2>
-                                                            </a>
-                                                            <div class="mintie-transform-loop-price">
-                                                               <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>17.00</bdi></span></span>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                   <div class="product type-product post-9715 status-publish last instock product_cat-ceramics product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-woosb">
-                                                      <div class="mintie-style-style3">
-                                                         <div class="product-image-wrapper">
-                                                            <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7126.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7125.jpg" alt="image-product-hover">
-                                                            </a>
-                                                            <div class="mintie-add-btn mintie-add-btn-replace">
-                                                               <a href="https://mintie.boostifythemes.com/shop/candle-diffuser-bundle-1/" data-quantity="1" class="product_type_woosb add_to_cart_button " data-product_id="9715" data-product_sku="" title="Read more about &ldquo;Candle &amp; Diffuser Bundle #1&rdquo;" rel="nofollow">Add to Cart</a>			
-                                                            </div>
-                                                            <!-- <div class="loop-action loop-action--visible-on-mobile">
-                                                               <div class="product-action-wishlist hint--bounce hint--left" data-hint="Add to Wishlist">
-                                                                  <a href="#" class="woosw-btn woosw-btn-9715" data-id="9715">Add to wishlist</a>		
-                                                               </div>
-                                                               <div class="product-quick-view-btn hint--bounce hint--left" data-hint="Quick view" data-pid="9715">
-                                                                  <span class="ti-eye"></span>
-                                                               </div>
-                                                               <div class="product-action-compare hint--bounce hint--left" data-hint="Compare">
-                                                                  <a href="#" class="woosc-btn woosc-btn-9715 " data-id="9715">Compare</a>		
-                                                               </div>
-                                                            </div> -->
-                                                            <span class="open-label-shop ">
-                                                            </span>
-                                                            <div class="box-loop-product-stock">
-                                                            </div>
-                                                         </div>
-                                                         <div class="content-info-product">
-                                                            <a href="https://mintie.boostifythemes.com/shop/candle-diffuser-bundle-1/ ">
-                                                               <h2 class="woocommerce-loop-product__title">
-                                                                  Candle &#038; Diffuser Bundle #1			
-                                                               </h2>
-                                                            </a>
-                                                            <div class="mintie-transform-loop-price">
-                                                               <span class="price">From <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>57.00</bdi></span></span>
-                                                            </div>
-                                                         </div>
-                                                      </div>
-                                                   </div>
-                                                </div>
-                                                <div class="product-slider-dots"></div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
+                        <!-- <div class="elementor-element elementor-element-4c17592 elementor-view-default elementor-widget elementor-widget-icon" data-id="4c17592" data-element_type="widget" data-widget_type="icon.default">
+                           <div class="elementor-widget-container">
+                              <div class="elementor-icon-wrapper">
+                                 <div class="elementor-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 511 347.95">
+                                       <defs>
+                                          <style>.cls-1h1{fill:#ce373a;}.cls-2h1{fill:#f4a2a6;}</style>
+                                       </defs>
+                                       <title>heading-icon</title>
+                                       <path class="cls-1h1" d="M412.49,215.45A52.15,52.15,0,0,1,430,200.7c56.58,33.21,44,95.51,38.7,114A2,2,0,0,1,465,315a70.74,70.74,0,0,0-14.44-20.1c-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M412.49,215.45c32.57,22,39,54.46,38.06,79.4-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15a71.21,71.21,0,0,0,18.45-18,2,2,0,0,1,3.64.91c2.09,19.09,4.08,82.62-57.28,105.85a53.26,53.26,0,0,1-13.5-15.07C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15-2.66,24.62-13.44,56.52-48.69,73.72C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M296.71,241.87a54.17,54.17,0,0,1,6.8-15.42c65.6.92,85.39,61.31,89.95,80a2,2,0,0,1-3.11,2.1c-8.88-6.3-18.62-9.66-28.14-11.71-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,4.65-8.62,8.45-18.25,9.42-29.17a2,2,0,0,1,3.62-1c11.24,15.56,44.35,69.81,2.49,120.33a56.67,56.67,0,0,1-11.82-3C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M296.71,241.87c36.4,6.67,55.68,33.42,65.5,54.93-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,10.66,20.52,21.17,53.64,3.71,87.17C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M188.77,297.14a55.74,55.74,0,0,1,1.92-12c62.9-18.61,99.74,33.18,109.64,49.64a2,2,0,0,1-2.36,2.93,71,71,0,0,0-25.51-3.15c-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07a71.53,71.53,0,0,0-.51-25.71,2,2,0,0,1,3.15-2c15.35,11.53,63.09,53.49,38.11,114.16a55.26,55.26,0,0,1-12.21.67C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M188.77,297.14c40.43-5.32,68.43,18.72,83.69,37.4-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07,17,17.1,38,47.42,28.54,87.08C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
+                                       <path d="M1.28,280.57C23,312.84,59.22,321.32,98,317.84a53.94,53.94,0,0,1,41.5,63.24C132.56,416,87.35,426,70.17,400.38a31.64,31.64,0,0,1-4.79-23.91c3.94-20,29.78-25.8,39.45-11.37,3.87,5.79,4.28,14.18-.41,19.32a13.14,13.14,0,1,0-16.74,17.95c3.94,2.05,14.43,2.17,22.81-3.45,14.08-9.42,15.91-28.66,6.84-42.2-17.09-25.51-60.16-16.32-66.71,16.83a46.6,46.6,0,0,0,7,35.2c16.27,24.29,49.48,26.8,72.48,11.4,36.33-24.34,32.91-80.86-4.65-106.57a366,366,0,0,0,55.79-17.11c-1.49,28.23,16.66,49.33,44.74,51.35,13.62,1,31.58-5.85,50.41-5.85,21,0,23.41,7.42,29.79,4.45a7.5,7.5,0,0,0,4-4.64c1-3.36-.12-5.28-3.18-10.43-9.33-15.68-23.1-31.22-38.86-41.75a7.53,7.53,0,0,0-8.36,12.52,112.7,112.7,0,0,1,26.42,25.36c-23.1-2.7-44.51,5.38-57.39,5.38-21.25,0-36.33-17.25-31.85-41.66a77.51,77.51,0,0,1,37.87-.34,7.53,7.53,0,1,0,3.66-14.6,86.51,86.51,0,0,0-8.57-1.69c25.75-13.12,29.54-17.34,58.78-31.58-4.78,23.7,6.89,44.83,29.87,53.82,18.09,7.08,48.79,1.72,71.1,20.76a7.54,7.54,0,0,0,12.32-6.92,136,136,0,0,0-17.48-45c-12.74-20.67-30-34.75-50.65-41.7,29.8-10.52,54.46-14.8,74.55-15.51-15,17.74-15.73,41.61-.05,61C420.65,284.44,450,295,460,322.52a7.53,7.53,0,0,0,14.12.08c6-16,9-40.62,5.81-61.17a7.53,7.53,0,0,0-14.88,2.3,113,113,0,0,1-.58,35.69C450,279.88,428,269.55,420.11,259.87c-14.39-17.75-8.7-38.49,9.81-50.39A77.51,77.51,0,0,1,456.5,237.7a7.52,7.52,0,1,0,13.24-7.14,86.92,86.92,0,0,0-10-14.69c26.44,9.89,36.84,25.89,37.33,26.66a7.52,7.52,0,0,0,12.78-7.94c-.65-1.06-16.33-25.82-56.58-36.55,21.25-13.71,35.21-34.73,40.82-61.79a135.43,135.43,0,0,0,1.07-48.31,7.53,7.53,0,0,0-13.93-2.3c-14.48,25.5-45.17,30.94-59.76,43.76-19.9,17.49-22.29,43.06-7.77,63.79-31.67.07-63.75,8.35-93.37,19.63a89,89,0,0,0,9.34-27.7,7.52,7.52,0,0,0-14.86-2.38,77.71,77.71,0,0,1-15.22,34.7c-21.17-4.82-33.92-22.31-26.41-44,4.08-11.81,21.29-29,28.18-52.28a112.58,112.58,0,0,1,12.91,34.24,7.52,7.52,0,0,0,14.79-2.77c-6-32.23-25.68-55.59-26.51-56.56a7.53,7.53,0,0,0-13.26,4.88c0,29.36-24,49.17-30.34,67.57-8.81,25.5,2.24,49.27,25.65,59.76q-16.89,8.13-34.51,18.08l-.22.13A508.8,508.8,0,0,1,204.72,270c6.25-26.54.78-52.85-16.18-76.92A135.38,135.38,0,0,0,154,159.31a7.53,7.53,0,0,0-11.2,8.59c8.72,28-8.29,54.11-8.9,73.54-.65,20.63,9.7,38.17,28.6,45.88C111,305.5,44.23,317.44,13.77,272.17a7.53,7.53,0,1,0-12.49,8.4ZM431.43,140.71c9.36-8.23,32.87-14.71,50.35-31.53,0,37.12-14.9,68.1-49.12,82.85C416.47,177.24,414.19,155.87,431.43,140.71ZM307.69,234.26l.26-.12c37.37,2.28,61.68,26.63,74.24,61.12-22.18-9.86-46.48-7.93-58.08-12.47C302.93,274.5,297.53,253.82,307.69,234.26ZM149,241.91c.39-12.45,11.73-34,11.39-58.3,27,25.36,39.56,57.36,26.91,92.49C165.56,277.79,148.22,265,149,241.91Z" transform="translate(0 -81.84)"></path>
+                                    </svg>
                                  </div>
                               </div>
                            </div>
-                        </section>
+                        </div> -->
+                        <div class="elementor-element elementor-element-af9e7b4 elementor-widget elementor-widget-heading" data-id="af9e7b4" data-element_type="widget" data-widget_type="heading.default">
+                           <div class="elementor-widget-container">
+                              <h2 class="elementor-heading-title elementor-size-default"><center>Deals Of The Day</center></h2>
+                           </div>
+                        </div>
                      </div>
                   </div>
                </div>
             </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-1cccd51 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section">
+               <div class="elementor-container elementor-column-gap-default">
+                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bad5e7c" data-id="bad5e7c" data-element_type="column">
+                     <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-8225fc1 elementor-widget elementor-widget-products" data-id="8225fc1" data-element_type="widget" data-widget_type="products.default">
+                           <div class="elementor-widget-container">
+                              <div class="mintie-widget-products gap-default no-rate">
+                                 <ul class="products columns-4">
+								 @forelse ($products as $product)
+                                    <li class="product type-product post-9669 status-publish first instock product_cat-organization product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable product-type-external">
+                                       <div class="mintie-style-style3">
+                                          <div class="product-image-wrapper">
+                                             <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+												<img decoding="async" width="300" height="300" src="{{ $product->images }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{ $product->images }}" />	
+												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
+                                             </a>
+                                             <div class="mintie-add-btn mintie-add-btn-replace">
+												
+													@if ($product->quantity > 0)
+														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
+														{{ csrf_field() }}
+														<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	
+													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
+
+														</form>
+													@endif		
+                                             </div>
+
+											 <!-- @if ($product->quantity > 0)
+												<form action="{{ route('cart.store', $product) }}" method="POST">
+													{{ csrf_field() }}
+													<button type="submit" class="button button-plain">Add to Cart</button>
+												</form>
+											@endif -->
+
+                                          </div>
+                                          <div class="content-info-product">
+                                             <a href="<?php
+                                             echo url('/product-view/'. $product->product_title); ?> ">
+                                                <h2 class="woocommerce-loop-product__title">
+												{{ $product->product_title }}		
+                                                </h2>
+                                             </a>
+                                             <div class="mintie-transform-loop-price">
+                                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>{{ $product->price }}</bdi></span></span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </li>
+									@empty
+                                    <li class="product type-product post-9669 status-publish first instock product_cat-organization product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable product-type-external">
+                                       <div class="mintie-style-style3">
+									   No items found
+									   </div>
+									</li>
+									@endforelse
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- deals of the day end -->
+
+            <!-- things of creative start -->
             <section class="elementor-section elementor-top-section elementor-element elementor-element-d565763 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d565763" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f711453" data-id="f711453" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -630,218 +529,9 @@
                   </div>
                </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-7716571 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7716571" data-element_type="section">
-               <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2610d06" data-id="2610d06" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <section class="elementor-section elementor-inner-section elementor-element elementor-element-0ff7b82 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0ff7b82" data-element_type="section">
-                           <div class="elementor-container elementor-column-gap-default">
-                              <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-82cbd97" data-id="82cbd97" data-element_type="column">
-                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-eaa5b06 elementor-widget elementor-widget-mintie-products-tabs" data-id="eaa5b06" data-element_type="widget" data-widget_type="mintie-products-tabs.default">
-                                       <div class="elementor-widget-container">
-                                          <div class="mintie-products-tab-widget">
-                                             <div class="mintie-products-tab-head">
-                                                <div class="mintie-products-tab-head-buttons">
-                                                   <div class="tabs-filter">
-                                                      <span class="mintie-products-tab-btn ready active" data-id="0f25041">New Arrivals</span>
-                                                   </div>
-                                                </div>
-                                             </div>
-                                             <div class="mintie-products-tab-body">
-                                                <div class="mintie-products-tab-content active" data-columns="4" data-id="0f25041">
-                                                   <ul class="products columns-4">
-                                                      <li class="product type-product post-9829 status-publish first instock product_cat-ceramics product_cat-home-arts product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
-                                                         <div class="mintie-style-style3">
-                                                            <div class="product-image-wrapper">
-                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7210.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/pr-32-300x300.jpg" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7209.jpg" alt="image-product-hover">
-                                                               </a>
-                                                               <div class="mintie-add-btn mintie-add-btn-replace">
-                                                                  <a href="?add-to-cart=9829" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9829" data-product_sku="" title="Add &ldquo;Marble Tabletop Sculpture&rdquo; to your cart" rel="nofollow">Add to cart</a>			
-                                                               </div>
-                                                               <!-- <div class="loop-action loop-action--visible-on-mobile">
-                                                                  <div class="product-action-wishlist hint--bounce hint--left" data-hint="Add to Wishlist">
-                                                                     <a href="#" class="woosw-btn woosw-btn-9829" data-id="9829">Add to wishlist</a>		
-                                                                  </div>
-                                                                  <div class="product-quick-view-btn hint--bounce hint--left" data-hint="Quick view" data-pid="9829">
-                                                                     <span class="ti-eye"></span>
-                                                                  </div>
-                                                                  <div class="product-action-compare hint--bounce hint--left" data-hint="Compare">
-                                                                     <a href="#" class="woosc-btn woosc-btn-9829 " data-id="9829">Compare</a>		
-                                                                  </div>
-                                                               </div> -->
-                                                               <span class="open-label-shop ">
-                                                               </span>
-                                                               <div class="box-loop-product-stock">
-                                                               </div>
-                                                            </div>
-                                                            <div class="content-info-product">
-                                                               <a href="https://mintie.boostifythemes.com/shop/marble-tabletop-sculpture/ ">
-                                                                  <h2 class="woocommerce-loop-product__title">
-                                                                     Marble Tabletop Sculpture			
-                                                                  </h2>
-                                                               </a>
-                                                               <div class="mintie-transform-loop-price">
-                                                                  <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>49.00</span></span>
-                                                               </div>
-                                                            </div>
-                                                         </div>
-                                                      </li>
-                                                      <li class="product type-product post-9833 status-publish instock product_cat-kids-crafts product_tag-accessories product_tag-arts product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
-                                                         <div class="mintie-style-style3">
-                                                            <div class="product-image-wrapper">
-                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7194.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7193.jpg" alt="image-product-hover">
-                                                               </a>
-                                                               <div class="mintie-add-btn mintie-add-btn-replace">
-                                                                  <a href="?add-to-cart=9833" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9833" data-product_sku="" title="Add &ldquo;Koala Rattle&rdquo; to your cart" rel="nofollow">Add to cart</a>			
-                                                               </div>
-                                                               <!-- <div class="loop-action loop-action--visible-on-mobile">
-                                                                  <div class="product-action-wishlist hint--bounce hint--left" data-hint="Add to Wishlist">
-                                                                     <a href="#" class="woosw-btn woosw-btn-9833" data-id="9833">Add to wishlist</a>		
-                                                                  </div>
-                                                                  <div class="product-quick-view-btn hint--bounce hint--left" data-hint="Quick view" data-pid="9833">
-                                                                     <span class="ti-eye"></span>
-                                                                  </div>
-                                                                  <div class="product-action-compare hint--bounce hint--left" data-hint="Compare">
-                                                                     <a href="#" class="woosc-btn woosc-btn-9833 " data-id="9833">Compare</a>		
-                                                                  </div>
-                                                               </div> -->
-                                                               <span class="open-label-shop ">
-                                                               </span>
-                                                               <div class="box-loop-product-stock">
-                                                               </div>
-                                                            </div>
-                                                            <div class="content-info-product">
-                                                               <a href="https://mintie.boostifythemes.com/shop/koala-rattle/ ">
-                                                                  <h2 class="woocommerce-loop-product__title">
-                                                                     Koala Rattle			
-                                                                  </h2>
-                                                               </a>
-                                                               <div class="mintie-transform-loop-price">
-                                                                  <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>170.00</span></span>
-                                                               </div>
-                                                            </div>
-                                                         </div>
-                                                      </li>
-                                                      <li class="product type-product post-9837 status-publish instock product_cat-ceramics product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
-                                                         <div class="mintie-style-style3">
-                                                            <div class="product-image-wrapper">
-                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7098.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7099.jpg" alt="image-product-hover">
-                                                               </a>
-                                                               <div class="mintie-add-btn mintie-add-btn-replace">
-                                                                  <a href="?add-to-cart=9837" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9837" data-product_sku="" title="Add &ldquo;Ema White Vase&rdquo; to your cart" rel="nofollow">Add to cart</a>			
-                                                               </div>
-                                                               <!-- <div class="loop-action loop-action--visible-on-mobile">
-                                                                  <div class="product-action-wishlist hint--bounce hint--left" data-hint="Add to Wishlist">
-                                                                     <a href="#" class="woosw-btn woosw-btn-9837" data-id="9837">Add to wishlist</a>		
-                                                                  </div>
-                                                                  <div class="product-quick-view-btn hint--bounce hint--left" data-hint="Quick view" data-pid="9837">
-                                                                     <span class="ti-eye"></span>
-                                                                  </div>
-                                                                  <div class="product-action-compare hint--bounce hint--left" data-hint="Compare">
-                                                                     <a href="#" class="woosc-btn woosc-btn-9837 " data-id="9837">Compare</a>		
-                                                                  </div>
-                                                               </div> -->
-                                                               <span class="open-label-shop ">
-                                                               </span>
-                                                               <div class="box-loop-product-stock">
-                                                               </div>
-                                                            </div>
-                                                            <div class="content-info-product">
-                                                               <a href="https://mintie.boostifythemes.com/shop/ema-white-vase/ ">
-                                                                  <h2 class="woocommerce-loop-product__title">
-                                                                     Ema White Vase			
-                                                                  </h2>
-                                                               </a>
-                                                               <div class="mintie-transform-loop-price">
-                                                                  <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>17.00</span></span>
-                                                               </div>
-                                                            </div>
-                                                         </div>
-                                                      </li>
-                                                      <li class="product type-product post-9849 status-publish last instock product_cat-home-accessories product_tag-accessories product_tag-crafting product_tag-decor has-post-thumbnail shipping-taxable purchasable product-type-simple">
-                                                         <div class="mintie-style-style3">
-                                                            <div class="product-image-wrapper">
-                                                               <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img decoding="async" width="300" height="300" src="img/new1/IMG_7126.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="" />				<img decoding="async" class="hover-product-image" src="img/new1/IMG_7125.jpg" alt="image-product-hover">
-                                                               </a>
-                                                               <div class="mintie-add-btn mintie-add-btn-replace">
-                                                                  <a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>			
-                                                               </div>
-                                                               <!-- <div class="loop-action loop-action--visible-on-mobile">
-                                                                  <div class="product-action-wishlist hint--bounce hint--left" data-hint="Add to Wishlist">
-                                                                     <a href="#" class="woosw-btn woosw-btn-9849" data-id="9849">Add to wishlist</a>		
-                                                                  </div>
-                                                                  <div class="product-quick-view-btn hint--bounce hint--left" data-hint="Quick view" data-pid="9849">
-                                                                     <span class="ti-eye"></span>
-                                                                  </div>
-                                                                  <div class="product-action-compare hint--bounce hint--left" data-hint="Compare">
-                                                                     <a href="#" class="woosc-btn woosc-btn-9849 " data-id="9849">Compare</a>		
-                                                                  </div>
-                                                               </div> -->
-                                                               <span class="open-label-shop ">
-                                                               </span>
-                                                               <div class="box-loop-product-stock">
-                                                               </div>
-                                                            </div>
-                                                            <div class="content-info-product">
-                                                               <a href="https://mintie.boostifythemes.com/shop/curly-willow-orb/ ">
-                                                                  <h2 class="woocommerce-loop-product__title">
-                                                                     Curly Willow Orb			
-                                                                  </h2>
-                                                               </a>
-                                                               <div class="mintie-transform-loop-price">
-                                                                  <span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&#036;</span>29.00</span></span>
-                                                               </div>
-                                                            </div>
-                                                         </div>
-                                                      </li>
-                                                   </ul>
-                                                </div>
-                                                <div class="mintie-products-tab-content" data-columns="4" data-id="87839f1" data-query='{"post_type":"product","post_status":"publish","posts_per_page":4,"order":"ASC","orderby":"name"}'></div>
-                                                <div class="mintie-products-tab-content" data-columns="4" data-id="e8c1d54" data-query='{"post_type":"product","post_status":"publish","posts_per_page":4,"order":"ASC","meta_query":{"relation":"OR","0":{"key":"_sale_price","value":0,"compare":">","type":"numeric"},"1":{"key":"_min_variation_sale_price","value":0,"compare":">","type":"numeric"}},"tax_query":[{"taxonomy":"product_cat","field":"term_id","terms":[],"operator":"NOT IN"}],"orderby":"name"}'></div>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                    <div class="elementor-element elementor-element-de3aff9 elementor-view-default elementor-widget elementor-widget-icon" data-id="de3aff9" data-element_type="widget" data-widget_type="icon.default">
-                                       <!-- <div class="elementor-widget-container">
-                                          <div class="elementor-icon-wrapper">
-                                             <a class="elementor-icon" href="https://mintie.boostifythemes.com/shop/">
-                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 48.4 48.5" style="enable-background:new 0 0 48.4 48.5;" xml:space="preserve">
-                                                   <g>
-                                                      <path d="M12.6,11L9.4,6.4l0.8-0.6L13,9.7l2-1.4l0.5,0.7L12.6,11z"></path>
-                                                      <path d="M18.4,7.8c-0.5,0.2-1,0.2-1.5,0.1c-0.5-0.1-0.9-0.3-1.3-0.6C15.3,7,15,6.6,14.8,6c-0.2-0.5-0.2-1.1-0.2-1.5   c0.1-0.5,0.3-0.9,0.6-1.3c0.3-0.4,0.7-0.6,1.3-0.8c0.5-0.2,1-0.2,1.5-0.1c0.5,0.1,0.9,0.3,1.3,0.6s0.6,0.8,0.8,1.3s0.2,1.1,0.2,1.5   C20.2,6.2,20,6.6,19.7,7C19.4,7.4,18.9,7.6,18.4,7.8z M18.1,7c0.5-0.2,0.8-0.5,1-0.9c0.2-0.4,0.2-0.9,0-1.5c-0.2-0.6-0.5-1-0.9-1.2   c-0.4-0.2-0.9-0.3-1.4-0.1c-0.5,0.2-0.8,0.5-1,0.9c-0.2,0.4-0.2,0.9,0,1.5c0.2,0.6,0.5,1,0.9,1.2C17.1,7.1,17.6,7.1,18.1,7z"></path>
-                                                      <path d="M21.3,6.8l2-5.6l1.2,0l2.1,5.6l-1.1,0L25,5.5l-2.2,0l-0.4,1.3L21.3,6.8z M23.1,4.7l1.6,0l-0.9-2.3L23.1,4.7z"></path>
-                                                      <path d="M27.4,6.9l1.7-5.3l1.8,0.6C31.5,2.4,32,2.6,32.3,3s0.5,0.8,0.6,1.2c0.1,0.5,0,1-0.2,1.5S32.4,6.7,32,7   c-0.3,0.3-0.7,0.5-1.2,0.6c-0.5,0.1-1,0-1.6-0.2L27.4,6.9z M28.6,6.4l0.8,0.3c0.4,0.1,0.8,0.2,1.1,0.1s0.6-0.2,0.8-0.4   c0.2-0.2,0.4-0.5,0.5-0.9c0.1-0.4,0.2-0.7,0.1-1s-0.1-0.6-0.4-0.8c-0.2-0.2-0.5-0.4-1-0.6l-0.8-0.3L28.6,6.4z"></path>
-                                                      <path d="M34.7,10l4-3.9l0.8,0.9l-1.3,3.8L42,9.5l0.8,0.9l-4,3.9l-0.7-0.7l2.8-2.7l-3.3,1l-0.6-0.6L38.2,8l-2.8,2.7L34.7,10z"></path>
-                                                      <path d="M40.3,17.7c-0.2-0.5-0.3-1-0.2-1.5c0.1-0.5,0.3-0.9,0.6-1.3c0.3-0.4,0.7-0.7,1.3-0.9c0.5-0.2,1-0.3,1.5-0.2   c0.5,0.1,0.9,0.2,1.3,0.5c0.4,0.3,0.7,0.7,0.9,1.2c0.2,0.5,0.3,1,0.2,1.5c-0.1,0.5-0.3,0.9-0.6,1.3S44.6,19,44,19.2   c-0.5,0.2-1,0.3-1.5,0.2s-0.9-0.2-1.3-0.5S40.5,18.2,40.3,17.7z M41.1,17.4c0.2,0.5,0.5,0.8,1,1c0.4,0.2,1,0.1,1.5-0.1   c0.6-0.2,1-0.6,1.2-1c0.2-0.4,0.2-0.9,0-1.4c-0.2-0.5-0.5-0.8-1-1c-0.4-0.2-1-0.1-1.5,0.1s-1,0.6-1.2,1   C40.9,16.4,40.9,16.9,41.1,17.4z"></path>
-                                                      <path d="M41.5,21.2l5.6-0.3l0.1,2.1c0,0.4,0,0.8-0.2,1.1c-0.1,0.3-0.3,0.5-0.6,0.7C46.2,24.9,46,25,45.6,25c-0.3,0-0.7,0-1-0.2   c-0.3-0.2-0.5-0.4-0.7-0.8l-2.3,1.3l-0.1-1.2l2.1-1.2l-0.1-0.8l-2.2,0.1L41.5,21.2z M44.5,22.1l0.1,1c0,0.3,0.1,0.6,0.3,0.7   c0.2,0.1,0.4,0.2,0.7,0.2c0.3,0,0.5-0.1,0.6-0.3c0.2-0.2,0.2-0.4,0.2-0.8l-0.1-1L44.5,22.1z"></path>
-                                                      <path d="M41.6,26.4l5.5,1.2l-0.8,3.6L45.5,31l0.6-2.6l-1.5-0.3l-0.5,2.3l-0.8-0.2l0.5-2.3l-1.6-0.4l-0.6,2.6l-0.8-0.2L41.6,26.4z"></path>
-                                                      <path d="M41,34l0.7,0.5l-1.9,2.7l-0.7-0.5L41,34z"></path>
-                                                      <path d="M35.2,38l3.1,4.7l-0.9,0.6l-2.6-4l-2.1,1.4l-0.4-0.7L35.2,38z"></path>
-                                                      <path d="M29.2,40.9c0.5-0.2,1-0.2,1.5-0.1c0.5,0.1,0.9,0.3,1.2,0.7s0.6,0.8,0.8,1.3c0.2,0.5,0.2,1.1,0.1,1.5   c-0.1,0.5-0.3,0.9-0.6,1.3c-0.3,0.4-0.8,0.6-1.3,0.8c-0.5,0.2-1,0.2-1.5,0.1c-0.5-0.1-0.9-0.3-1.2-0.7c-0.4-0.3-0.6-0.8-0.8-1.3   s-0.2-1.1-0.1-1.5c0.1-0.5,0.3-0.9,0.6-1.3C28.3,41.3,28.7,41.1,29.2,40.9z M29.5,41.8c-0.5,0.2-0.9,0.4-1.1,0.9s-0.2,0.9,0,1.5   c0.2,0.6,0.5,1,0.9,1.2c0.4,0.2,0.9,0.3,1.4,0.1c0.5-0.2,0.9-0.4,1.1-0.9c0.2-0.4,0.2-0.9,0-1.5c-0.2-0.6-0.5-1-0.9-1.2   C30.5,41.7,30,41.6,29.5,41.8z"></path>
-                                                      <path d="M26.3,41.8l-2.2,5.5l-1.2,0l-1.9-5.7l1.1,0l0.4,1.3l2.2,0.1l0.5-1.3L26.3,41.8z M24.4,43.9l-1.6,0l0.8,2.3L24.4,43.9z"></path>
-                                                      <path d="M20.3,41.5l-1.9,5.3l-1.8-0.7c-0.6-0.2-1.1-0.5-1.4-0.9s-0.5-0.8-0.5-1.2c0-0.5,0-1,0.2-1.5c0.2-0.5,0.5-1,0.8-1.3   c0.3-0.3,0.7-0.5,1.2-0.6c0.5-0.1,1,0,1.6,0.2L20.3,41.5z M19,42l-0.8-0.3c-0.4-0.2-0.8-0.2-1.1-0.2c-0.3,0-0.6,0.2-0.8,0.4   c-0.2,0.2-0.4,0.5-0.5,0.9c-0.1,0.4-0.2,0.7-0.2,1c0,0.3,0.1,0.6,0.3,0.8c0.2,0.2,0.5,0.4,1,0.6l0.8,0.3L19,42z"></path>
-                                                      <path d="M13.1,38.1l-4.2,3.7l-0.8-0.9l1.5-3.7l-3.8,1l-0.8-0.9l4.2-3.7l0.7,0.8L6.9,37l3.3-0.9l0.5,0.6l-1.3,3.2l2.9-2.6L13.1,38.1   z"></path>
-                                                      <path d="M7.8,30.2c0.2,0.5,0.2,1,0.2,1.5c-0.1,0.5-0.3,0.9-0.6,1.3C7,33.3,6.6,33.6,6,33.8C5.5,34,5,34,4.5,34   c-0.5-0.1-0.9-0.3-1.3-0.6c-0.4-0.3-0.7-0.7-0.8-1.3c-0.2-0.5-0.2-1-0.2-1.5c0.1-0.5,0.3-0.9,0.6-1.3c0.3-0.4,0.8-0.6,1.3-0.8   c0.5-0.2,1-0.3,1.5-0.2c0.5,0.1,0.9,0.3,1.3,0.6C7.3,29.2,7.6,29.6,7.8,30.2z M6.9,30.5c-0.2-0.5-0.5-0.8-0.9-1   c-0.4-0.2-0.9-0.2-1.5,0c-0.6,0.2-1,0.5-1.2,0.9C3,30.9,3,31.3,3.2,31.8c0.2,0.5,0.5,0.8,0.9,1c0.4,0.2,0.9,0.2,1.5,0   c0.6-0.2,1-0.5,1.2-0.9C7.1,31.4,7.1,31,6.9,30.5z"></path>
-                                                      <path d="M6.7,26.6l-5.6,0.1l0-2.1c0-0.4,0.1-0.8,0.2-1.1s0.3-0.5,0.6-0.7c0.3-0.1,0.5-0.2,0.9-0.2c0.3,0,0.7,0.1,0.9,0.2   s0.5,0.4,0.6,0.8l2.3-1.2l0,1.2l-2.2,1.1l0,0.8l2.2,0L6.7,26.6z M3.7,25.6l0-1c0-0.3-0.1-0.6-0.3-0.7c-0.2-0.2-0.4-0.2-0.7-0.2   c-0.3,0-0.5,0.1-0.6,0.2s-0.2,0.4-0.2,0.8l0,1L3.7,25.6z"></path>
-                                                      <path d="M6.8,21.5L1.4,20l0.9-3.5l0.8,0.2l-0.7,2.5l1.5,0.4l0.6-2.3l0.8,0.2l-0.6,2.3l1.6,0.4l0.7-2.5l0.8,0.2L6.8,21.5z"></path>
-                                                      <path d="M7.7,13.9L7,13.4l2-2.7l0.7,0.5L7.7,13.9z"></path>
-                                                   </g>
-                                                   <path d="M29.6,23.7h-4.8v-4.8c0-0.3-0.3-0.6-0.6-0.6c-0.3,0-0.6,0.3-0.6,0.6v4.8h-4.8c-0.3,0-0.6,0.3-0.6,0.6c0,0.3,0.3,0.6,0.6,0.6  h4.8v4.8c0,0.3,0.3,0.6,0.6,0.6c0.3,0,0.6-0.3,0.6-0.6v-4.8h4.8c0.3,0,0.6-0.3,0.6-0.6C30.2,23.9,29.9,23.7,29.6,23.7z"></path>
-                                                </svg>
-                                             </a>
-                                          </div>
-                                       </div> -->
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </section>
-                     </div>
-                  </div>
-               </div>
-            </section>
+            <!-- things of creative end -->
+
+          <!-- testing harry start --> 
             <section class="elementor-section elementor-top-section elementor-element elementor-element-fff495d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="fff495d" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-adf1307" data-id="adf1307" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -869,6 +559,113 @@
                   </div>
                </div>
             </section>
+            
+             <!-- new arrival end  -->
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-d6efc6b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
+               <div class="elementor-container elementor-column-gap-default">
+                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cd711f" data-id="7cd711f" data-element_type="column">
+                     <div class="elementor-widget-wrap elementor-element-populated">
+                        <!-- <div class="elementor-element elementor-element-4c17592 elementor-view-default elementor-widget elementor-widget-icon" data-id="4c17592" data-element_type="widget" data-widget_type="icon.default">
+                           <div class="elementor-widget-container">
+                              <div class="elementor-icon-wrapper">
+                                 <div class="elementor-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 511 347.95">
+                                       <defs>
+                                          <style>.cls-1h1{fill:#ce373a;}.cls-2h1{fill:#f4a2a6;}</style>
+                                       </defs>
+                                       <title>heading-icon</title>
+                                       <path class="cls-1h1" d="M412.49,215.45A52.15,52.15,0,0,1,430,200.7c56.58,33.21,44,95.51,38.7,114A2,2,0,0,1,465,315a70.74,70.74,0,0,0-14.44-20.1c-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M412.49,215.45c32.57,22,39,54.46,38.06,79.4-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15a71.21,71.21,0,0,0,18.45-18,2,2,0,0,1,3.64.91c2.09,19.09,4.08,82.62-57.28,105.85a53.26,53.26,0,0,1-13.5-15.07C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15-2.66,24.62-13.44,56.52-48.69,73.72C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M296.71,241.87a54.17,54.17,0,0,1,6.8-15.42c65.6.92,85.39,61.31,89.95,80a2,2,0,0,1-3.11,2.1c-8.88-6.3-18.62-9.66-28.14-11.71-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,4.65-8.62,8.45-18.25,9.42-29.17a2,2,0,0,1,3.62-1c11.24,15.56,44.35,69.81,2.49,120.33a56.67,56.67,0,0,1-11.82-3C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M296.71,241.87c36.4,6.67,55.68,33.42,65.5,54.93-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,10.66,20.52,21.17,53.64,3.71,87.17C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M188.77,297.14a55.74,55.74,0,0,1,1.92-12c62.9-18.61,99.74,33.18,109.64,49.64a2,2,0,0,1-2.36,2.93,71,71,0,0,0-25.51-3.15c-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-1h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07a71.53,71.53,0,0,0-.51-25.71,2,2,0,0,1,3.15-2c15.35,11.53,63.09,53.49,38.11,114.16a55.26,55.26,0,0,1-12.21.67C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M188.77,297.14c40.43-5.32,68.43,18.72,83.69,37.4-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
+                                       <path class="cls-2h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07,17,17.1,38,47.42,28.54,87.08C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
+                                       <path d="M1.28,280.57C23,312.84,59.22,321.32,98,317.84a53.94,53.94,0,0,1,41.5,63.24C132.56,416,87.35,426,70.17,400.38a31.64,31.64,0,0,1-4.79-23.91c3.94-20,29.78-25.8,39.45-11.37,3.87,5.79,4.28,14.18-.41,19.32a13.14,13.14,0,1,0-16.74,17.95c3.94,2.05,14.43,2.17,22.81-3.45,14.08-9.42,15.91-28.66,6.84-42.2-17.09-25.51-60.16-16.32-66.71,16.83a46.6,46.6,0,0,0,7,35.2c16.27,24.29,49.48,26.8,72.48,11.4,36.33-24.34,32.91-80.86-4.65-106.57a366,366,0,0,0,55.79-17.11c-1.49,28.23,16.66,49.33,44.74,51.35,13.62,1,31.58-5.85,50.41-5.85,21,0,23.41,7.42,29.79,4.45a7.5,7.5,0,0,0,4-4.64c1-3.36-.12-5.28-3.18-10.43-9.33-15.68-23.1-31.22-38.86-41.75a7.53,7.53,0,0,0-8.36,12.52,112.7,112.7,0,0,1,26.42,25.36c-23.1-2.7-44.51,5.38-57.39,5.38-21.25,0-36.33-17.25-31.85-41.66a77.51,77.51,0,0,1,37.87-.34,7.53,7.53,0,1,0,3.66-14.6,86.51,86.51,0,0,0-8.57-1.69c25.75-13.12,29.54-17.34,58.78-31.58-4.78,23.7,6.89,44.83,29.87,53.82,18.09,7.08,48.79,1.72,71.1,20.76a7.54,7.54,0,0,0,12.32-6.92,136,136,0,0,0-17.48-45c-12.74-20.67-30-34.75-50.65-41.7,29.8-10.52,54.46-14.8,74.55-15.51-15,17.74-15.73,41.61-.05,61C420.65,284.44,450,295,460,322.52a7.53,7.53,0,0,0,14.12.08c6-16,9-40.62,5.81-61.17a7.53,7.53,0,0,0-14.88,2.3,113,113,0,0,1-.58,35.69C450,279.88,428,269.55,420.11,259.87c-14.39-17.75-8.7-38.49,9.81-50.39A77.51,77.51,0,0,1,456.5,237.7a7.52,7.52,0,1,0,13.24-7.14,86.92,86.92,0,0,0-10-14.69c26.44,9.89,36.84,25.89,37.33,26.66a7.52,7.52,0,0,0,12.78-7.94c-.65-1.06-16.33-25.82-56.58-36.55,21.25-13.71,35.21-34.73,40.82-61.79a135.43,135.43,0,0,0,1.07-48.31,7.53,7.53,0,0,0-13.93-2.3c-14.48,25.5-45.17,30.94-59.76,43.76-19.9,17.49-22.29,43.06-7.77,63.79-31.67.07-63.75,8.35-93.37,19.63a89,89,0,0,0,9.34-27.7,7.52,7.52,0,0,0-14.86-2.38,77.71,77.71,0,0,1-15.22,34.7c-21.17-4.82-33.92-22.31-26.41-44,4.08-11.81,21.29-29,28.18-52.28a112.58,112.58,0,0,1,12.91,34.24,7.52,7.52,0,0,0,14.79-2.77c-6-32.23-25.68-55.59-26.51-56.56a7.53,7.53,0,0,0-13.26,4.88c0,29.36-24,49.17-30.34,67.57-8.81,25.5,2.24,49.27,25.65,59.76q-16.89,8.13-34.51,18.08l-.22.13A508.8,508.8,0,0,1,204.72,270c6.25-26.54.78-52.85-16.18-76.92A135.38,135.38,0,0,0,154,159.31a7.53,7.53,0,0,0-11.2,8.59c8.72,28-8.29,54.11-8.9,73.54-.65,20.63,9.7,38.17,28.6,45.88C111,305.5,44.23,317.44,13.77,272.17a7.53,7.53,0,1,0-12.49,8.4ZM431.43,140.71c9.36-8.23,32.87-14.71,50.35-31.53,0,37.12-14.9,68.1-49.12,82.85C416.47,177.24,414.19,155.87,431.43,140.71ZM307.69,234.26l.26-.12c37.37,2.28,61.68,26.63,74.24,61.12-22.18-9.86-46.48-7.93-58.08-12.47C302.93,274.5,297.53,253.82,307.69,234.26ZM149,241.91c.39-12.45,11.73-34,11.39-58.3,27,25.36,39.56,57.36,26.91,92.49C165.56,277.79,148.22,265,149,241.91Z" transform="translate(0 -81.84)"></path>
+                                    </svg>
+                                 </div>
+                              </div>
+                           </div>
+                        </div> -->
+                        <div class="elementor-element elementor-element-af9e7b4 elementor-widget elementor-widget-heading" data-id="af9e7b4" data-element_type="widget" data-widget_type="heading.default">
+                           <div class="elementor-widget-container">
+                              <h2 class="elementor-heading-title elementor-size-default"><center>New Arrivals</center></h2>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-1cccd51 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section">
+               <div class="elementor-container elementor-column-gap-default">
+                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bad5e7c" data-id="bad5e7c" data-element_type="column">
+                     <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-8225fc1 elementor-widget elementor-widget-products" data-id="8225fc1" data-element_type="widget" data-widget_type="products.default">
+                           <div class="elementor-widget-container">
+                              <div class="mintie-widget-products gap-default no-rate">
+                                 <ul class="products columns-4">
+								 @forelse ($products as $product)
+                                    <li class="product type-product post-9669 status-publish first instock product_cat-organization product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable product-type-external">
+                                       <div class="mintie-style-style3">
+                                          <div class="product-image-wrapper">
+                                             <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+												<img decoding="async" width="300" height="300" src="{{ $product->images }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{ $product->images }}" />	
+												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
+                                             </a>
+                                             <div class="mintie-add-btn mintie-add-btn-replace">
+												
+													@if ($product->quantity > 0)
+														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
+														{{ csrf_field() }}
+														<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	
+													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
+
+														</form>
+													@endif		
+                                             </div>
+
+											 <!-- @if ($product->quantity > 0)
+												<form action="{{ route('cart.store', $product) }}" method="POST">
+													{{ csrf_field() }}
+													<button type="submit" class="button button-plain">Add to Cart</button>
+												</form>
+											@endif -->
+
+                                          </div>
+                                          <div class="content-info-product">
+                                             <a href="<?php
+                                             echo url('/product-view/'. $product->product_title); ?> ">
+                                                <h2 class="woocommerce-loop-product__title">
+												{{ $product->product_title }}		
+                                                </h2>
+                                             </a>
+                                             <div class="mintie-transform-loop-price">
+                                                <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>{{ $product->price }}</bdi></span></span>
+                                             </div>
+                                          </div>
+                                       </div>
+                                    </li>
+									@empty
+                                    <li class="product type-product post-9669 status-publish first instock product_cat-organization product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable product-type-external">
+                                       <div class="mintie-style-style3">
+									   No items found
+									   </div>
+									</li>
+									@endforelse
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- testing harry end -->
             <section class="elementor-section elementor-top-section elementor-element elementor-element-a5f9320 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a5f9320" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c70b150" data-id="c70b150" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1390,9 +1187,7 @@
                                                             <a href="#"><img loading="lazy" width="770" height="500" src="{{$item->blog_thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image" decoding="async" srcset="{{$item->blog_thumbnail}}" />	</a>
                                                          </div>
                                                          <div class="blog-category">
-                                                            <span class="if-item if-cat">
-                                                            <a href="#" rel="tag">Tips &amp; Tricks</a>		
-                                                            </span>
+                                                            
                                                          </div>
                                                          <div class="blog-entry-header entry-wrapper blog-detail-box-slider">
                                                             <h3 class="blog-entry-title">
