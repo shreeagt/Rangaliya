@@ -261,8 +261,6 @@
                                        <div class="elementor-widget-container">
                                           <a href="{{ route('landing-page') }}">
                                                <h1>Rangaliya</h1>
-                                             </br>
-                                             <p>Artistic Walls, Beautiful Home</p>
                                           </a>
                                        </div>
                                     </div>
@@ -371,21 +369,6 @@
                                           </div>
                                        </div>
                                     </div>
-
-                                    <div class="elementor-element elementor-element-c6478c1 elementor-widget__width-initial elementor-widget elementor-widget-mintie-wishlist" data-id="c6478c1" data-element_type="widget" data-widget_type="mintie-wishlist.default">
-                                       <div class="elementor-widget-container">
-                                          <div class="wishlist-mintie-widget">
-                                             <div class="site-header-wishlist">
-                                             
-                                                <a class="header-wishlist" href="#">
-                                                  <span class="count-wishlist"></span>
-                                                               <i class="fa fa-heart-o" style="font-size:24px"></i>
-                                                </a>
-                                             </div>
-                                          </div>
-                                       </div>
-                                    </div>
-
                                     <div class="elementor-element elementor-element-449353b elementor-widget__width-initial elementor-widget elementor-widget-mintie-cart" data-id="449353b" data-element_type="widget" data-widget_type="mintie-cart.default">
                                        <div class="elementor-widget-container">
                                           <span class="cart-custom-mintie">

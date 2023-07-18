@@ -78,18 +78,17 @@
                         <td class="product-name" data-title="Product">
                            <a href="{{ url('/product-view/'.$item->product_title) }}">{{ $item->product_title}}</a>						
                         </td>
-                        <td class="product-price" data-title="Price">
+                        <td class="product-price" data-title="Price" data-product-price="{{ (int)$item['price'] }}">
                            <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>{{ (int)$item['price']  }}</bdi></span>						
                         </td>
                         <td class="product-quantity" data-title="Quantity">
-						<select class="quantity" data-id="{{ $item->product_cart_id }}" data-productQuantity="{{ $item->quantity }}">
-                            @for ($i = 1; $i < 5 + 1 ; $i++)
-                                <option {{ $item->product_quantity == $i ? 'selected' : '' }}>{{ $i }}</option>
-                            @endfor
-                        </select>
-       
+                           <select class="quantity" data-id="{{ $item->product_cart_id }}" data-product-quantity="{{ $item->quantity }}">
+                               @for ($i = 1; $i < 5 + 1 ; $i++)
+                                   <option {{ $item->product_quantity == $i ? 'selected' : '' }}>{{ $i }}</option>
+                               @endfor
+                           </select>
                         </td>
-                        <td class="product-subtotal" data-title="Subtotal">
+                        <td class="product-subtotal" data-title="Subtotal" data-initial-subtotal="{{ (int)$item['price'] * $item['product_quantity'] }}">
                            <span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">₹</span>{{ (int)$item['price'] * $item['product_quantity'] }}</bdi></span>						
                         </td>
                      </tr>
@@ -119,15 +118,16 @@
                   <h2>Cart totals</h2>
                   <table cellspacing="0" class="shop_table shop_table_responsive">
                      <tbody>
-                        <tr class="cart-subtotal">
+                        <tr class="cart-subtotal" data-initial-subtotal="{{ $newSubtotal }}">
                            <th>Subtotal</th>
-                           <td data-title="Subtotal"><span class="woocommerce-Price-amount amount">
-						    <bdi>
-								<span class="woocommerce-Price-currencySymbol">₹</span>
-								{{ $cart_subtotal }} <br>
-							</bdi>
-							</span>
-			         	</td>
+                           <td data-title="Subtotal">
+                              <span class="woocommerce-Price-amount amount">
+                                 <bdi>
+                                    <span class="woocommerce-Price-currencySymbol">₹</span>
+                                    {{ $newSubtotal }} <!-- Display the shopping cart subtotal value here -->
+                                 </bdi>
+                              </span>
+                           </td>
                         </tr>
                         <tr class="woocommerce-shipping-totals shipping">
                            <th> Tax ({{config('cart.tax')}}%)</th>
@@ -167,29 +167,63 @@
 </main>
 
 <script>
-    (function(){
-        const classname = document.querySelectorAll('.quantity')
-// alert("hello");
-        Array.from(classname).forEach(function(element) {
+   (function() {
+       const classname = document.querySelectorAll('.quantity');
 
-            element.addEventListener('change', function() {
-                const id = element.getAttribute('data-id')
-                const productQuantity = element.getAttribute('data-productQuantity')
+       Array.from(classname).forEach(function(element) {
+           element.addEventListener('change', function() {
+               const id = element.getAttribute('data-id');
+               const productQuantity = element.getAttribute('data-product-quantity');
+               const price = element.closest('.cart_item').querySelector('.product-price').getAttribute('data-product-price');
+               const subtotalElement = element.closest('.cart_item').querySelector('.product-subtotal');
+               const initialSubtotal = parseFloat(subtotalElement.getAttribute('data-initial-subtotal'));
 
-                axios.patch(`/cart/${id}`, {
-                    quantity: this.value,
-                    productQuantity: productQuantity
-                })
-                .then(function (response) {
-                    // console.log(response);
-                    window.location.href = '{{ route('cart.index') }}'
-                })
-                .catch(function (error) {
-                    // console.log(error);
-                    window.location.href = '{{ route('cart.index') }}'
-                });
-            })
-        })
-    })();
+               const newQuantity = parseInt(this.value);
+               const newSubtotal = price * newQuantity;
+
+               // Update the subtotal
+               subtotalElement.querySelector('bdi').textContent = '₹' + newSubtotal.toFixed(2);
+
+               // Update the data attribute for the next change
+               subtotalElement.setAttribute('data-initial-subtotal', newSubtotal);
+
+               // Update the cart total based on the changes
+               updateCartTotal(initialSubtotal, newSubtotal);
+               
+               // Update the backend via AJAX request
+               axios.patch(`/cart/${id}`, {
+                   quantity: this.value,
+                   productQuantity: productQuantity
+               })
+               .then(function(response) {
+                   // console.log(response);
+                   window.location.href = '{{ route('cart.index') }}';
+               })
+               .catch(function(error) {
+                   // console.log(error);
+                   window.location.href = '{{ route('cart.index') }}';
+               });
+           });
+       });
+
+       function updateCartTotal(initialSubtotal, newSubtotal) {
+           // Calculate the difference
+           const diff = newSubtotal - initialSubtotal;
+
+           // Get the existing cart total
+           const cartTotalElement = document.querySelector('.cart_totals .order-total td');
+           const cartTotal = parseFloat(cartTotalElement.querySelector('bdi').textContent.replace('₹', ''));
+
+           // Update the Subtotal section
+           const cartSubtotalElement = document.querySelector('.cart-subtotal td');
+           const cartSubtotal = parseFloat(cartSubtotalElement.querySelector('bdi').textContent.replace('₹', ''));
+           const newCartSubtotal = cartSubtotal + diff;
+           cartSubtotalElement.querySelector('bdi').textContent = '₹' + newCartSubtotal.toFixed(2);
+
+           // Update the cart total
+           const newCartTotal = cartTotal + diff;
+           cartTotalElement.querySelector('bdi').textContent = '₹' + newCartTotal.toFixed(2);
+       }
+   })();
 </script>
 @include('layouts.footerrang')
