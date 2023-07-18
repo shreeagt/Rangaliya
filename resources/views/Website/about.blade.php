@@ -17,7 +17,7 @@
                         </div>
                         <div class="elementor-element elementor-element-0ea06cf elementor-widget elementor-widget-image" data-id="0ea06cf" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img decoding="async" width="59" height="59" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/button-scroll-down.png" class="attachment-large size-large" alt="image" loading="lazy" />															
+                              <img decoding="async" width="59" height="59" src="img/new1/about-bg.png" class="attachment-large size-large" alt="image" loading="lazy" />															
                            </div>
                         </div>
                      </div>
@@ -57,8 +57,7 @@
                                           </style>
                                           <div class="elementor-wrapper elementor-open-lightbox">
                                              <!-- <div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox="{&quot;type&quot;:&quot;video&quot;,&quot;videoType&quot;:&quot;youtube&quot;,&quot;url&quot;:&quot;https:\/\/www.youtube.com\/embed\/XHOmBV4js_E?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;modestbranding=0&quot;,&quot;modalOptions&quot;:{&quot;id&quot;:&quot;elementor-lightbox-457aad5&quot;,&quot;entranceAnimation&quot;:&quot;&quot;,&quot;entranceAnimation_tablet&quot;:&quot;&quot;,&quot;entranceAnimation_mobile&quot;:&quot;&quot;,&quot;videoAspectRatio&quot;:&quot;169&quot;}}"> -->
-                                              <div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox='{"type":"video","videoType":"youtube","url":"https:\/\/www.youtube.com\/embed\/nRAbC-1EaX4?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;modestbranding=0","modalOptions":{"id":"elementor-lightbox-457aad5","entranceAnimation":"","entranceAnimation_tablet":"","entranceAnimation_mobile":"","videoAspectRatio":"169"}}'>
-                                                <img decoding="async" src="https://mintie.boostifythemes.com/wp-content/uploads/elementor/thumbs/icon-video-ok-ph5j4kanyvtt5wbsdb1pwrnb3f8vtzrnllkaa2czmg.png" title="icon-video-ok" alt="image" />														
+                                              <div class="elementor-custom-embed-image-overlay" data-elementor-open-lightbox="yes" data-elementor-lightbox='{"type":"video","videoType":"youtube","url":"https:\/\/www.youtube.com\/embed\/nRAbC-1EaX4?feature=oembed&amp;start&amp;end&amp;wmode=opaque&amp;loop=0&amp;controls=1&amp;mute=0&amp;rel=0&amp;modestbranding=0","modalOptions":{"id":"elementor-lightbox-457aad5","entranceAnimation":"","entranceAnimation_tablet":"","entranceAnimation_mobile":"","videoAspectRatio":"169"}}'>									
                                              </div>
                                           </div>
                                        </div>
