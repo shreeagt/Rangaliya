@@ -153,7 +153,7 @@ button.product_type_external:hover {
 												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
                                              </a>
                                              <div class="mintie-add-btn mintie-add-btn-replace">
-												
+												@auth
 													@if ($product->quantity > 0)
 														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
 														{{ csrf_field() }}
@@ -161,7 +161,11 @@ button.product_type_external:hover {
 													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
 
 														</form>
-													@endif		
+													@endif
+                                       @else
+                                       <a href="{{ route('login') }}">Add To Card</a>
+                                    @endauth	
+
                                              </div>
 
 											 <!-- @if ($product->quantity > 0)

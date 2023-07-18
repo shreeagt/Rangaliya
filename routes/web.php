@@ -42,6 +42,10 @@ Route::get('/news', 'Website\NewsController@index')->name('news');
 Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
+// Route::get('/login', function () {
+//     return view('login'); 
+// })->name('login');
+
 Route::middleware('auth')->group(function () {
         Route::get('/cart', 'Website\CartController@index')->name('cart.index');
         Route::post('/cart/{product}', 'Website\CartController@store')->name('cart.store');

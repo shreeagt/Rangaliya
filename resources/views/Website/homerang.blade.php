@@ -450,15 +450,18 @@
 												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
                                              </a>
                                              <div class="mintie-add-btn mintie-add-btn-replace">
-												
-													@if ($product->quantity > 0)
-														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
-														{{ csrf_field() }}
-														<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	
-													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
-
-														</form>
-													@endif		
+												@auth
+                                    @if ($product->quantity > 0)
+												<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
+												{{ csrf_field() }}
+												<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">
+                                    Add to cart
+                                    </a>
+												</form>
+                                    @endif
+                                    @else
+                                    <a href="{{ route('login') }}">Add To Card</a>
+                                    @endauth
                                              </div>
 
 											 <!-- @if ($product->quantity > 0)
@@ -619,14 +622,18 @@
                                              </a>
                                              <div class="mintie-add-btn mintie-add-btn-replace">
 												
-													@if ($product->quantity > 0)
+													@auth
+                                       @if ($product->quantity > 0)
 														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
 														{{ csrf_field() }}
 														<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	
 													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
 
 														</form>
-													@endif		
+                                          @endif
+                                          @else
+                                          <a href="{{ route('login') }}">Add To Card</a>
+                                    @endauth	
                                              </div>
 
 											 <!-- @if ($product->quantity > 0)
@@ -635,6 +642,19 @@
 													<button type="submit" class="button button-plain">Add to Cart</button>
 												</form>
 											@endif -->
+
+                                 <!-- 
+                                    @auth
+												<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
+												{{ csrf_field() }}
+												<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">
+                                    Add to cart
+                                    </a>
+												</form>
+                                    @else
+                                    <a href="{{ route('login') }}">Add To Card</a>
+                                    @endauth
+                                  -->
 
                                           </div>
                                           <div class="content-info-product">
