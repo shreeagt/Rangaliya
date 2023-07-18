@@ -474,8 +474,6 @@
                            <div class="elementor-widget-container">
                               <a href="{{ route('landing-page') }}">
                               <h4 style="text-align:center">Rangaliyas</h4>
-                                             </br>
-                               <p style="text-align:center">Artistic Walls, Beautiful Home</p>
                               <!-- <img width="59" height="36" src="{{asset('img/rangrilya/logo-black.svg') }}" class="attachment-large size-large" alt="image" loading="lazy" />								</a> -->
                            </div>
                         </div>
@@ -506,8 +504,6 @@
                            <div class="elementor-widget-container">
                               <a href="{{ route('landing-page') }}">
                               <h1>Rangaliya</h1>
-                                             </br>
-                                             <p>Artistic Walls, Beautiful Home</p>
                               <!-- <img width="59" height="36" src="{{asset('img/rangrilya/logo-black.svg') }}" class="attachment-large size-large" alt="image" loading="lazy" />								</a> -->
                            </div>
                         </div>
