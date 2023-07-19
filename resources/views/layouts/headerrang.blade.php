@@ -182,21 +182,6 @@
                         <section class="elementor-section elementor-inner-section elementor-element elementor-element-0dbfb4c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0dbfb4c" data-element_type="section">
                            <div class="elementor-container elementor-column-gap-default">
                               <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-908bcd0" data-id="908bcd0" data-element_type="column">
-                                 <div class="elementor-widget-wrap elementor-element-populated">
-                                    <div class="elementor-element elementor-element-50d47b6 elementor-hidden-tablet elementor-widget elementor-widget-mintie-search-ajax" data-id="50d47b6" data-element_type="widget" data-widget_type="mintie-search-ajax.default">
-                                       <div class="elementor-widget-container">
-                                          <div class="widget-ajax-search-mintie mintie-search-form__inner js-search-form ">
-                                             <form action="https://mintie.boostifythemes.com/" method="get" class="mintie-search-form">
-                                                <input type="text" name="s" id="autocompletepro" class="mintie-search-form__field" placeholder="Search" autocomplete="off">					
-                                                <input type="hidden" name="post_type" value="product">
-                                                <span class="fa fa-circle-o-notch fa-2x fa-fw mintie-search-form__loader"></span>
-                                                <button type="submit" class="search-submit "><i class="fa fa-search" style="font-size:24px"></i></button>
-                                             </form>
-                                             <div class="mintie-search-form__suggestions"></div>
-                                          </div>
-                                       </div>
-                                    </div>
-                                 </div>
                               </div>
                               <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-4d2095f" data-id="4d2095f" data-element_type="column">
                                  <div class="elementor-widget-wrap elementor-element-populated">

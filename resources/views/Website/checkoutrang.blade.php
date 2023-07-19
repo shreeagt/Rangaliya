@@ -140,13 +140,7 @@
                                 {{ $item->name }}
                                 </bdi>
                             </span>	
-                           
-                          
-                        
-                        
                         </td>
-
-
                            <td class="product-total">
                               <span class="woocommerce-Price-amount amount">
                                 <bdi>
@@ -160,56 +154,105 @@
                      </tbody>
                      <tfoot>
                         <tr class="cart-subtotal">
-                           <th>Subtotal</th>
-                           @if (session()->has('coupon'))
-                            Discount ({{ session()->get('coupon')['name'] }}) :
+                          <th>Subtotal</th> @if (session()->has('coupon')) Discount ({{ session()->get('coupon')['name'] }}) : <br>
+                          <hr> New Subtotal <br> @endif <td>
+                            <span class="woocommerce-Price-amount amount">
+                              <bdi> @if (($cart_products->count())>0) <span class="woocommerce-Price-currencySymbol">₹</span>{{($cart_subtotal) }}
+                              </bdi>
+                            </span> @endif @if (($cart_products->count())>0 && session()->has('coupon')) -{{ ($discount) }}
                             <br>
-                            <hr>
-                            New Subtotal <br>
-                        @endif
-
-                           <td>
-                            <span class="woocommerce-Price-amount amount"><bdi>
-                                @if (($cart_products->count())>0)
-                                   <span class="woocommerce-Price-currencySymbol">₹</span>{{($cart_subtotal) }}</bdi></span>
-                                @endif
-                                @if (($cart_products->count())>0 && session()->has('coupon'))
-                                    -{{ ($discount) }} <br>
-                                    <hr>
-                                    @if(isset($newSubtotal))
-                                    <span class="woocommerce-Price-currencySymbol">₹</span>{{ ($newSubtotal) }}</bdi></span>
-                     
-                                @endif
-                                @endif
-
-                      
-                            </span>
+                            <hr> @if(isset($newSubtotal)) <span class="woocommerce-Price-currencySymbol">₹</span>{{ ($newSubtotal) }}
+                            </bdi>
+                            </span> @endif @endif </span>
                           </td>
-
                         </tr>
                         <tr class="woocommerce-shipping-totals shipping">
-                           <th>Tax({{config('cart.tax')}}%)</th>
-
-                           <td data-title="Shipping">
-                           @if(isset($newTax))
-                           ₹  {{ ($newTax) }} 
-                              @endif
-                           </td>
+                          <th>Tax({{config('cart.tax')}}%)</th>
+                          <td data-title="Shipping"> @if(isset($newTax)) ₹ {{ ($newTax) }} @endif </td>
                         </tr>
                         <tr class="order-total">
-                           <th>Total</th>
-                           <td>
+                          <th>Total</th>
+                          <td>
                             <strong>
-                                <span class="woocommerce-Price-amount amount">
-                                    <bdi>                                       
-                                    @if(isset($newTotal))
-                                        ₹ {{ ($newTotal) }}
-                                     @endif
-                                  </bdi>
-                                </span>
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi> @if(isset($newTotal)) ₹ {{ ($newTotal) }} @endif </bdi>
+                              </span>
                             </strong>
-                         </td>
+                          </td>
                         </tr>
+                      </tfoot>
+                  </table>
+                  <table>
+                     <thead>
+                        <tr>
+                           <th class="product-name text-center">Product</th>
+                           <th class="product-total text-center">Prize</th>
+                           <th class="product-items text-center">Items</th>
+                        </tr>
+                        <tbody>
+                           @if (($cart_products->count())>0)
+                           @foreach ($cart_products as $item)
+                        <tr class="cart_item">
+                            <td class="product-name">
+                              <img src="{{$item->images}}" alt="item" class="checkout-table-img check-image">
+                            </td> 
+                           <td class="product-name">
+                              <span class="woocommerce-Price-amount amount">
+                                <bdi>
+                                    {{ $item->name }}
+                                 </bdi>
+                              </span>	
+                           </td>
+                           <td class="product-total text-center">
+                              <span class="woocommerce-Price-amount amount">
+                                 <bdi>
+                                    <span class="woocommerce-Price-currencySymbol">₹</span>{{ $item->price}}
+                                 </bdi>
+                            </span>					
+                           </td>
+                        </tr>
+                        @endforeach
+                        @endif
+                     </tbody>
+                     <tfoot>
+                        <tr class="cart-subtotal">
+                           <th colspan="2" class="text-left">Total</th> 
+                           @if (session()->has('coupon')) Discount ({{ session()->get('coupon')['name'] }}) :
+                              <br><hr>New Subtotal<br> 
+                           @endif 
+                           <td class="text-center">
+                             <span class="woocommerce-Price-amount amount">
+                                 <bdi> 
+                                    @if (($cart_products->count())>0)   
+                                    <span class="woocommerce-Price-currencySymbol">₹</span>{{($cart_subtotal) }}
+                                 </bdi>
+                             </span> 
+                             @endif 
+                             @if (($cart_products->count())>0 && session()->has('coupon')) -{{ ($discount) }}<br><hr> 
+                             <bdi>
+                                 @if(isset($newSubtotal))
+                                 <span class="woocommerce-Price-currencySymbol">₹</span>
+                                 {{ ($newSubtotal) }}
+                             </bdi>
+                             @endif 
+                             @endif
+                           </td>
+                         </tr>
+                         <tr class="woocommerce-shipping-totals shipping">
+                           <th colspan="2" class="text-left">Tax({{config('cart.tax')}}%)</th>
+                           <td class="text-center" data-title="Shipping"> @if(isset($newTax)) ₹ {{ ($newTax) }} @endif 
+                           </td>
+                         </tr>
+                         <tr class="order-total">
+                           <th colspan="2" class="text-center"><strong>Grand Total</strong></th>
+                           <td class="text-center">
+                             <strong>
+                               <span class="woocommerce-Price-amount amount">
+                                 <bdi> @if(isset($newTotal)) ₹ {{ ($newTotal) }} @endif </bdi>
+                               </span>
+                             </strong>
+                           </td>
+                         </tr>
                      </tfoot>
                   </table>
                   <div id="payment" class="woocommerce-checkout-payment" style="position: static; zoom: 1;">
