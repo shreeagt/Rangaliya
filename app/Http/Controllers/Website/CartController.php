@@ -24,6 +24,7 @@ class CartController extends Controller
        // $mightAlsoLike = Product::mightAlsoLike()->get();
         $cart_products = ProductCart::where('user_id', '=', auth()->user()->id)->join('products', 'products.id', '=', 'products_cart.product_id')->select('*', 'products_cart.id AS product_cart_id')->get();
         
+        
         // return view('Website.cart')->with([
         return view('Website.cartrang')->with([
             'cart_products' => $cart_products,
