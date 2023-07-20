@@ -215,6 +215,14 @@
                                                    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-contact" aria-required="true" aria-invalid="false" placeholder="your@email.com" required/></span>
                                                 </div>
                                              </div>
+
+                                             <div class="col-md-6">
+                                                <div class="contact-form">
+                                                   <label>Mobile <span>*</span></label><br />
+                                                   <span class="wpcf7-form-control-wrap your-email"><input type="number" name="number" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-contact" aria-required="true" aria-invalid="false" placeholder="10 digit number" required/></span>
+                                                </div>
+                                             </div>
+
                                              <!-- <div class="col-md-12">
                                                 <div class="contact-form">
                                                    <label>Subject</label><br />
@@ -227,6 +235,7 @@
                                                    <span class="wpcf7-form-control-wrap your-message"><textarea name="message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea input-area" aria-invalid="false" placeholder="Hi! I’d like to ask about..." r></textarea></span>
                                                 </div>
                                              </div>
+
                                              <div class="col-md-12">
                                                 <div class="contact-form button-submit">
                                                    <input type="submit" value="Submit" class="wpcf7-form-control has-spinner wpcf7-submit submit-contact" />

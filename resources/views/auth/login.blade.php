@@ -6,6 +6,18 @@
     vertical-align: top;
     display: inline-block;
 }
+
+@media only screen and (max-width:768px){
+   .u-column1,.u-column2{
+    width: 100%;
+}
+
+div#customer_login {
+   display: flex;
+    flex-direction: column-reverse;
+}
+
+}
 </style>
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{asset('css/rangrilya/cart.css') }}" type='text/css' media='all' />
 <div id="theme-page-header">
