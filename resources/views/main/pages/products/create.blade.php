@@ -76,7 +76,7 @@
                 </div>
 
                 <div class="form-group">
-                    <label class="control-label">Best Seller</label>
+                    <label class="control-label">Top Seller</label>
                     <input type="checkbox" name="best_seller" value="1">
 
                     <label class="control-label">Home</label>

@@ -32,7 +32,7 @@ button.product_type_external:hover {
             <h1 class="page-title entry-title">
                Products		
             </h1>
-            <nav class="woocommerce-breadcrumb"><a href="https://mintie.boostifythemes.com">Home</a> <span>·</span> <a href="https://mintie.boostifythemes.com/category/trends/">Trends</a> <span>·</span> How to make D.I.Y Chrismas cards with kraft paper</nav>
+            <nav class="woocommerce-breadcrumb"><a href="#">Home</a> <span>·</span> <a href="#">Trends</a> <span>·</span> How to make D.I.Y Chrismas cards with kraft paper</nav>
          </div>
       </div>
    </div>
@@ -163,7 +163,7 @@ button.product_type_external:hover {
 														</form>
 													@endif
                                        @else
-                                       <a href="{{ route('login') }}">Add To Card</a>
+                                       <a href="{{ route('login') }}">Add To Cart</a>
                                     @endauth	
 
                                              </div>
