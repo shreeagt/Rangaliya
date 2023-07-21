@@ -157,8 +157,9 @@ button.product_type_external:hover {
 													@if ($product->quantity > 0)
 														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
 														{{ csrf_field() }}
-														<a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	
-													<!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
+														{{-- <a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	 --}}
+                                          <button type="submit" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	
+                                          <!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
 
 														</form>
 													@endif
