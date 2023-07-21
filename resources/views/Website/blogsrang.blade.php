@@ -71,7 +71,7 @@
                                                    {{Carbon\Carbon::parse($item->created_at)->format('M d, Y')}}</time>
                                                    </span>
                                                    <span itemprop="articleSection">
-                                                   <a href="https://mintie.boostifythemes.com/category/collections/" rel="tag">Collections</a>			</span>
+                                                   <a href="#" rel="tag">Collections</a>			</span>
                                                 </div>
                                              </div>
                                              <div class="blog-header-info-blog">

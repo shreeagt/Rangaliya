@@ -43,7 +43,7 @@
               <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-b2afc4e elementor-widget elementor-widget-image" data-id="b2afc4e" data-element_type="widget" data-widget_type="image.default">
                   <div class="elementor-widget-container">
-                    <img decoding="async" width="1920" height="34" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/bg-contact-v1.png" class="attachment-full size-full" alt="image" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/bg-contact-v1.png 1920w, https://mintie.boostifythemes.com/wp-content/uploads/2021/09/bg-contact-v1-600x11.png 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/09/bg-contact-v1-300x5.png 300w, https://mintie.boostifythemes.com/wp-content/uploads/2021/09/bg-contact-v1-1024x18.png 1024w, https://mintie.boostifythemes.com/wp-content/uploads/2021/09/bg-contact-v1-768x14.png 768w, https://mintie.boostifythemes.com/wp-content/uploads/2021/09/bg-contact-v1-1536x27.png 1536w" sizes="(max-width: 1920px) 100vw, 1920px" />
+                    <img decoding="async" width="1920" height="34" src="" class="attachment-full size-full" alt="image" loading="lazy"sizes="(max-width: 1920px) 100vw, 1920px" />
                   </div>
                 </div>
               </div>

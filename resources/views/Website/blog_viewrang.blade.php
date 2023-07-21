@@ -58,7 +58,7 @@
                   <h5 class="wp-block-heading">Search</h5>
                </aside>
                <aside id="block-8" class="widget widget_block widget_search">
-                  <form role="search" method="get" action="https://mintie.boostifythemes.com/" class="wp-block-search__button-outside wp-block-search__icon-button wp-block-search">
+                  <form role="search" method="get" action="" class="wp-block-search__button-outside wp-block-search__icon-button wp-block-search">
                      <label for="wp-block-search__input-1" class="wp-block-search__label screen-reader-text">Search</label>
                      <div class="wp-block-search__inside-wrapper " >
                         <input type="search" id="wp-block-search__input-1" class="wp-block-search__input" name="s" value="" placeholder="Enter keyword..."  required />
@@ -84,13 +84,6 @@
                   </ul>
                </aside>
                <aside id="block-12" class="widget widget_block">
-                  <!-- <h5 class="wp-block-heading">Tags</h5>
-                     </aside><aside id="block-11" class="widget widget_block widget_tag_cloud"><p class="wp-block-tag-cloud"><a href="https://mintie.boostifythemes.com/tag/art/" class="tag-cloud-link tag-link-38 tag-link-position-1" aria-label="art (9 items)">art</a>
-                     <a href="https://mintie.boostifythemes.com/tag/crafting/" class="tag-cloud-link tag-link-35 tag-link-position-2" aria-label="crafting (9 items)">crafting</a>
-                     <a href="https://mintie.boostifythemes.com/tag/fabric/" class="tag-cloud-link tag-link-70 tag-link-position-3" aria-label="fabric (1 item)">fabric</a>
-                     <a href="https://mintie.boostifythemes.com/tag/fragrances/" class="tag-cloud-link tag-link-69 tag-link-position-4" aria-label="fragrances (1 item)">fragrances</a>
-                     <a href="https://mintie.boostifythemes.com/tag/handmade/" class="tag-cloud-link tag-link-36 tag-link-position-5" aria-label="handmade (9 items)">handmade</a>
-                     <a href="https://mintie.boostifythemes.com/tag/mintie/" class="tag-cloud-link tag-link-37 tag-link-position-6" aria-label="mintie (9 items)">mintie</a></p></aside><aside id="mintie-recent-posts-7" class="widget mintie_widget_recent_entries"> -->
                   <h5 class="widget-title">Recent Posts</h5>
                   <ul class="mintie-entries">
                      <?php foreach($blogsLatest as $latest) { ?>
@@ -101,9 +94,6 @@
                         </div>
                         <div class="mintie-recent-post-detail">
                            <a href="<?php echo url('/blog/'.$latest['blog_url']); ?>" class="mintie-recent-post-title"> {{ $latest['blog_title'] }}</a>
-                           <!-- <span class="mintie-recent-post-on">
-                              Nov 19, 2021					
-                                               	</span> -->
                         </div>
                      </li>
                      <?php  } ?>

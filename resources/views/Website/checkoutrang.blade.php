@@ -283,14 +283,6 @@
                         </li>
                      </ul> -->
                      <div class="form-row">
-                        <!-- <noscript>
-                           Since your browser does not support JavaScript, or it is disabled, please ensure you click the <em>Update Totals</em> button before placing your order. You may be charged more than the amount stated above if you fail to do so.			<br/><button type="submit" class="button alt" name="woocommerce_checkout_update_totals" value="Update totals">Update totals</button>
-                        </noscript> -->
-                        <!-- <div class="woocommerce-terms-and-conditions-wrapper">
-                           <div class="woocommerce-privacy-policy-text">
-                              <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our <a href="https://mintie.boostifythemes.com/?page_id=3" class="woocommerce-privacy-policy-link" target="_blank">privacy policy</a>.</p>
-                           </div>
-                        </div> -->
                         <button type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order">Place order</button>
                         <input type="hidden" id="totalAmt" value='<?php echo $newTotal ?>'/>
                      </div>
