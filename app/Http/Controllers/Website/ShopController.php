@@ -33,11 +33,11 @@ class ShopController extends Controller
      */
 
     public function serviceDetails($requestUri)
+
     {
         //dd($requestUri);
         $categories = Category::all();
         $tab = Tabs::where('product_title','=',$requestUri)->get();
-        
         $product = Product::where('product_title','=',$requestUri)->firstOrFail();
         //dd($product);
         // return view('Website.product')->with([ 'product' => $product,
@@ -45,12 +45,19 @@ class ShopController extends Controller
         'categories' => $categories,'tab'=>$tab]);
 
     }
-    public function productListByCategory(Request $request)
+    public function productListByCategory($category_name)
     {
    
         $products = Product::all();
         $categories = Category::all();
-        $categoryProduct = Product::where('category', $request->category)->get();
+        //$categoryProduct = Product::where('category', $request->category)->get();
+        // $categoryProduct = Category::join('products', 'products.category', '=', 'category.category_name')
+        //                     ->select('products.*')
+        //                     ->whereRaw('products.category = category.category_name')
+        //                     ->get();
+        // // dd($categoryProduct);
+        $categoryProduct = Product::where('category', $category_name)->get();
+
         return view('Website.categoryProducts')->with([
             'categoryProduct' => $categoryProduct,
             'categories' => $categories,

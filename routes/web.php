@@ -27,7 +27,9 @@ Route::get('/product', function() {
 
 
 Route::get('/our-product', 'Website\ShopController@index')->name('shop.index');
-Route::get('/product-view/{name}', 'Website\ShopController@serviceDetails');
+Route::get('/product-view/{name}', 'Website\ShopController@serviceDetails')->name('product-view');
+Route::get('/categoryview/{category_name}', 'Website\ShopController@productListByCategory')->name('category-view');
+// Route::get('/product-view', 'Website\ShopController@serviceDetails');
 
 Route::get('/blogs','Website\BlogsController@index')->name('blog.index');
 Route::get('/blogs/{id}', 'Website\BlogsController@show')->name('blog.show');

@@ -69,12 +69,12 @@ button.product_type_external:hover {
                                <div class="elementor-widget-container">
                                    <div class="mintie-category-box-wrapper">
                                        <div class="mintie-category-box-image hover-effect_2">
-                                           <a href="#" class="mintie-category-box-link"></a>
+                                           <a href="{{ route('category-view', $category->category_name) }}" class="mintie-category-box-link"></a>
                                            <img decoding="async" src="{{ $category->banner_image }}" alt="image">
                                        </div>
                                        <div class="mintie-category-box-content">
                                            <h3 class="mintie-category-box-title">
-                                               <a href="#">
+                                               <a href="{{ route('category-view', $category->category_name) }}">
                                                    {{ $category->category_name }}
                                                </a>
                                            </h3>
@@ -148,7 +148,7 @@ button.product_type_external:hover {
                                     <li class="product type-product post-9669 status-publish first instock product_cat-organization product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable product-type-external">
                                        <div class="mintie-style-style3">
                                           <div class="product-image-wrapper">
-                                             <a href="#" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                             <a href="{{ route('product-view', $product->product_title)}}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
 												<img decoding="async" width="300" height="300" src="{{ $product->images }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{ $product->images }}" />	
 												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
                                              </a>
