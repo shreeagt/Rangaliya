@@ -80,10 +80,10 @@
 </style>
 <body>
 <section id="container product">
-    <div class="row mt-5 justify-content-around">
+    <div class="row mt-5 mb-5 justify-content-around">
         <div class="col-lg-5 col-md-12 col-12">
             <img class="img-fluid w-100 pb-2 pt-3" src="img/new1/IMG_7101.jpg" alt="">
-            <div class="small-img-group d-flex justify-content-between">
+            <div class="small-img-group d-flex justify-content-between mb-5">
                 <div class="small-img-col">
                     <img class="small-img" src="img/new1/IMG_7101.jpg" width="100%" alt="">
                 </div>
@@ -115,4 +115,5 @@
         </div>
     </div>
 </section>
+@include('layouts.footerrang')
 </body>

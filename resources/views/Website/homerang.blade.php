@@ -135,7 +135,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-fe21e87 elementor-widget elementor-widget-image" data-id="fe21e87" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img decoding="async" width="1290" height="53" src="{{asset('img/rangrilya/bg-service-h5-1.jpg') }}" class="attachment-full size-full" alt="image" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-service-h5-1.jpg 1290w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-service-h5-1-600x25.jpg 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-service-h5-1-300x12.jpg 300w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-service-h5-1-1024x42.jpg 1024w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-service-h5-1-768x32.jpg 768w" sizes="(max-width: 1290px) 100vw, 1290px" />															
+                              <img decoding="async" width="1290" height="53" src="{{asset('img/rangrilya/bg-service-h5-1.jpg') }}" class="attachment-full size-full" alt="image" loading="lazy" sizes="(max-width: 1290px) 100vw, 1290px" />															
                            </div>
                         </div>
                      </div>
@@ -515,7 +515,7 @@
                         </div>
                         <div class="elementor-element elementor-element-b1e133a elementor-widget elementor-widget-image" data-id="b1e133a" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img decoding="async" width="467" height="76" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/title-banner-h5.png" class="attachment-large size-large" alt="image" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/title-banner-h5.png 467w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/title-banner-h5-400x65.png 400w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/title-banner-h5-300x49.png 300w" sizes="(max-width: 467px) 100vw, 467px" />															
+                              <img decoding="async" width="467" height="76" src="" class="attachment-large size-large" alt="image" loading="lazy" sizes="(max-width: 467px) 100vw, 467px" />															
                            </div>
                         </div>
                         <div class="elementor-element elementor-element-0ddc93a elementor-align-center elementor-widget elementor-widget-button" data-id="0ddc93a" data-element_type="widget" data-widget_type="button.default">
@@ -702,7 +702,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-26d97c4 elementor-widget elementor-widget-image" data-id="26d97c4" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/features-h3-1.png" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -733,7 +733,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-db9da61 elementor-widget elementor-widget-image" data-id="db9da61" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/features-h3-2.png" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -764,7 +764,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-676f8c9 elementor-widget elementor-widget-image" data-id="676f8c9" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/features-h3-3.png" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -795,7 +795,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-9449f5c elementor-widget elementor-widget-image" data-id="9449f5c" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/features-h3-4.png" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -955,7 +955,7 @@
                                                                      </div>
                                                                      <div class="testimonial-info">
                                                                         <div class="testimonial-avata">
-                                                                           <img decoding="async" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/avatar-1.png" alt="Jorgen J. Hansen" class="avata-testimonial">
+                                                                           <img decoding="async" src="" alt="Jorgen J. Hansen" class="avata-testimonial">
                                                                         </div>
                                                                         <div class="testimonial-des">
                                                                            <h3 class="testimonial--name">Jorgen J. Hansen</h3>
@@ -998,7 +998,7 @@
                                                                      </div>
                                                                      <div class="testimonial-info">
                                                                         <div class="testimonial-avata">
-                                                                           <img decoding="async" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/avatar-1.png" alt="Jorgen J. Hansen" class="avata-testimonial">
+                                                                           <img decoding="async" src="" alt="Jorgen J. Hansen" class="avata-testimonial">
                                                                         </div>
                                                                         <div class="testimonial-des">
                                                                            <h3 class="testimonial--name">Jorgen J. Hansen</h3>
@@ -1031,7 +1031,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-7c98040 elementor-widget elementor-widget-image" data-id="7c98040" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img decoding="async" width="1290" height="60" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-1.jpg" class="attachment-full size-full" alt="image" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-1.jpg 1290w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-1-600x28.jpg 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-1-300x14.jpg 300w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-1-1024x48.jpg 1024w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-1-768x36.jpg 768w" sizes="(max-width: 1290px) 100vw, 1290px" />															
+                              <img decoding="async" width="1290" height="60" src="" class="attachment-full size-full" alt="image" loading="lazy" sizes="(max-width: 1290px) 100vw, 1290px" />															
                            </div>
                         </div>
                      </div>
@@ -1059,148 +1059,6 @@
                                                    <i class="fa fa-angle-left mintie-arrow arrows-prev" style="font-size:24px"></i>
                                                    <i class="fa fa-angle-right mintie-arrow " style="font-size:24px"></i>
                                                 </div>
-                                                <!-- <div class="js-blog-slider blog-slider-list" data-dot="yes">
-                                                   <article class="post-blog-slider">
-                                                   	<div class="blog-box-slider no-excerpt">
-                                                   		<div class="blog-entry-thumbnail blog-thumbnail-box-slider">
-                                                   			<a href="https://mintie.boostifythemes.com/3-easy-ways-to-make-a-handmade-candle-at-home/">
-                                                   				<img loading="lazy" width="770" height="500" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-1.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image" decoding="async" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-1.jpg 770w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-1-600x390.jpg 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-1-300x195.jpg 300w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-1-768x499.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" />									</a>
-                                                   		</div>
-                                                   											<div class="blog-category">
-                                                   				<span class="if-item if-cat">
-                                                   					<a href="https://mintie.boostifythemes.com/category/tips-tricks/" rel="tag">Tips &amp; Tricks</a>										</span>
-                                                   			</div>
-                                                   										<div class="blog-entry-header entry-wrapper blog-detail-box-slider">
-                                                   			<h3 class="blog-entry-title">
-                                                   				<a href="https://mintie.boostifythemes.com/3-easy-ways-to-make-a-handmade-candle-at-home/">
-                                                   					3 easy ways to make a handmade candle at home										</a>
-                                                   			</h3>
-                                                   
-                                                   			<div class="blog-header-info">
-                                                   				<span class="entry-meta">
-                                                   																	<time class="if-item if-date"  datetime="2021-11-19T10:59:56+00:00">
-                                                   									Nov 19, 2021														</time>
-                                                   								
-                                                   
-                                                   					<span class="if-item if-comment"><a href="https://mintie.boostifythemes.com/3-easy-ways-to-make-a-handmade-candle-at-home/#comments">3 Comments<span class="screen-reader-text"> on 3 easy ways to make a handmade candle at home</span></a></span>										</span>
-                                                   			</div>
-                                                   
-                                                   												
-                                                   
-                                                   													<div class="blog-read-more">
-                                                   					<a href="https://mintie.boostifythemes.com/3-easy-ways-to-make-a-handmade-candle-at-home/" class="read-more">
-                                                   						Read More											</a>
-                                                   				</div>
-                                                   											</div>
-                                                   	</div>
-                                                   </article>
-                                                   
-                                                   <article class="post-blog-slider">
-                                                   	<div class="blog-box-slider no-excerpt">
-                                                   		<div class="blog-entry-thumbnail blog-thumbnail-box-slider">
-                                                   			<a href="https://mintie.boostifythemes.com/how-to-define-your-decor-style-make-moodboards/">
-                                                   				<img width="770" height="666" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-2.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image" decoding="async" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-2.jpg 770w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-2-600x519.jpg 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-2-300x259.jpg 300w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-2-768x664.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" />									</a>
-                                                   		</div>
-                                                   											<div class="blog-category">
-                                                   				<span class="if-item if-cat">
-                                                   					<a href="https://mintie.boostifythemes.com/category/collections/" rel="tag">Collections</a>										</span>
-                                                   			</div>
-                                                   										<div class="blog-entry-header entry-wrapper blog-detail-box-slider">
-                                                   			<h3 class="blog-entry-title">
-                                                   				<a href="https://mintie.boostifythemes.com/how-to-define-your-decor-style-make-moodboards/">
-                                                   					How to define your decor style &#038; make moodboards										</a>
-                                                   			</h3>
-                                                   
-                                                   			<div class="blog-header-info">
-                                                   				<span class="entry-meta">
-                                                   																	<time class="if-item if-date"  datetime="2021-11-19T10:59:23+00:00">
-                                                   									Nov 19, 2021														</time>
-                                                   								
-                                                   
-                                                   					<span class="if-item if-comment"><a href="https://mintie.boostifythemes.com/how-to-define-your-decor-style-make-moodboards/#comments">3 Comments<span class="screen-reader-text"> on How to define your decor style &#038; make moodboards</span></a></span>										</span>
-                                                   			</div>
-                                                   
-                                                   												
-                                                   
-                                                   													<div class="blog-read-more">
-                                                   					<a href="https://mintie.boostifythemes.com/how-to-define-your-decor-style-make-moodboards/" class="read-more">
-                                                   						Read More											</a>
-                                                   				</div>
-                                                   											</div>
-                                                   	</div>
-                                                   </article>
-                                                   
-                                                   <article class="post-blog-slider">
-                                                   	<div class="blog-box-slider no-excerpt">
-                                                   		<div class="blog-entry-thumbnail blog-thumbnail-box-slider">
-                                                   			<a href="https://mintie.boostifythemes.com/how-to-make-d-i-y-chrismas-cards-with-kraft-paper/">
-                                                   				<img width="770" height="668" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-8.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image" decoding="async" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-8.jpg 770w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-8-600x521.jpg 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-8-300x260.jpg 300w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-8-768x666.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" />									</a>
-                                                   		</div>
-                                                   											<div class="blog-category">
-                                                   				<span class="if-item if-cat">
-                                                   					<a href="https://mintie.boostifythemes.com/category/trends/" rel="tag">Trends</a>										</span>
-                                                   			</div>
-                                                   										<div class="blog-entry-header entry-wrapper blog-detail-box-slider">
-                                                   			<h3 class="blog-entry-title">
-                                                   				<a href="https://mintie.boostifythemes.com/how-to-make-d-i-y-chrismas-cards-with-kraft-paper/">
-                                                   					How to make D.I.Y Chrismas cards with kraft paper										</a>
-                                                   			</h3>
-                                                   
-                                                   			<div class="blog-header-info">
-                                                   				<span class="entry-meta">
-                                                   																	<time class="if-item if-date"  datetime="2021-11-19T10:59:02+00:00">
-                                                   									Nov 19, 2021														</time>
-                                                   								
-                                                   
-                                                   					<span class="if-item if-comment"><a href="https://mintie.boostifythemes.com/how-to-make-d-i-y-chrismas-cards-with-kraft-paper/#comments">3 Comments<span class="screen-reader-text"> on How to make D.I.Y Chrismas cards with kraft paper</span></a></span>										</span>
-                                                   			</div>
-                                                   
-                                                   												
-                                                   
-                                                   													<div class="blog-read-more">
-                                                   					<a href="https://mintie.boostifythemes.com/how-to-make-d-i-y-chrismas-cards-with-kraft-paper/" class="read-more">
-                                                   						Read More											</a>
-                                                   				</div>
-                                                   											</div>
-                                                   	</div>
-                                                   </article>
-                                                   
-                                                   <article class="post-blog-slider">
-                                                   	<div class="blog-box-slider no-excerpt">
-                                                   		<div class="blog-entry-thumbnail blog-thumbnail-box-slider">
-                                                   			<a href="https://mintie.boostifythemes.com/d-i-y-crafts-minimal-leather-wallet-to-try-your-hand-at/">
-                                                   				<img width="770" height="832" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-3.jpg" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image" decoding="async" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-3.jpg 770w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-3-600x648.jpg 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-3-278x300.jpg 278w, https://mintie.boostifythemes.com/wp-content/uploads/2021/11/blog-3-768x830.jpg 768w" sizes="(max-width: 770px) 100vw, 770px" />									</a>
-                                                   		</div>
-                                                   											<div class="blog-category">
-                                                   				<span class="if-item if-cat">
-                                                   					<a href="https://mintie.boostifythemes.com/category/arts-craft/" rel="tag">Arts &amp; Craft</a> <a href="https://mintie.boostifythemes.com/category/collections/" rel="tag">Collections</a>										</span>
-                                                   			</div>
-                                                   										<div class="blog-entry-header entry-wrapper blog-detail-box-slider">
-                                                   			<h3 class="blog-entry-title">
-                                                   				<a href="https://mintie.boostifythemes.com/d-i-y-crafts-minimal-leather-wallet-to-try-your-hand-at/">
-                                                   					D.I.Y Crafts: Minimal leather wallet to try your hand at										</a>
-                                                   			</h3>
-                                                   
-                                                   			<div class="blog-header-info">
-                                                   				<span class="entry-meta">
-                                                   																	<time class="if-item if-date"  datetime="2021-11-19T10:58:36+00:00">
-                                                   									Nov 19, 2021														</time>
-                                                   								
-                                                   
-                                                   					<span class="if-item if-comment"><a href="https://mintie.boostifythemes.com/d-i-y-crafts-minimal-leather-wallet-to-try-your-hand-at/#comments">2 Comments<span class="screen-reader-text"> on D.I.Y Crafts: Minimal leather wallet to try your hand at</span></a></span>										</span>
-                                                   			</div>
-                                                   
-                                                   												
-                                                   
-                                                   													<div class="blog-read-more">
-                                                   					<a href="https://mintie.boostifythemes.com/d-i-y-crafts-minimal-leather-wallet-to-try-your-hand-at/" class="read-more">
-                                                   						Read More											</a>
-                                                   				</div>
-                                                   											</div>
-                                                   	</div>
-                                                   </article>
-                                                   
-                                                   </div> -->
                                                 <div class="js-blog-slider blog-slider-list" data-dot="yes">
                                                    <?php foreach($blogs as $item) { ?>
                                                    <article class="post-blog-slider">
@@ -1251,7 +1109,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-c4fce8a elementor-widget elementor-widget-image" data-id="c4fce8a" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img decoding="async" width="1290" height="60" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-2.jpg" class="attachment-full size-full" alt="image" loading="lazy" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-2.jpg 1290w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-2-600x28.jpg 600w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-2-300x14.jpg 300w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-2-1024x48.jpg 1024w, https://mintie.boostifythemes.com/wp-content/uploads/2021/10/bg-blog-h5-2-768x36.jpg 768w" sizes="(max-width: 1290px) 100vw, 1290px" />															
+                              <img decoding="async" width="1290" height="60" src="" class="attachment-full size-full" alt="image" loading="lazy" sizes="(max-width: 1290px) 100vw, 1290px" />															
                            </div>
                         </div>
                      </div>

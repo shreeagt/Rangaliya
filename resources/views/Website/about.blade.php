@@ -14,11 +14,6 @@
                     <h2 class="elementor-heading-title elementor-size-default">Making <br>Masterpiece </h2>
                   </div>
                 </div>
-                <div class="elementor-element elementor-element-0ea06cf elementor-widget elementor-widget-image" data-id="0ea06cf" data-element_type="widget" data-widget_type="image.default">
-                  <div class="elementor-widget-container">
-                    <img decoding="async" width="59" height="59" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/button-scroll-down.png" class="attachment-large size-large" alt="image" loading="lazy" />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
