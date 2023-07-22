@@ -8,7 +8,7 @@
 
 .woocommerce-cart .cart-collaterals {
     width: 40%;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 button.button.button-plain.single_add_to_cart_button.alt {
@@ -72,7 +72,7 @@ button.button.button-plain.single_add_to_cart_button.alt {
                      <div class="woocommerce-product-details__short-description">
                         <p>{{ $product->details }}</p>
                      </div>
-
+                     
                      <div class="woocommerce-product-details__short-description">
                         <p>{!! $product->description !!}</p>
                      </div>
