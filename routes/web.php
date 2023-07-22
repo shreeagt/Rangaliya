@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -40,6 +41,7 @@ Route::get('/teams','Website\TeamController@index')->name('team');
 Route::get('/teams/{teamUrl}', 'Website\TeamController@teamDetails');
 
 Route::get('/contact', 'Website\ContactController@index')->name('contact');
+Route::post('/contactstore', 'Admin\ContactController@storecontact')->name('storecontact');
 Route::post('/contact/store','Website\ContactController@sendMail')->name('contactme');
 
 Route::get('/news/{newsUrl}', 'Website\NewsController@newsDetails');
