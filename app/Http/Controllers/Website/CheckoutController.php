@@ -163,6 +163,7 @@ class CheckoutController extends Controller
     protected function addToOrdersTables($request, $error)
     {
         
+        //$paymentGateway = $request->payment_gateway;
      
           // Insert into orders table
           $order = Order::create([
@@ -179,7 +180,9 @@ class CheckoutController extends Controller
             'billing_subtotal' => getNumbers()->get('newSubtotal'),
             'billing_tax' => getNumbers()->get('newTax'),
             'billing_total' => getNumbers()->get('newTotal'),
-            'payment_gateway' => $request->rzp_paymentid,
+            // 'payment_gateway' => $request->rzp_paymentid,
+            'payment_gateway' => $request->rzp_paymentid ?? 'Razorpay', // If rzp_paymentid is null, set a default value 'Razorpay'.
+            //$paymentGateway = $request->payment_gateway,
             'error' => $error,
         ]);    
 
