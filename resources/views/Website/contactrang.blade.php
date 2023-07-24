@@ -166,7 +166,8 @@
                         </div>
                         <div class="elementor-element elementor-element-77a91e4 elementor-widget elementor-widget-text-editor" data-id="77a91e4" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="elementor-widget-container">
-                            <p>Mobile: +1 (342) 837-8276 Hotline: +1 (342) 808-8080</p>
+                            <p>Mobile: +1 (342) 837-8276</p>
+                             <p>Hotline: +1 (342) 808-8080</p>
                           </div>
                         </div>
                       </div>
@@ -267,7 +268,7 @@
      </label>
      <span class="wpcf7-form-control-wrap your-email">
       <select name="inputState" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-contact" aria-required="true" aria-invalid="false" placeholder="Your State" id="inputState" required>
-        <option value="Your State"></option>
+        <option value="Your State">Choose a state</option>
                          <option value="Andra Pradesh">Andra Pradesh</option>
                          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                          <option value="Assam">Assam</option>
@@ -312,7 +313,7 @@
      <label for="inputDistrict">District <span>*</span></label>
      <span class="wpcf7-form-control-wrap your-email">
       <select name="inputDistrict" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-contact" aria-required="true" aria-invalid="false" placeholder="Your District" required id="inputDistrict">
-        <option value="">Choose a state </option>
+        <option value="">Choose a District </option>
          </select>
    </span>
    </div>

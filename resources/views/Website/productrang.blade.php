@@ -1,6 +1,10 @@
 @include('layouts.headerrang')
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{asset('css/rangrilya/cart.css') }}" type='text/css' media='all' />
 <style>
+   a{
+      text-decoration: none;
+   }
    .woocommerce-cart .woocommerce-cart-form {
     width: 54.4%;
     padding-right: 0;
@@ -8,7 +12,7 @@
 
 .woocommerce-cart .cart-collaterals {
     width: 40%;
-    padding-top: 50px;
+    padding-top: 10px;
 }
 
 button.button.button-plain.single_add_to_cart_button.alt {
@@ -25,6 +29,14 @@ button.button.button-plain.single_add_to_cart_button.alt {
 .woocommerce-cart .cart-collaterals {
     width: 100%;
 }
+}
+.small-img-group{
+   display: flex;
+   justify-content: space-between;
+}
+.small-img-col{
+   flex-basis: 24%;
+   cursor: pointer;
 }
 </style>
 <main id="main" class="page-content woocommerce-cart woocommerce-page mb-10">
@@ -46,49 +58,46 @@ button.button.button-plain.single_add_to_cart_button.alt {
     @endif
 </div>
 
-   <div class="container">
-      <div id="page-10" class="post-10 page type-page status-publish hentry">
-         <header class="entry-header">
-         </header>
-         <div class="woocommerce">
-            <div class="woocommerce-notices-wrapper"></div>
-            <div class="woocommerce-cart-form">
-               <table class="shop_table shop_table_responsive cart woocommerce-cart-form__contents" cellspacing="0">
-                  <tbody>
-                     <img src="{{ $product->images }}" style="width:80%" alt="image" class="loaded tns-complete">
-                  </tbody>
-               </table>
+
+   <section class="sproduct my-5 pt-5">
+      <div class="row justify-content-evenly">
+         <div class="col-lg-5 col-md-12 col-12">
+            <img class="img-fluid w-100 pb-1" src="{{ $product->images }}" alt="">
+
+            <div class="small-img-group">
+               <div class="small-img-col">
+                  <img src="{{ $product->images }}" alt="">
+               </div>
+               <div class="small-img-col">
+                  <img src="{{ $product->images }}" alt="">
+               </div>
+               <div class="small-img-col">
+                  <img src="{{ $product->images }}" alt="">
+               </div>
+               <div class="small-img-col">
+                  <img src="{{ $product->images }}" alt="">
+               </div>
             </div>
-            <div class="cart-collaterals">
-               <div class="cart_totals ">
-                  <div class="summary entry-summary">
-                     <h1 class="product_title entry-title">{{ $product->product_title }}</h1>
-                     <p class="price woobt-price-9788">
-                        <span class="woocommerce-Price-amount amount">
-                           <bdi><span class="woocommerce-Price-currencySymbol">₹</span>{{ $product->price }}</bdi>
-                        </span>
-                     </p>
-
-                     <div class="woocommerce-product-details__short-description">
-                        <p>{{ $product->details }}</p>
-                     </div>
-
-                     <div class="woocommerce-product-details__short-description">
-                        <p>{!! $product->description !!}</p>
-                     </div>
-
-                     
-                     @if ($product->quantity > 0)
+         </div>
+         <div class="col-lg-5 col-md-12 col-12">
+            <div class="product-section-information">
+               <nav class="woocommerce-breadcrumb"><a href="{{ route('landing-page') }}">Home</a> <span>·</span> <a href="/our-product">Shop</a>
+               <h1 class="product-section-title">{{ $product->product_title }}</h1>
+               <div class="product-section-subtitle">{{ $product->details }}</div>
+               <div class="product-section-price"> <strong>Rs.{{ $product->price }}</strong></div>
+               <div class="product-section-description">
+                  <p>{!! $product->description !!}</p>
+               </div>
+       
+               @if ($product->quantity > 0)
                            <form action="{{ route('cart.store', $product) }}" method="POST">
                               {{ csrf_field() }}
                               <button type="submit" class="button button-plain single_add_to_cart_button alt">Add to Cart</button>
                            </form>
                      @endif
-                  </div>
-               </div>
-            </div>
+           </div>
          </div>
       </div>
-   </div>
+   </section>
 </main>
 @include('layouts.footerrang')

@@ -1,4 +1,24 @@
 @include('layouts.headerrang')
+<link rel="stylesheet" href="//css/rangrilya/style2.css">
+<style>
+
+.product_type_externals{
+  color: #ffffff;
+  background-color: #2d3448;
+}
+
+.product_type_simple{
+  color: #ffffff;
+  background-color: #2d3448;
+  border-color: #2d3448;
+}
+
+.content-info-product, .mintie-style-style3 {
+  text-align: center;
+}
+
+
+</style>
 <main id="main" class="page-content">
    <div id="page-23" class="post-23 page type-page status-publish hentry">
       <header class="entry-header">
@@ -452,13 +472,13 @@
                                              <div class="mintie-add-btn mintie-add-btn-replace">
 												@auth
                                     @if ($product->quantity > 0)
-												<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
-												{{ csrf_field() }}
-												{{-- <a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow"> --}}
-                                    <input type="submit" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">
-                                    Add to cart
-                                    {{-- </a> --}}
-												</form>
+                                    <form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
+                                       {{ csrf_field() }}
+                                       {{-- <a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	 --}}
+                                       <button type="submit" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart text-center" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</button>	
+                                       <!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
+
+                                       </form>
                                     @endif
                                     @else
                                     <a href="{{ route('login') }}">Add To Cart</a>
@@ -515,7 +535,7 @@
                         </div>
                         <div class="elementor-element elementor-element-b1e133a elementor-widget elementor-widget-image" data-id="b1e133a" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img decoding="async" width="467" height="76" src="" class="attachment-large size-large" alt="image" loading="lazy" sizes="(max-width: 467px) 100vw, 467px" />															
+                              <img decoding="async" width="467" height="76" src="{{asset('img/rangrilya/title-banner-h5.png') }}" class="attachment-large size-large" alt="image" loading="lazy" sizes="(max-width: 467px) 100vw, 467px" />															
                            </div>
                         </div>
                         <div class="elementor-element elementor-element-0ddc93a elementor-align-center elementor-widget elementor-widget-button" data-id="0ddc93a" data-element_type="widget" data-widget_type="button.default">
@@ -702,7 +722,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-26d97c4 elementor-widget elementor-widget-image" data-id="26d97c4" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="{{asset('img/rangrilya/features-h3-1.png') }}" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -733,7 +753,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-db9da61 elementor-widget elementor-widget-image" data-id="db9da61" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="{{asset('img/rangrilya/features-h3-2.png') }}" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -764,7 +784,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-676f8c9 elementor-widget elementor-widget-image" data-id="676f8c9" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="{{asset('img/rangrilya/features-h3-3.png') }}" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -795,7 +815,7 @@
                                              <div class="elementor-widget-wrap elementor-element-populated">
                                                 <div class="elementor-element elementor-element-9449f5c elementor-widget elementor-widget-image" data-id="9449f5c" data-element_type="widget" data-widget_type="image.default">
                                                    <div class="elementor-widget-container">
-                                                      <img decoding="async" width="70" height="68" src="" class="attachment-large size-large" alt="image" loading="lazy" />															
+                                                      <img decoding="async" width="70" height="68" src="{{asset('img/rangrilya/features-h3-4.png') }}" class="attachment-large size-large" alt="image" loading="lazy" />															
                                                    </div>
                                                 </div>
                                              </div>
@@ -912,7 +932,7 @@
                                                                      </div>
                                                                      <div class="testimonial-info">
                                                                         <div class="testimonial-avata">
-                                                                           <img decoding="async" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/avatar-1.png" alt="Meghan Roberts" class="avata-testimonial">
+                                                                           <img decoding="async" src="{{asset('img/rangrilya/avatar-1.png') }}" alt="Meghan Roberts" class="avata-testimonial">
                                                                         </div>
                                                                         <div class="testimonial-des">
                                                                            <h3 class="testimonial--name">Meghan Roberts</h3>
@@ -955,7 +975,7 @@
                                                                      </div>
                                                                      <div class="testimonial-info">
                                                                         <div class="testimonial-avata">
-                                                                           <img decoding="async" src="" alt="Jorgen J. Hansen" class="avata-testimonial">
+                                                                           <img decoding="async" src="{{asset('img/rangrilya/avatar-1.png') }}" alt="Jorgen J. Hansen" class="avata-testimonial">
                                                                         </div>
                                                                         <div class="testimonial-des">
                                                                            <h3 class="testimonial--name">Jorgen J. Hansen</h3>
@@ -998,7 +1018,7 @@
                                                                      </div>
                                                                      <div class="testimonial-info">
                                                                         <div class="testimonial-avata">
-                                                                           <img decoding="async" src="" alt="Jorgen J. Hansen" class="avata-testimonial">
+                                                                           <img decoding="async" src="{{asset('img/rangrilya/avatar-1.png') }}" alt="Jorgen J. Hansen" class="avata-testimonial">
                                                                         </div>
                                                                         <div class="testimonial-des">
                                                                            <h3 class="testimonial--name">Jorgen J. Hansen</h3>
@@ -1025,19 +1045,7 @@
                   </div>
                </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-4433e45 elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4433e45" data-element_type="section">
-               <div class="elementor-container elementor-column-gap-no">
-                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d04ac87" data-id="d04ac87" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-7c98040 elementor-widget elementor-widget-image" data-id="7c98040" data-element_type="widget" data-widget_type="image.default">
-                           <div class="elementor-widget-container">
-                              <img decoding="async" width="1290" height="60" src="" class="attachment-full size-full" alt="image" loading="lazy" sizes="(max-width: 1290px) 100vw, 1290px" />															
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
+
             <section class="elementor-section elementor-top-section elementor-element elementor-element-3b8b3f7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3b8b3f7" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-423d450" data-id="423d450" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1109,7 +1117,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-c4fce8a elementor-widget elementor-widget-image" data-id="c4fce8a" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
-                              <img decoding="async" width="1290" height="60" src="" class="attachment-full size-full" alt="image" loading="lazy" sizes="(max-width: 1290px) 100vw, 1290px" />															
+                              <img decoding="async" width="1290" height="60" src="{{asset('img/rangrilya/bg-blog-h5-1.jpg') }}" class="attachment-full size-full" alt="image" loading="lazy" sizes="(max-width: 1290px) 100vw, 1290px" />															
                            </div>
                         </div>
                      </div>
