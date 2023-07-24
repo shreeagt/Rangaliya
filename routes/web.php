@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'Website\LandingPageController@index')->name('landing-page');
 Route::get('/about', function () {
-    return view('website.about');
+    return view('Website.about');
 });
 
 // Route::get('/product', function () {
