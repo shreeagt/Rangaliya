@@ -1018,7 +1018,7 @@
                                                                      </div>
                                                                      <div class="testimonial-info">
                                                                         <div class="testimonial-avata">
-                                                                           <img decoding="async" src="" alt="Jorgen J. Hansen" class="avata-testimonial">
+                                                                           <img decoding="async" src="{{asset('img/rangrilya/avatar-1.png') }}" alt="Jorgen J. Hansen" class="avata-testimonial">
                                                                         </div>
                                                                         <div class="testimonial-des">
                                                                            <h3 class="testimonial--name">Jorgen J. Hansen</h3>
