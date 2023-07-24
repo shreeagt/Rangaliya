@@ -11,7 +11,7 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Model\NewsCategory;
 use App\Http\Controllers\Controller;
-use App\MOdel\News;
+use App\Model\News;
 
 class NewsArticalController extends Controller {
     
