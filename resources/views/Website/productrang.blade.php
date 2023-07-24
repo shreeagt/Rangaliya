@@ -2,6 +2,9 @@
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{asset('css/rangrilya/cart.css') }}" type='text/css' media='all' />
 <style>
+   a{
+      text-decoration: none;
+   }
    .woocommerce-cart .woocommerce-cart-form {
     width: 54.4%;
     padding-right: 0;
@@ -78,6 +81,7 @@ button.button.button-plain.single_add_to_cart_button.alt {
          </div>
          <div class="col-lg-5 col-md-12 col-12">
             <div class="product-section-information">
+               <nav class="woocommerce-breadcrumb"><a href="{{ route('landing-page') }}">Home</a> <span>·</span> <a href="/our-product">Shop</a>
                <h1 class="product-section-title">{{ $product->product_title }}</h1>
                <div class="product-section-subtitle">{{ $product->details }}</div>
                <div class="product-section-price"> <strong>Rs.{{ $product->price }}</strong></div>
