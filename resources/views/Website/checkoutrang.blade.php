@@ -120,7 +120,7 @@
                </div>
                <h3 id="order_review_heading">Your order</h3>
                <div id="order_review" class="woocommerce-checkout-review-order">
-                  <table class="shop_table woocommerce-checkout-review-order-table" style="position: static; zoom: 1;">
+                  {{-- <table class="shop_table woocommerce-checkout-review-order-table" style="position: static; zoom: 1;">
                      <thead>
                         <tr>
                            <th class="product-name">Product</th>
@@ -181,13 +181,13 @@
                           </td>
                         </tr>
                       </tfoot>
-                  </table>
+                  </table> --}}
                   <table>
                      <thead>
                         <tr>
                            <th class="product-name text-center">Product</th>
-                           <th class="product-total text-center">Prize</th>
                            <th class="product-items text-center">Items</th>
+                           <th class="product-total text-center">Prize</th>
                         </tr>
                         <tbody>
                            @if (($cart_products->count())>0)

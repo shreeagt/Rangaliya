@@ -28264,15 +28264,6 @@ label .required {
   line-height: 1.6;
 }
 
-.woocommerce-product-details__short-description p:first-child {
-  padding-top: 19px;
-  padding-bottom: 6px;
-}
-
-.woocommerce-product-details__short-description p:last-child {
-  padding-bottom: 10px;
-}
-
 .woocommerce-product-details__short-description .cart {
   display: none;
 }
