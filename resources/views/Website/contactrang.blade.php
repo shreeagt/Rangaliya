@@ -267,7 +267,7 @@
      </label>
      <span class="wpcf7-form-control-wrap your-email">
      <select class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-contact" aria-required="true" aria-invalid="false" placeholder="Your State" id="inputState" required>
-      <option value="Your State"></option>
+      <option value="Your State">Choose a state </option>
                          <option value="Andra Pradesh">Andra Pradesh</option>
                          <option value="Arunachal Pradesh">Arunachal Pradesh</option>
                          <option value="Assam">Assam</option>
@@ -312,7 +312,7 @@
      <label for="inputDistrict">District <span>*</span></label>
      <span class="wpcf7-form-control-wrap your-email">
          <select class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-contact" aria-required="true" aria-invalid="false" placeholder="Your Disrict" required id="inputDistrict">
-               <option value="">Choose a state </option>
+               <option value="">Choose a District </option>
          </select>
    </span>
    </div>
