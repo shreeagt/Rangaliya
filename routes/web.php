@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -27,7 +28,9 @@ Route::get('/product', function() {
 
 
 Route::get('/our-product', 'Website\ShopController@index')->name('shop.index');
-Route::get('/product-view/{name}', 'Website\ShopController@serviceDetails');
+Route::get('/product-view/{name}', 'Website\ShopController@serviceDetails')->name('product-view');
+Route::get('/categoryview/{category_name}', 'Website\ShopController@productListByCategory')->name('category-view');
+// Route::get('/product-view', 'Website\ShopController@serviceDetails');
 
 Route::get('/blogs','Website\BlogsController@index')->name('blog.index');
 Route::get('/blogs/{id}', 'Website\BlogsController@show')->name('blog.show');
@@ -38,6 +41,7 @@ Route::get('/teams','Website\TeamController@index')->name('team');
 Route::get('/teams/{teamUrl}', 'Website\TeamController@teamDetails');
 
 Route::get('/contact', 'Website\ContactController@index')->name('contact');
+Route::post('/contactstore', 'Admin\ContactController@storecontact')->name('storecontact');
 Route::post('/contact/store','Website\ContactController@sendMail')->name('contactme');
 
 Route::get('/news/{newsUrl}', 'Website\NewsController@newsDetails');

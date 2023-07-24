@@ -50,20 +50,20 @@
                 <div class="col-md-8 m-bottom-40">
           
                     <div class="row multi-columns-row">
-                         @forelse ($categoryProduct as $product)
+                         @forelse ($categoryProduct as $cproduct)
                
                     <!-- === Blog item 1 === -->
                         <div class="col-sm-6 m-bottom-40">
                             <div class="blog wow zoomIn" data-wow-duration="1s" data-wow-delay="0.7s">
                                 <div class="blog-media">
-                                <a href="{{ route('shop.show', $product->id) }}"><img src="{{ $product->images }}" alt="product" class="img-responsive wow fadeInLeft animated"  style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInLeft;"></a>
+                                <a href="{{ route('product-view', $cproduct->product_title)}}"><img src="{{ $cproduct->images }}" alt="product" class="img-responsive wow fadeInLeft animated"  style="visibility: visible; animation-duration: 1s; animation-delay: 0.6s; animation-name: fadeInLeft;"></a>
 
                                 </div><!--post media-->
                                 
                                 
                                 <div class="blog-post-body">
-                                    <h4> <a href="{{ route('shop.show', $product->id) }}"><div class="product-name">{{ $product->name }}</div></a></h4>
-                                    <p class="p-bottom-20">{{ $product->uasage }}</p>
+                                    <h4> <a href="{{ route('product-view', $cproduct->product_title)}}"><div class="product-name">{{ $cproduct->product_title }}</div></a></h4>
+                                    <p class="p-bottom-20">{{ $cproduct->uasage }}</p>
                                     <a href="blog_single_post.html" class="read-more">Read More >></a>
                                 </div><!--post body-->                   
                             </div> <!-- /.blog -->  
@@ -117,7 +117,7 @@
                     <h4>Categories</h4>
                     <ul class="cat-list">
                     @foreach ($categories as $category)
-                        <li class="{{$category->slug }}"><a href="{{ route('mamta')}}">{{ $category->name }}</a></li>
+                        <li class="{{$category->slug }}"><a href="">{{ $category->category_name }}</a></li>
                         @endforeach
                     </ul> 
                 </div> <!--End widget-->
@@ -127,7 +127,7 @@
                     <h4>Popular tags</h4>
                     <ul class="tag-list">
                      @foreach ($products as $product)
-                        <li><a href="{{ route('shop.show', $product->id) }}"><div class="product-keywords">{{ $product->seo_keywords }}</div></a></li>
+                        <li><a href=""><div class="product-keywords">{{ $product->seo_keywords }}</div></a></li>
                         @endforeach
                     </ul>
                 </div> <!--End widget-->  

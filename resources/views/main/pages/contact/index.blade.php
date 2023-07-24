@@ -24,6 +24,8 @@
                     <th>Name</th>
                     <th>Email</th>
                     <th>Message</th>
+                    <th>City</th>
+                    <th>State</th>
                     <th>Created At</th>
                 </tr>
             </thead>
@@ -34,6 +36,8 @@
                     <td>{{$item->name}}</td>
                     <td>{{$item->email}}</td>
                     <td>{{$item->message}}</td>
+                    <td>{{$item->city}}</td>
+                    <td>{{$item->state}}</td>
                     <td>{{Carbon\Carbon::parse($item->created_at)->format('M d, Y')}}</td>
                 </tr>
                 @endforeach

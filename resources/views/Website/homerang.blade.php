@@ -1,4 +1,24 @@
 @include('layouts.headerrang')
+<link rel="stylesheet" href="//css/rangrilya/style2.css">
+<style>
+
+.product_type_externals{
+  color: #ffffff;
+  background-color: #2d3448;
+}
+
+.product_type_simple{
+  color: #ffffff;
+  background-color: #2d3448;
+  border-color: #2d3448;
+}
+
+.content-info-product, .mintie-style-style3 {
+  text-align: center;
+}
+
+
+</style>
 <main id="main" class="page-content">
    <div id="page-23" class="post-23 page type-page status-publish hentry">
       <header class="entry-header">
@@ -445,20 +465,20 @@
                                     <li class="product type-product post-9669 status-publish first instock product_cat-organization product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable product-type-external">
                                        <div class="mintie-style-style3">
                                           <div class="product-image-wrapper">
-                                             <a href="" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                             <a href="{{ route('product-view', $product->product_title)}}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
 												<img decoding="async" width="300" height="300" src="{{ $product->images }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{ $product->images }}" />	
 												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
                                              </a>
                                              <div class="mintie-add-btn mintie-add-btn-replace">
 												@auth
                                     @if ($product->quantity > 0)
-												<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
-												{{ csrf_field() }}
-												{{-- <a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow"> --}}
-                                    <input type="submit" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">
-                                    Add to cart
-                                    {{-- </a> --}}
-												</form>
+                                    <form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
+                                       {{ csrf_field() }}
+                                       {{-- <a href="?add-to-cart=9849" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</a>	 --}}
+                                       <button type="submit" data-quantity="1" class="product_type_simple add_to_cart_button ajax_add_to_cart text-center" data-product_id="9849" data-product_sku="" title="Add &ldquo;Curly Willow Orb&rdquo; to your cart" rel="nofollow">Add to cart</button>	
+                                       <!-- <button type="submit" class="button button-plain">Add to Cart</button> -->
+
+                                       </form>
                                     @endif
                                     @else
                                     <a href="{{ route('login') }}">Add To Cart</a>
@@ -617,7 +637,7 @@
                                     <li class="product type-product post-9669 status-publish first instock product_cat-organization product_tag-accessories product_tag-decor has-post-thumbnail shipping-taxable product-type-external">
                                        <div class="mintie-style-style3">
                                           <div class="product-image-wrapper">
-                                             <a href="product.php" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
+                                             <a href="{{ route('product-view', $product->product_title)}}" class="woocommerce-LoopProduct-link woocommerce-loop-product__link">
 												<img decoding="async" width="300" height="300" src="{{ $product->images }}" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail product-loop-image" alt="image" loading="lazy" data-src="{{ $product->images }}" />	
 												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
                                              </a>
