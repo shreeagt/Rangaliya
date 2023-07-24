@@ -426,7 +426,7 @@ button.product_type_external:hover {
                   </div>
                </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-ba0da77 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba0da77" data-element_type="section">
+            <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-ba0da77 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba0da77" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f0ca7ce" data-id="f0ca7ce" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
@@ -438,8 +438,8 @@ button.product_type_external:hover {
                      </div>
                   </div>
                </div>
-            </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-9ddf780 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9ddf780" data-element_type="section">
+            </section> -->
+            <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-9ddf780 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9ddf780" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-bc0cec6" data-id="bc0cec6" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
@@ -707,8 +707,8 @@ button.product_type_external:hover {
                      </div>
                   </div>
                </div>
-            </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-ab36624 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ab36624" data-element_type="section">
+            </section> -->
+            <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-ab36624 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ab36624" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-5fd0552" data-id="5fd0552" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
@@ -729,7 +729,7 @@ button.product_type_external:hover {
                      </div>
                   </div>
                </div>
-            </section>
+            </section> -->
          </div>
       </div>
    </div>
