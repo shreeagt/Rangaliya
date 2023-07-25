@@ -167,7 +167,7 @@ b, strong {
 
 .page-header {
   margin-bottom: 65px;
-  background-image: url("/img/new1/shop-bg.png");
+  /* background-image: url("/img/new1/shop-bg.png"); */
   background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
