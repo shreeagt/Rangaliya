@@ -14,11 +14,11 @@ class ConfirmationController extends Controller
     public function index()
     {
         if (! session()->has('success_message')) {
-            return redirect('/');
+            return redirect('/thankyou');
         }
 
-        return view('Website.homerang');
+        
 
-        // return view('Website.thankyou');
+         return view('Website.thankyou');
     }
 }

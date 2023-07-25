@@ -68,11 +68,13 @@ class CheckoutController extends Controller
      */
     public function store(Request $request)
     {
-       
+        
+
+
+   
          try {
   
             $order = $this->addToOrdersTables($request, null);
-            
             $to_email = $order['billing_email'];
         
             $data['mail_data'] = array("toAddress" => $to_email);
@@ -87,15 +89,12 @@ class CheckoutController extends Controller
             // decrease the quantities of all the products in the cart
           
         //    ProductCart::where('user_id','=',auth()->user()->id)->get()->each->delete();
-            
         //$this->sendEmail($userName, $userEmail,$userphone);
        // $this->sendEmail1($admin_email, $user_name);
         return redirect()->route('confirmation.index')->with('success_message', 'Thank you! Your payment has been successfully accepted!');
         
     } catch (CardErrorException $e) {
-            
            $this->addToOrdersTables($request, $e->getMessage());
-            
           
             return back()->withErrors('Error! ' . $e->getMessage());
         }
@@ -172,7 +171,7 @@ class CheckoutController extends Controller
             'billing_name' => $request->name,
             'billing_address' => $request->address,
             'billing_city' => $request->city,
-            'billing_province' => $request->province,
+            'billing_province' => "om1",//$request->province,
             'billing_postalcode' => $request->postalcode,
             'billing_phone' => $request->phone,
             'billing_discount' => getNumbers()->get('discount'),
@@ -181,10 +180,12 @@ class CheckoutController extends Controller
             'billing_tax' => getNumbers()->get('newTax'),
             'billing_total' => getNumbers()->get('newTotal'),
             // 'payment_gateway' => $request->rzp_paymentid,
-            'payment_gateway' => $request->rzp_paymentid ?? 'Razorpay', // If rzp_paymentid is null, set a default value 'Razorpay'.
+            'payment_gateway' => "om2",//$request->rzp_paymentid , // If rzp_paymentid is null, set a default value 'Razorpay'.
             //$paymentGateway = $request->payment_gateway,
             'error' => $error,
-        ]);    
+
+            
+        ]);   
 
      
         $cart_products=ProductCart::where('user_id','=',auth()->user()->id)->get();
