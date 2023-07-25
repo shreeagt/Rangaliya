@@ -80,7 +80,7 @@ button.product_type_external:hover {
                                            </h3>
                                            <p class="mintie-category-description effect-ef_none">
                                                @if ($index === 0)
-                                               24 Items
+                                               {{ $productCount }} Items
                                                @elseif ($index === 1)
                                                53 Items
                                                @elseif ($index === 2)

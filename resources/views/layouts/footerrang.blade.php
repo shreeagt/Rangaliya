@@ -55,8 +55,10 @@
                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e3aa27b" data-id="e3aa27b" data-element_type="column">
                            <div class="elementor-widget-wrap elementor-element-populated">
                               <div class="elementor-element elementor-element-a64b1dc elementor-widget elementor-widget-heading" data-id="a64b1dc" data-element_type="widget" data-widget_type="heading.default">
-                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default">Rangaliya</h2>
+                                 <div class="elementor-widget-container">    
+                                    <img src="{{asset('img/rangaliya_logo.png') }}" alt="logo" class="" style="width:100px;">
+                                    <!-- <h2 class="elementor-heading-title elementor-size-default">Rangaliya</h2> -->
+                       
                                  </div>
                               </div>
                               <div class="elementor-element elementor-element-c7037c9 elementor-widget elementor-widget-heading" data-id="c7037c9" data-element_type="widget" data-widget_type="heading.default">
@@ -130,7 +132,7 @@
                                     <div class=&quot;boostify-retina-image&quot;>
                                        <div class="boostify-retina-image-set">
                                           <div class="boostify-retina-image-container">
-                                             <img class="boostify-retina-img elementor-animation-" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/payment-h2-edit.png" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/payment-h2-edit.png 1x,https://mintie.boostifythemes.com/wp-content/uploads/2021/09/payment-h2-edit.png 2x" alt="Image Retina">
+                                             <!-- <img class="boostify-retina-img elementor-animation-" src="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/payment-h2-edit.png" srcset="https://mintie.boostifythemes.com/wp-content/uploads/2021/09/payment-h2-edit.png 1x,https://mintie.boostifythemes.com/wp-content/uploads/2021/09/payment-h2-edit.png 2x" alt="Image Retina"> -->
                                           </div>
                                        </div>
                                     </div>
@@ -156,7 +158,7 @@
                            <div class="elementor-widget-wrap elementor-element-populated">
                               <div class="elementor-element elementor-element-d2e66df elementor-icon-list--layout-inline elementor-align-right elementor-mobile-align-center elementor-tablet-align-right elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="d2e66df" data-element_type="widget" data-widget_type="icon-list.default">
                                  <div class="elementor-widget-container">
-                                    <ul class="elementor-icon-list-items elementor-inline-items">
+                                    <ul class="elementor-icon-list-items elementor-inline-items justify-content-center" style="justify-content: center;">
                                        <li class="elementor-icon-list-item elementor-inline-item">
                                           <a href="#">
                                           <span class="elementor-icon-list-text">Terms of services</span>
