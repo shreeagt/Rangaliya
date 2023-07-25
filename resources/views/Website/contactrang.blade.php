@@ -37,7 +37,7 @@
             </div>
           </div>
         </section>
-        <section class="elementor-section elementor-top-section elementor-element elementor-element-6ad2f49 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="6ad2f49" data-element_type="section">
+        <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-6ad2f49 elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="6ad2f49" data-element_type="section">
           <div class="elementor-container elementor-column-gap-no">
             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-af69d0d" data-id="af69d0d" data-element_type="column">
               <div class="elementor-widget-wrap elementor-element-populated">
@@ -49,7 +49,7 @@
               </div>
             </div>
           </div>
-        </section>
+        </section> -->
         <section class="elementor-section elementor-top-section elementor-element elementor-element-b844aff elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b844aff" data-element_type="section">
           <div class="elementor-container elementor-column-gap-default">
             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-613ce00" data-id="613ce00" data-element_type="column">
