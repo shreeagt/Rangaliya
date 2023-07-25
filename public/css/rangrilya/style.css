@@ -35146,3 +35146,7 @@ body, html{
 .blog-article-header .entry-meta.blog-header-info .if-item span {
     margin-right: 0 !important;
 }
+
+img.w-50 {
+  width: 50%;
+}

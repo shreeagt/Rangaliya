@@ -8,8 +8,6 @@
       <title>Rangaliya</title>
       <meta name='robots' content='max-image-preview:large' />
       <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-      <link rel="alternate" type="application/rss+xml" title="Mintie theme demo &raquo; Feed" href="https://mintie.boostifythemes.com/feed/" />
-      <link rel="alternate" type="application/rss+xml" title="Mintie theme demo &raquo; Comments Feed" href="https://mintie.boostifythemes.com/comments/feed/" />
       <script type="text/javascript">
          window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/mintie.boostifythemes.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.2"}};
          /*! This file is auto-generated */
@@ -96,15 +94,9 @@
       <script type='text/javascript' src="{{asset('js/rangrilya/tooltip.min.js') }}" id='o-tooltip-js'></script>
       <script type='text/javascript' src="{{asset('js/rangrilya/v4-shims.min.js') }}" id='font-awesome-4-shim-js'></script>
       <script type='text/javascript' src="{{asset('js/rangrilya/sticky.min.js') }}" id='boostify-hf-sticky-js'></script>
-      <link rel="https://api.w.org/" href="https://mintie.boostifythemes.com/wp-json/" />
-      <link rel="alternate" type="application/json" href="https://mintie.boostifythemes.com/wp-json/wp/v2/pages/23" />
-      <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://mintie.boostifythemes.com/xmlrpc.php?rsd" />
-      <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://mintie.boostifythemes.com/wp-includes/wlwmanifest.xml" />
-      <link rel="icon" href="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/cropped-favicon-32x32.png" sizes="32x32" />
-      <link rel="icon" href="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/cropped-favicon-192x192.png" sizes="192x192" />
-      <link rel="apple-touch-icon" href="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/cropped-favicon-180x180.png" />
+      <link rel="icon" href="{{asset('img/rangaliya_logo.png') }}" sizes="32x32" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <meta name="msapplication-TileImage" content="https://mintie.boostifythemes.com/wp-content/uploads/2021/11/cropped-favicon-270x270.png" />
+
       <style type="text/css" id="wp-custom-css">
          .archive .container.blogpreset4 {
          margin-top: 100px;
@@ -245,7 +237,8 @@
                                     <div class="elementor-element elementor-element-e43dbba elementor-widget__width-initial elementor-widget elementor-widget-image" data-id="e43dbba" data-element_type="widget" data-widget_type="image.default">
                                        <div class="elementor-widget-container">
                                           <a href="{{ route('landing-page') }}">
-                                               <h1>Rangaliya</h1>
+                                               <!-- <h1>Rangaliya</h1> -->
+                                               <img src="{{asset('img/rangaliya_logo.png') }}" alt="">
                                           </a>
                                        </div>
                                     </div>
@@ -396,10 +389,7 @@
                                     <div class="boostify-menu-sidebar--wrapper">
                                        <div class="logo-sidebar">
                                           <a href="{{ route('landing-page') }}" class="custom-logo-link" rel="home">
-                                          <!-- <img width="59" height="36" src="{{asset('img/rangrilya/logo-black.svg') }}" class="custom-logo" alt="image" decoding="async" /> -->
-                                          <h1>Rangaliya</h1>
-                                             </br>
-                                             <p>Artistic Walls, Beautiful Home</p>
+                                          <img  src="{{asset('img/rangaliya_logo.png') }}" class="custom-logo w-50" alt="image" decoding="async" />
                                          </a>						
                                        </div>
                                        <nav class="boostify-menu-dropdown menu-1" aria-label="Dropdown navigation">
@@ -456,10 +446,10 @@
                   <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3956bba" data-id="3956bba" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-36cdb82 elementor-widget elementor-widget-image" data-id="36cdb82" data-element_type="widget" data-widget_type="image.default">
-                           <div class="elementor-widget-container">
+                           <div class="elementor-widget-container" style="text-align: center;">
                               <a href="{{ route('landing-page') }}">
-                              <h4 style="text-align:center">Rangaliyas</h4>
-                              <!-- <img width="59" height="36" src="{{asset('img/rangrilya/logo-black.svg') }}" class="attachment-large size-large" alt="image" loading="lazy" />								</a> -->
+                              <!-- <h4 style="text-align:center">Rangaliyas</h4> -->
+                              <img src="{{asset('img/rangaliya_logo.png') }}" class="attachment-large size-large" class="img-fluid" alt="image" loading="lazy" />								</a>
                            </div>
                         </div>
                      </div>
@@ -488,8 +478,9 @@
                         <div class="elementor-element elementor-element-9642e98 elementor-widget elementor-widget-image" data-id="9642e98" data-element_type="widget" data-widget_type="image.default">
                            <div class="elementor-widget-container">
                               <a href="{{ route('landing-page') }}">
-                              <h1>Rangaliya</h1>
-                              <!-- <img width="59" height="36" src="{{asset('img/rangrilya/logo-black.svg') }}" class="attachment-large size-large" alt="image" loading="lazy" />								</a> -->
+                              <!-- <h1>Rangaliya</h1> -->
+                              <img src="{{asset('img/rangaliya_logo.png') }}" alt="logo" class="img-fluid">
+                             							</a>
                            </div>
                         </div>
                      </div>
@@ -511,9 +502,10 @@
                                     <div class="boostify-menu-sidebar--wrapper">
                                        <div class="logo-sidebar">
                                           <a href="/" class="custom-logo-link" rel="home">
-                                          <h1>Rangaliya</h1>
+                                          <img src="{{asset('img/rangaliya_logo.png') }}" alt="logo" class="w-50">
+                                          <!-- <h1>Rangaliya</h1>
                                              </br>
-                                             <p>Artistic Walls, Beautiful Home</p>
+                                             <p>Artistic Walls, Beautiful Home</p> -->
                                        </div>
                                        <nav class="boostify-menu-dropdown menu-1" aria-label="Dropdown navigation">
                                           <ul id="menu-menu-9" class="boostify-dropdown-menu">
