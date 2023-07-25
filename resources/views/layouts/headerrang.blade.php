@@ -294,7 +294,6 @@
                                                             <span class="menu-item-text">Blog</span>
                                                             </span>
                                                             </a>
-                                                  
                                                          </li>
                                                       </ul>
                                                    </nav>
@@ -411,7 +410,7 @@
                                         
                                                 @guest
                                                 <a class="header-wishlist" href="{{ route('login') }}">
-                                                   login
+                                                   Login
                                                 </a>
                                                 @else
                                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
@@ -428,6 +427,7 @@
                                                 @endguest
                                              </li>
 
+                                             
   
                                           </ul>
                                        </nav>

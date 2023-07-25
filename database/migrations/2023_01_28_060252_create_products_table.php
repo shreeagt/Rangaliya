@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->longText('description');
             $table->string('product_url');
             $table->string('category',250)->nullable();
+            $table->unsignedBigInteger('category_id');
             $table->longText('price');
             $table->integer('quantity')->unsigned();
             $table->string('images',1000);
@@ -39,6 +40,7 @@ class CreateProductsTable extends Migration
 
     /**
      * Reverse the migrations.
+     * 
      *
      * @return void
      */

@@ -18,11 +18,12 @@ class ShopController extends Controller
     public function index()
     {
         
-        $categories = Category::all();
+        // $categories = Category::all();
+        $productCount = Product::where('category', 'electronics')->get()->count(); //harry
+        $categories = Category::withCount('products')->get();
         $products = Product::orderBy("product_title")->get();
         // $products = Product::orderBy("product_title")->paginate(2);
-        // return view('Website.our-product',compact('products','categories'));
-        return view('Website.our-productrang',compact('products','categories'));
+        return view('Website.our-productrang',compact('products','categories','productCount'));
     }
 
     /**

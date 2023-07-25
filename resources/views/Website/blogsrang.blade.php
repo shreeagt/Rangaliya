@@ -53,10 +53,6 @@
                                              <a href="<?php echo url('/blog/'.$item->blog_url); ?>">
                                              <img width="770" height="666" src="{{$item->blog_thumbnail}}" class="attachment-full size-full wp-post-image" alt="image" decoding="async" loading="lazy" srcset="{{$item->blog_thumbnail}}" sizes="(max-width: 770px) 100vw, 770px" />	</a>
                                           </div>
-                                          <div class="blog-category">
-                                             <span class="if-item if-cat">
-                                             <a href="#" rel="tag">Collections</a>										</span>
-                                          </div>
                                           <div class="blog-article-sum">
                                              <div class="blog-article-header">
                                                 <header class="entry-header">
@@ -70,8 +66,6 @@
                                                    <time datetime="2021-11-19">
                                                    {{Carbon\Carbon::parse($item->created_at)->format('M d, Y')}}</time>
                                                    </span>
-                                                   <span itemprop="articleSection">
-                                                   <a href="#" rel="tag">Collections</a>			</span>
                                                 </div>
                                              </div>
                                              <div class="blog-header-info-blog">

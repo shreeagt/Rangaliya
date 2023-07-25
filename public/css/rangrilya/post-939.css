@@ -4,6 +4,8 @@
 
 .elementor-939 .elementor-element.elementor-element-eb1c36a:not(.elementor-motion-effects-element-type-background), .elementor-939 .elementor-element.elementor-element-eb1c36a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
     background-image: url("/img/new1/about-top.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .elementor-939 .elementor-element.elementor-element-eb1c36a {
@@ -506,6 +508,7 @@
 .elementor-939 .elementor-element.elementor-element-00b903a > .elementor-container {
     max-width: 1190px;
     min-height: 500px;
+    margin-bottom: 15px;
 }
 
 .elementor-939 .elementor-element.elementor-element-00b903a:not(.elementor-motion-effects-element-type-background), .elementor-939 .elementor-element.elementor-element-00b903a > .elementor-motion-effects-container > .elementor-motion-effects-layer {

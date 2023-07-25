@@ -17,6 +17,8 @@ class ConfirmationController extends Controller
             return redirect('/');
         }
 
-        return view('Website.thankyou');
+        return view('Website.homerang');
+
+        // return view('Website.thankyou');
     }
 }

@@ -89,7 +89,7 @@
 
                      </div>
                   </div>
-                  <!-- <div class="col-2">
+                  <div class="col-2">
                      <div class="woocommerce-shipping-fields">
                         <div class="shipping_address" style="display: none;">
                            <div class="woocommerce-shipping-fields__field-wrapper">
@@ -116,11 +116,11 @@
                            </div>
                         </div>
                      </div>
-                  </div> -->
+                  </div> 
                </div>
                <h3 id="order_review_heading">Your order</h3>
                <div id="order_review" class="woocommerce-checkout-review-order">
-                  <table class="shop_table woocommerce-checkout-review-order-table" style="position: static; zoom: 1;">
+                  {{-- <table class="shop_table woocommerce-checkout-review-order-table" style="position: static; zoom: 1;">
                      <thead>
                         <tr>
                            <th class="product-name">Product</th>
@@ -162,7 +162,7 @@
                             </span> @endif @if (($cart_products->count())>0 && session()->has('coupon')) -{{ ($discount) }}
                             <br>
                             <hr> @if(isset($newSubtotal)) <span class="woocommerce-Price-currencySymbol">₹</span>{{ ($newSubtotal) }}
-                            </bdi>
+                            </bdi> 
                             </span> @endif @endif </span>
                           </td>
                         </tr>
@@ -181,13 +181,13 @@
                           </td>
                         </tr>
                       </tfoot>
-                  </table>
+                  </table> --}}
                   <table>
                      <thead>
                         <tr>
                            <th class="product-name text-center">Product</th>
-                           <th class="product-total text-center">Prize</th>
                            <th class="product-items text-center">Items</th>
+                           <th class="product-total text-center">Prize</th>
                         </tr>
                         <tbody>
                            @if (($cart_products->count())>0)
@@ -257,7 +257,7 @@
                   </table>
                   <div id="payment" class="woocommerce-checkout-payment" style="position: static; zoom: 1;">
                      <!-- <ul class="wc_payment_methods payment_methods methods">
-                        <li class="wc_payment_method payment_method_bacs">
+                        <li class=" wc_payment_method payment_method_bacs">
                            <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs" checked="checked" data-order_button_text="">
                            <label for="payment_method_bacs">
                            Direct bank transfer 	</label>
