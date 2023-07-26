@@ -1,4 +1,18 @@
-<div data-elementor-type="wp-post" data-elementor-id="419" class="elementor elementor-419" data-elementor-settings="[]">
+<style>
+   .footer .icon-cover{
+max-width:300px;
+margin: auto;
+   }
+
+   .footer .icon-cover .elementor-icon{
+      font-size: 30px;
+   }
+
+   .foot_ht{
+      height:100px;
+   }
+</style>
+<div data-elementor-type="wp-post"  data-elementor-id="419" class="elementor elementor-419 footer" data-elementor-settings="[]">
    <div class="elementor-section-wrap">
       <section class="elementor-section elementor-top-section elementor-element elementor-element-91ad0cb elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="91ad0cb" data-element_type="section">
          <div class="elementor-container elementor-column-gap-no">
@@ -7,8 +21,8 @@
                   <section class="elementor-section elementor-inner-section elementor-element elementor-element-a2b7bab elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="a2b7bab" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                      <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-64f59d5" data-id="64f59d5" data-element_type="column">
-                           <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-b1a5675 elementor-widget elementor-widget-heading" data-id="b1a5675" data-element_type="widget" data-widget_type="heading.default">
+                           <div class="elementor-widget-wrap elementor-element-populated ">
+                              <div class="elementor-element elementor-element-b1a5675 elementor-widget elementor-widget-heading foot_ht" data-id="b1a5675" data-element_type="widget" data-widget_type="heading.default">
                                  <div class="elementor-widget-container">
                                     <h2 class="elementor-heading-title elementor-size-default">About</h2>
                                  </div>
@@ -54,7 +68,7 @@
                         </div>
                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e3aa27b" data-id="e3aa27b" data-element_type="column">
                            <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-a64b1dc elementor-widget elementor-widget-heading" data-id="a64b1dc" data-element_type="widget" data-widget_type="heading.default">
+                              <div class="elementor-element elementor-element-a64b1dc elementor-widget elementor-widget-heading foot_ht" data-id="a64b1dc" data-element_type="widget" data-widget_type="heading.default">
                                  <div class="elementor-widget-container">    
                                     <img src="{{asset('img/rangaliya_logo.png') }}" alt="logo" class="" style="width:100px;">
                                     <!-- <h2 class="elementor-heading-title elementor-size-default">Rangaliya</h2> -->
@@ -63,14 +77,59 @@
                               </div>
                               <div class="elementor-element elementor-element-c7037c9 elementor-widget elementor-widget-heading" data-id="c7037c9" data-element_type="widget" data-widget_type="heading.default">
                                  <div class="elementor-widget-container">
-                                    <p class="elementor-heading-title elementor-size-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar interdum justo, id vulputate sapien semper a. Suspendisse potenti. In feugiat diam dui, sit amet tempus urna convallis eget. Mauris feugiat porttitor nisi et laoreet. Suspendisse potenti. Suspendisse diam lacus, mattis id odio nec, porttitor finibus nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla libero ipsum, porttitor sit amet tincidunt a, gravida non nisl</p>
+                                    <!-- <p class="elementor-heading-title elementor-size-default">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean pulvinar interdum justo, id vulputate sapien semper a. Suspendisse potenti. In feugiat diam dui, sit amet tempus urna convallis eget. Mauris feugiat porttitor nisi et laoreet. Suspendisse potenti. Suspendisse diam lacus, mattis id odio nec, porttitor finibus nunc. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla libero ipsum, porttitor sit amet tincidunt a, gravida non nisl</p> -->
+                                    <h2 class="elementor-heading-title elementor-size-default">©2023 <span style="color:#2d3448">Rangaliya </span>. All Rights Reserved.</h2>
+                                 </div>
+                              </div>
+                              <div class="elementor-element elementor-element-c7037c9 elementor-widget elementor-widget-heading "   data-id="c7037c9" data-element_type="widget" data-widget_type="heading.default">
+                                 <div class="elementor-widget-container">
+
+                                 <div class="elementor-widget-wrap elementor-element-populated icon-cover" style="display:flex;flex-wrap: nowrap;">
+                           <div class="elementor-element elementor-element-52c9cc1 elementor-view-stacked elementor-widget__width-initial elementor-shape-circle elementor-widget elementor-widget-icon" data-id="52c9cc1" data-element_type="widget" data-widget_type="icon.default">
+                              <div class="elementor-widget-container">
+                                 <div class="elementor-icon-wrapper">
+                                    <div class="elementor-icon">
+                                      <i class="fa fa-facebook"></i>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="elementor-element elementor-element-52c9cc1 elementor-view-stacked elementor-widget__width-initial elementor-shape-circle elementor-widget elementor-widget-icon" data-id="52c9cc1" data-element_type="widget" data-widget_type="icon.default">
+                              <div class="elementor-widget-container">
+                                 <div class="elementor-icon-wrapper">
+                                    <div class="elementor-icon">
+                                      <i class="fa fa-instagram"></i>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="elementor-element elementor-element-52c9cc1 elementor-view-stacked elementor-widget__width-initial elementor-shape-circle elementor-widget elementor-widget-icon" data-id="52c9cc1" data-element_type="widget" data-widget_type="icon.default">
+                              <div class="elementor-widget-container">
+                                 <div class="elementor-icon-wrapper">
+                                    <div class="elementor-icon">
+                                      <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="elementor-element elementor-element-52c9cc1 elementor-view-stacked elementor-widget__width-initial elementor-shape-circle elementor-widget elementor-widget-icon" data-id="52c9cc1" data-element_type="widget" data-widget_type="icon.default">
+                              <div class="elementor-widget-container">
+                                 <div class="elementor-icon-wrapper">
+                                    <div class="elementor-icon">
+                                    <i class="fa fa-pinterest"></i>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
                                  </div>
                               </div>
                            </div>
                         </div>
                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-032a0b8" data-id="032a0b8" data-element_type="column">
                            <div class="elementor-widget-wrap elementor-element-populated">
-                              <div class="elementor-element elementor-element-09f3fe9 elementor-widget elementor-widget-heading" data-id="09f3fe9" data-element_type="widget" data-widget_type="heading.default">
+                              <div class="elementor-element elementor-element-09f3fe9 elementor-widget elementor-widget-heading foot_ht" data-id="09f3fe9" data-element_type="widget" data-widget_type="heading.default">
                                  <div class="elementor-widget-container">
                                     <h2 class="elementor-heading-title elementor-size-default">Quick LInks</h2>
                                  </div>
@@ -122,7 +181,7 @@
       <section class="elementor-section elementor-top-section elementor-element elementor-element-d064257 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d064257" data-element_type="section">
          <div class="elementor-container elementor-column-gap-no">
             <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0f1e7e5" data-id="0f1e7e5" data-element_type="column">
-               <div class="elementor-widget-wrap elementor-element-populated">
+               <div class="elementor-widget-wrap elementor-element-populated" >
                   <section class="elementor-section elementor-inner-section elementor-element elementor-element-5282e51 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5282e51" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                      <div class="elementor-container elementor-column-gap-default">
                         <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-84c186a" data-id="84c186a" data-element_type="column">
