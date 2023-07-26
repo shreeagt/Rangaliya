@@ -1,6 +1,10 @@
 @include('layouts.headerrang')
-<link rel="stylesheet" href="//css/rangrilya/style2.css">
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css'>
+<link rel="stylesheet" href="/css/rangrilya/style2.css">
+<link rel="stylesheet" href="/css/rangrilya/homebanner.css">
 <style>
+
+
 
 .product_type_externals{
   color: #ffffff;
@@ -23,6 +27,94 @@
    <div id="page-23" class="post-23 page type-page status-publish hentry">
       <header class="entry-header">
       </header>
+
+      <section class="home-showcase">
+    <div class="swiper home-showcaseSlider">
+        <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_o.jpg')">
+                        <div class="text-container">
+                            <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                            <div class="container-arrow-button">
+                                <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
+                                    Shop with us
+                                    <svg viewBox="0 0 76.922 65">
+                                        <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0" stroke-width="1"></circle>
+                                        <path id="Union_1" data-name="Union 1" d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z" transform="translate(6111 10)" fill="#10112b"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="filter"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_t.jpg')">
+                        <div class="text-container">
+                            <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                            <div class="container-arrow-button">
+                                <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
+                                Shop with us
+                                    <svg viewBox="0 0 76.922 65">
+                                        <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0" stroke-width="1"></circle>
+                                        <path id="Union_1" data-name="Union 1" d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z" transform="translate(6111 10)" fill="#10112b"></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="filter"></div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_th.jpg')">
+                          <div class="text-container">
+                              <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                              <div class="container-arrow-button">
+                                  <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
+                                    Shop with us
+                                      <svg viewBox="0 0 76.922 65">
+                                          <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0" stroke-width="1"></circle>
+                                          <path id="Union_1" data-name="Union 1" d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z" transform="translate(6111 10)" fill="#10112b"></path>
+                                      </svg>
+                                  </a>
+                              </div>
+                          </div>
+                          <div class="filter"></div>
+                      </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_f.jpg')">
+                            <div class="text-container">
+                                <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                                <div class="container-arrow-button">
+                                    <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
+                                    Shop with us
+                                        <svg viewBox="0 0 76.922 65">
+                                            <circle cx="32.5" cy="32.5" r="32" transform="translate(11.922)" fill="none" stroke="#8c97d0" stroke-width="1"></circle>
+                                            <path id="Union_1" data-name="Union 1" d="M-6071.353,33.349l9.643-9.642H-6111v-2h48.941l-9.293-9.294,1.414-1.414,11.881,11.883-11.881,11.881Z" transform="translate(6111 10)" fill="#10112b"></path>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="filter"></div>
+                        </div>
+                </div>
+
+        </div>
+
+        <!-- pagination -->
+        <div class="swiper-pagination showcaseSlider-pagination"></div>
+
+        <!-- navigation buttons -->
+        <div class="showcaseSlider-nav">
+            <div class="swiper-button-prev showcaseSlider-prev"></div>
+            <div class="swiper-button-next showcaseSlider-next"></div>
+        </div>
+
+    </div>
+    <!-- <a href="#scroll1" class="scrollSliderButton">Scroll <div class="line"></div></a> -->
+</section>
+
       <div data-elementor-type="wp-page" data-elementor-id="23" class="elementor elementor-23" data-elementor-settings="[]">
          <div class="elementor-section-wrap">
             <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-6985550 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6985550" data-element_type="section"> -->
@@ -37,6 +129,8 @@
                </div>
             </div>
             </section>
+
+            
             <section class="elementor-section elementor-top-section elementor-element elementor-element-0d12b0c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="0d12b0c" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-35e55e6" data-id="35e55e6" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1128,4 +1222,27 @@
       </div>
    </div>
 </main>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js'></script>
+
 @include('layouts.footerrang')
+
+<script>
+   const showcaseSlider = new Swiper(".home-showcaseSlider", {
+  speed: 2000,
+  slidesPerView: 1,
+  parallax: true,
+  // centeredSlides: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".showcaseSlider-pagination",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.showcaseSlider-next',
+    prevEl: '.showcaseSlider-prev',
+  },
+});
+</script>
