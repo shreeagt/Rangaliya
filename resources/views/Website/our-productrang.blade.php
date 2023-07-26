@@ -153,7 +153,7 @@ button.product_type_external:hover {
 												<img decoding="async" class="hover-product-image" src="{{ $product->images }}" alt="image-product-hover">
                                              </a>
                                              <div class="mintie-add-btn mintie-add-btn-replace">
-												@auth
+                                             @auth
 													@if ($product->quantity > 0)
 														<form action="{{ route('cart.store', $product) }}" class="product_type_externals" method="POST">
 														{{ csrf_field() }}
@@ -169,12 +169,7 @@ button.product_type_external:hover {
 
                                              </div>
 
-											 <!-- @if ($product->quantity > 0)
-												<form action="{{ route('cart.store', $product) }}" method="POST">
-													{{ csrf_field() }}
-													<button type="submit" class="button button-plain">Add to Cart</button>
-												</form>
-											@endif -->
+					
 
                                           </div>
                                           <div class="content-info-product">
@@ -197,6 +192,14 @@ button.product_type_external:hover {
 									   </div>
 									</li>
 									@endforelse
+                                 </ul>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
             <section class="elementor-section elementor-top-section elementor-element elementor-element-8e075cb elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="8e075cb" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-088ce76" data-id="088ce76" data-element_type="column">
@@ -426,7 +429,7 @@ button.product_type_external:hover {
                   </div>
                </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-ba0da77 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba0da77" data-element_type="section">
+            <!-- <section class="elementor-section elementor-top-section elementor-element elementor-element-ba0da77 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ba0da77" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f0ca7ce" data-id="f0ca7ce" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
@@ -438,7 +441,7 @@ button.product_type_external:hover {
                      </div>
                   </div>
                </div>
-            </section>
+            </section> -->
          </div>
       </div>
    </div>

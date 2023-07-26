@@ -35141,3 +35141,13 @@ body, html{
 img.w-50 {
   width: 50%;
 }
+
+.mintie-style-style3 {
+  text-align: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.mintie-style-style3:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
