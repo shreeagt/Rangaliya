@@ -83,7 +83,7 @@ div#customer_login {
                   </form>
                </div>
                <div class="u-column2 col-2">
-               <img decoding="async" width="530" height="502" src="{{asset('img/rangrilya/loginart.png') }}" sizes="(max-width: 530px) 100vw, 530px" />	                 
+               <img decoding="async" width="530" height="502" src="{{asset('img/new1/login-bg.png') }}" sizes="(max-width: 530px) 100vw, 530px" />	                 
                </div>
             </div>
          </div>

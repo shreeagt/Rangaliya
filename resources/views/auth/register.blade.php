@@ -25,9 +25,9 @@ div#customer_login {
       <div class="container">
          <div id="theme-bread">
             <h1 class="page-title entry-title">
-            Create Account	
+            SignUp
             </h1>
-            <nav class="woocommerce-breadcrumb"><a href="/">Home</a> <span>·</span> Create Account</nav>
+            <nav class="woocommerce-breadcrumb"><a href="/">Home</a> <span>·</span> SignUp</nav>
          </div>
       </div>
    </div>
@@ -85,7 +85,7 @@ div#customer_login {
                   </form>
                </div>
                <div class="u-column2 col-2">
-               <img decoding="async" width="530" height="502" src="{{asset('img/rangrilya/registerart.png') }}" sizes="(max-width: 530px) 100vw, 530px" />	                 
+               <img decoding="async" width="530" height="502" src="{{asset('img/new1/sign-bg1.png') }}" sizes="(max-width: 530px) 100vw, 530px" />	                 
                </div>
             </div>
          </div>

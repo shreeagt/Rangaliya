@@ -24,6 +24,7 @@ button.product_type_external:hover {
 button.product_type_external:hover {
     background-color: #2d3448!important;
 }
+
 </style>
 <div id="theme-page-header">
    <div class="page-header ">

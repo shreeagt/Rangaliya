@@ -26,7 +26,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-9ec7bcc elementor-widget elementor-widget-heading" data-id="9ec7bcc" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default">Latest News</h2>
+                              <h2 class="elementor-heading-title elementor-size-default text-center">Latest News</h2>
                            </div>
                         </div>
                         <div class="elementor-element elementor-element-9544cca elementor-widget elementor-widget-breadcrumb" data-id="9544cca" data-element_type="widget" data-widget_type="breadcrumb.default">
@@ -56,7 +56,7 @@
                                           <div class="blog-article-sum">
                                              <div class="blog-article-header">
                                                 <header class="entry-header">
-                                                   <h3 class="entry-title blog-title"><a href="<?php echo url('/blog/'.$item->blog_url); ?>" rel="bookmark">{{ $item->blog_title }}</a></h3>
+                                                   <h3 class="entry-title blog-title text-left"><a href="<?php echo url('/blog/'.$item->blog_url); ?>" rel="bookmark">{{ $item->blog_title }}</a></h3>
                                                 </header>
                                              </div>
                                              <div class="entry-summary">
@@ -68,16 +68,16 @@
                                                    </span>
                                                 </div>
                                              </div>
-                                             <div class="blog-header-info-blog">
+                                             <div class="blog-header-info-blog text-left">
                                                 <span class="entry-meta blog-header-info">
                                                 <time class="if-item if-date" datetime="2021-11-19T10:59:23+00:00">
                                                 {{Carbon\Carbon::parse($item->created_at)->format('M d, Y')}}													</time>
                                                 </span>
                                              </div>
-                                             <div class="entry-content" itemprop="text" >
+                                             <div class="entry-content text-left" itemprop="text" >
                                                 {{ substr($item->blog_description, 0, 150)}}
                                              </div>
-                                             <div class="button-read-more">
+                                             <div class="button-read-more text-left">
                                                 <a href="<?php echo url('/blog/'.$item->blog_url); ?>" class="btnblog-readmore">
                                                 Read More
 											   </a>

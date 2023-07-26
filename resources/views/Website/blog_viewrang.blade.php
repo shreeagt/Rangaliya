@@ -20,11 +20,10 @@
     <div class="page-header" style="background-image: url('{{ $blog_details->blog_thumbnail }}');">
         <div class="container">
             <div id="theme-bread">
-                <h1 class="page-title entry-title" >
+                <h1 class="page-title entry-title" style="color:#ffffff;">
                     Blog
                 </h1>
-                <nav class="woocommerce-breadcrumb"><a href="/">Home</a> <span>·</span> <a
-                        href="#">Trends</a> <span>·</span> {{ $blog_details->blog_title }}</nav>
+                <nav class="woocommerce-breadcrumb" style="color:#ffffff;"><a style="color:#ffffff;" href="/">Home</a> <span>·</span> <a style="color:#ffffff;" href="/blogs">Blog</a> <span>·</span> {{ $blog_details->blog_title }}</nav>
             </div>
         </div>
     </div>
