@@ -482,6 +482,18 @@ button:not(.search-submit, .wp-block-search__button, .mintie-arrows, .js-search-
   width: 117px;
 }
 
+.mintie-style-style3 {
+  text-align: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.mintie-style-style3:hover {
+  transition: all 0.3s;
+  transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+
+
 .not-found-404 {
   background-image: url("https://mintie.boostifythemes.com/wp-content/uploads/2021/09/404.jpg");
   background-color: #ffffff;

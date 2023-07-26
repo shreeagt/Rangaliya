@@ -1,5 +1,6 @@
 @include('layouts.headerrang')
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{asset('css/rangrilya/cart.css') }}" type='text/css' media='all' />
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
 <div id="theme-page-header">
    <div class="page-header ">
       <div class="container">
@@ -256,7 +257,8 @@
                      </tfoot>
                   </table>
                   <div id="payment" class="woocommerce-checkout-payment" style="position: static; zoom: 1;">
-                      <!-- <ul class="wc_payment_methods payment_methods methods">
+                     <input type="hidden" name="rzp_paymentid" id="rzp_paymentid" value="rzp_test_jPOWaI0siJLALl"> 
+                     <!-- <ul class="wc_payment_methods payment_methods methods">
                         <li class=" wc_payment_method payment_method_bacs">
                            <input id="payment_method_bacs" type="radio" class="input-radio" name="payment_method" value="bacs" checked="checked" data-order_button_text="">
                            <label for="payment_method_bacs">
@@ -282,9 +284,10 @@
                            </div>
                         </li>
                      </ul> -->
+                  </div>
                      <div class="form-row">
                         <button type="submit" class="button alt" name="woocommerce_checkout_place_order" id="place_order" value="Place order" data-value="Place order">Place order</button>
-                        <input type="hidden" id="totalAmt" value='<?php echo $newTotal ?>'/>
+                        <input type="hidden" id="totalAmt" value='<?php echo $newTotal ?>' />
                      </div>
                   </div>
                </div>
@@ -293,4 +296,50 @@
       </div>
    </div>
 </main>
+{{-- <script>
+   document.getElementById('place_order').addEventListener('click', function() {
+     var options = {
+       key: '5RX0IGCw6e1Jovf0KFMIQaRf', // Replace with your actual Razorpay API key
+       amount: 1000, // Replace with the actual amount in paise (e.g., 1000 paise = ₹10)
+       // Other options...
+     };
+ 
+     var rzp = new Razorpay(options);
+     rzp.open();
+   });
+ </script> --}}
+ <script>
+   document.getElementById('place_order').addEventListener('click', function (event) {
+       event.preventDefault(); // Prevent the form submission
+   
+       // Get the total amount from the hidden input field
+       var totalAmt = document.getElementById('totalAmt').value;
+   
+       // Create a new instance of Razorpay and provide the necessary options
+       var options = {
+           key: 'rzp_test_jPOWaI0siJLALl', // Replace with your actual Razorpay API key
+           amount: totalAmt * 100, // Amount in paise (Razorpay expects the amount in smallest currency unit)
+           currency: 'INR', // Replace with your desired currency code
+           name: 'Rangaliya', // Replace with your store name
+           description: 'Order Payment', // Replace with your payment description
+           image: 'https://shreeagt-prod.s3.ap-south-1.amazonaws.com/rswT20/1689947639-shoe_images.jpg', // Replace with the URL of your store logo
+           handler: function (response) {
+               // The payment is successful, you can process the response here
+               // For example, you can submit the form to complete the order
+               document.getElementById('payment-form').submit();
+           },
+           prefill: {
+               email: 'omp.agt@gmail.com', // Replace with the customer's email
+               // contact: 'CUSTOMER_PHONE_NUMBER' // Replace with the customer's phone number
+           },
+           theme: {
+               color: '#F37254' // Replace with your desired theme color
+           }
+       };
+   
+       // Open the Razorpay popup with the provided options
+       var rzp = new Razorpay(options);
+       rzp.open();
+   });
+   </script>
 @include('layouts.footerrang')
