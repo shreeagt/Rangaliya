@@ -1,16 +1,33 @@
 @include('layouts.headerrang')
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{ asset('css/rangrilya/post-939.css') }}" type='text/css' media='all' />
+<style>
+
+
+.elementor-939 .elementor-element.elementor-element-874f022 .elementor-heading-title {
+  color: #2d3448;
+    font-family: DM sans;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+
+.elementor-939 .elementor-element.elementor-element-874f022 > .elementor-widget-container {
+    margin: 70px 0px 0px 0px;
+}
+
+</style>
 <main id="main" class="page-content">
   <div id="page-939" class="post-939 page type-page status-publish hentry">
     <header class="entry-header"></header>
     <div data-elementor-type="wp-page" data-elementor-id="939" class="elementor elementor-939" data-elementor-settings="[]">
       <div class="elementor-section-wrap">
+        
         <section class="elementor-section elementor-top-section elementor-element elementor-element-eb1c36a elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="eb1c36a" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-          <div class="elementor-container elementor-column-gap-default">
-            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5034fbc" data-id="5034fbc" data-element_type="column">
+          <div class=" elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5034fbc" style="padding-bottom: 115px;" data-id="5034fbc" data-element_type="column">
               <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-874f022 elementor-widget elementor-widget-heading" data-id="874f022" data-element_type="widget" data-widget_type="heading.default">
-                  <div class="elementor-widget-container">
+                  <div class="elementor-widget-container mar-top-padding">
                     <h2 class="elementor-heading-title elementor-size-default">Making <br>Masterpiece </h2>
                   </div>
                   <nav class="woocommerce-breadcrumb"><a href="{{ route('landing-page') }}">Home</a> <span>·</span> <a href="/about">About</a>
