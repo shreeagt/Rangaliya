@@ -20,7 +20,9 @@
 .content-info-product, .mintie-style-style3 {
   text-align: center;
 }
-
+.home-showcase{
+   margin-bottom: 0px;
+}
 
 </style>
 <main id="main" class="page-content">

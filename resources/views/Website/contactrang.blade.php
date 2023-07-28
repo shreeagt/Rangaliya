@@ -166,8 +166,7 @@
                         </div>
                         <div class="elementor-element elementor-element-77a91e4 elementor-widget elementor-widget-text-editor" data-id="77a91e4" data-element_type="widget" data-widget_type="text-editor.default">
                           <div class="elementor-widget-container">
-                            <p>Mobile: +1 (342) 837-8276</p>
-                             <p>Hotline: +1 (342) 808-8080</p>
+                            <p>Mobile: <a onclick="makePhoneCall('73043 76632')">+91 73043 76632</a></p>
                           </div>
                         </div>
                       </div>
@@ -513,5 +512,10 @@ $("#inputState").change(function(){
   $("#inputDistrict").html(htmlString);
 
 });
+
+function makePhoneCall(phoneNumber) {
+  const cleanPhoneNumber = phoneNumber.replace(/\D/g, '');
+  window.location.href = `tel:${cleanPhoneNumber}`;
+}
 </script>
 @include('layouts.footerrang')

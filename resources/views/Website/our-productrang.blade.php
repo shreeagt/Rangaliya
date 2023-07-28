@@ -25,6 +25,80 @@ button.product_type_external:hover {
     background-color: #2d3448!important;
 }
 
+
+.product-category{
+   height: 400px;
+}
+
+@media (max-width: 768px){
+   .product-category{
+   margin-bottom: 100px;
+}
+.page-header{
+   background-image:url(/img/new1/shop-sm-bg.png);
+   margin-bottom: 65px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+
+@media (max-width: 1200px) {
+   .product-category{
+   margin-bottom: 370px;
+}
+}
+
+@media (max-width: 992px) {
+   .product-category{
+   margin-bottom: 650px;
+}
+.page-header{
+   background-image: /img/new1/shop-sm-bg.png;
+}
+}
+
+
+.category{
+   display: flex;
+   justify-content: center;
+}
+.category-card {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 340px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-card:hover {
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.category-card img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.category-img:hover {
+   outline: none;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 </style>
 <div id="theme-page-header">
    <div class="page-header ">
@@ -64,7 +138,7 @@ button.product_type_external:hover {
             <section class="elementor-section elementor-top-section elementor-element elementor-element-3756b41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3756b41" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                    @foreach($categories as $index => $category)
-                   <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
+                   {{-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
                        <div class="elementor-widget-wrap elementor-element-populated">
                            <div class="elementor-element elementor-element-acbf47b elementor-widget elementor-widget-mintie-category-box" data-id="acbf47b" data-element_type="widget" data-widget_type="mintie-category-box.default">
                                <div class="elementor-widget-container">
@@ -93,9 +167,79 @@ button.product_type_external:hover {
                                </div>
                            </div>
                        </div>
-                   </div>
+                   </div> --}}
                    @endforeach
                </div>
+           </section>
+           <section class="product-category">
+            <div class="container">
+               <div class="category-section">
+                  <div class="category-section-wrapper">
+                     <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="category">
+                              <div class="category-card">
+                              <div class="category-card-wrapper">
+                                 <div class="category-img text-center hover-effect_2">
+                                    <a href="{{ route('category-view', $category->category_name) }}" class="mintie-category-box-link"></a>
+                                    <img decoding="async" src="{{ $category->banner_image }}" alt="image">
+                                 </div>
+                                 <div class="category-name">
+                                    <h3 class="mintie-category-box-title text-center">
+                                    <a href="{{ route('category-view', $category->category_name) }}">
+                                       {{ $category->category_name }}
+                                    </a>
+                                    </h3>
+                                    <p class="mintie-category-description effect-ef_none  text-center"> @if ($index === 0) {{ $productCount }} Items @elseif ($index === 1) 53 Items @elseif ($index === 2) 47 Items @endif </p>
+                                 </div>
+                              </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="category">
+                              <div class="category-card">
+                              <div class="category-card-wrapper">
+                                 <div class="category-img text-center hover-effect_2">
+                                    <a href="{{ route('category-view', $category->category_name) }}" class="mintie-category-box-link"></a>
+                                    <img decoding="async" src="/img/new1/IMG_7125.jpg" alt="image">
+                                 </div>
+                                 <div class="category-name">
+                                    <h3 class="mintie-category-box-title text-center">
+                                    <a href="{{ route('category-view', $category->category_name) }}">
+                                       {{ $category->category_name }}
+                                    </a>
+                                    </h3>
+                                    <p class="mintie-category-description effect-ef_none  text-center"> @if ($index === 0) {{ $productCount }} Items @elseif ($index === 1) 53 Items @elseif ($index === 2) 47 Items @endif </p>
+                                 </div>
+                              </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="category">
+                              <div class="category-card">
+                              <div class="category-card-wrapper">
+                                 <div class="category-img text-center hover-effect_2">
+                                    <a href="{{ route('category-view', $category->category_name) }}" class="mintie-category-box-link"></a>
+                                    <img decoding="async" src="/img/new1/IMG_7210.jpg" alt="image">
+                                 </div>
+                                 <div class="category-name">
+                                    <h3 class="mintie-category-box-title text-center">
+                                    <a href="{{ route('category-view', $category->category_name) }}">
+                                       {{ $category->category_name }}
+                                    </a>
+                                    </h3>
+                                    <p class="mintie-category-description effect-ef_none  text-center"> @if ($index === 0) {{ $productCount }} Items @elseif ($index === 1) 53 Items @elseif ($index === 2) 47 Items @endif </p>
+                                 </div>
+                              </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
            </section>
             <section class="elementor-section elementor-top-section elementor-element elementor-element-d6efc6b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
