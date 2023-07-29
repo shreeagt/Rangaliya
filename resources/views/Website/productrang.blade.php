@@ -1,22 +1,11 @@
-@include('layouts.headerrang')
+@include('layouts.headerrang')  
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
-<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" rel="stylesheet" crossorigin="anonymous">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" rel="stylesheet" crossorigin="anonymous">
-<script>
-   $(function(){
-   $(".xzoom-main, .xzoom").xzoom-main({
-        zoomWidth: 400,
-        tint: "333",
-        Xoffset: 15,
-   });
-});
-</script>
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{ asset('css/rangrilya/cart.css') }}" type='text/css'
 media='all' />
 <style>
     a {
         text-decoration: none;
+        color: #292929;
     }
 
     .woocommerce-cart .woocommerce-cart-form {
@@ -54,13 +43,6 @@ media='all' />
         flex-basis: 24%;
         cursor: pointer;
     }
-
-
-
-
-
-
-    .xzoom-gallery{margin-top:10px}.xzoom{margin-top:40px}
 </style>
 <main id="main" class="page-content woocommerce-cart woocommerce-page mb-10">
     <div class="container">
@@ -85,20 +67,20 @@ media='all' />
     <section class="sproduct my-5 pt-5">
         <div class="row justify-content-evenly">
             <div class="col-lg-5 col-md-12 col-12">
-                <img class="img-fluid w-100 pb-1 xzoom-main" src="{{ $product->images }}" xoriginal="{{ $product->images }}" alt="">
-
+                <img id="mainImage" class="img-fluid w-100 pb-1 xzoom-main" src="/img/new1/IMG_7210.jpg" alt="">
+            
                 <div class="small-img-group">
                     <div class="small-img-col">
-                        <img src="/img/logo.png" class="xzoom" xoriginal="{{ $product->images }}" alt="">
+                        <img src="/img/new1/IMG_7210.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7210.jpg')">
                     </div>
                     <div class="small-img-col">
-                        <img src="{{ $product->images }}" class="xzoom" alt="">
+                        <img src="/img/new1/IMG_7125.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7125.jpg')">
                     </div>
                     <div class="small-img-col">
-                        <img src="{{ $product->images }}" class="xzoom" alt="">
+                        <img src="/img/new1/IMG_7100.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7100.jpg')">
                     </div>
                     <div class="small-img-col">
-                        <img src="{{ $product->images }}" class="xzoom" alt="">
+                        <img src="/img/new1/IMG_7099.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7099.jpg')">
                     </div>
                 </div>
             </div>
@@ -126,4 +108,10 @@ media='all' />
         </div>
     </section>
 </main>
+<script>
+    function changeMainImage(newImageUrl) {
+        var mainImage = document.getElementById('mainImage');
+        mainImage.src = newImageUrl;
+    }
+</script>
 @include('layouts.footerrang')
