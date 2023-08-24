@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 .elementor-939 .elementor-element.elementor-element-eb1c36a > .elementor-container {
     min-height: 700px;
 }
@@ -64,17 +66,20 @@
 }
 
 .elementor-939 .elementor-element.elementor-element-510c1a3 .elementor-heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 45px;
+    /* font-family: "Playfair Display", Sans-serif; */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
 .elementor-939 .elementor-element.elementor-element-45864c3 {
-    color: var( --e-global-color-primary );
-    font-family: "DM Sans", Sans-serif;
-    font-size: 20px;
+    /* color: var( --e-global-color-primary ); */
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
     font-weight: 400;
-    letter-spacing: 0.45px;
+    letter-spacing: 0px;
+    color:#777;
 }
 
 .elementor-939 .elementor-element.elementor-element-45864c3 > .elementor-widget-container {
@@ -82,8 +87,10 @@
 }
 
 .elementor-939 .elementor-element.elementor-element-4597c86 {
-    color: var( --e-global-color-dc16e6d );
-    font-family: "DM Sans", Sans-serif;
+    color: #777;
+
+    /* font-family: "DM Sans", Sans-serif; */
+font-family: Karla, sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
@@ -176,8 +183,8 @@
 }
 
 .elementor-939 .elementor-element.elementor-element-ce7f93e .elementor-heading-title {
-    font-family: "DM Sans", Sans-serif;
-    font-size: 36px;
+    font-family: Manrope, sans-serif;
+    font-size: 1.5em;
     font-weight: 400;
     line-height: 1.4em;
 }
@@ -188,8 +195,8 @@
 
 .elementor-939 .elementor-element.elementor-element-0f249a1 {
     text-align: left;
-    color: var( --e-global-color-primary );
-    font-family: "DM Sans", Sans-serif;
+    color: #777;
+    font-family: Karla, sans-serif;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
@@ -326,8 +333,9 @@
 }
 
 .elementor-939 .elementor-element.elementor-element-c9c146b .elementor-heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 45px;
+    /* font-family: "Playfair Display", Sans-serif; */
+    font-family: Manrope, sans-serif;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
@@ -341,8 +349,9 @@
 
 .elementor-939 .elementor-element.elementor-element-80996c7 .tetimonial-content {
     text-align: center;
-    color: var( --e-global-color-primary );
-    font-size: 24px;
+    color: #777;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
     line-height: 1.6em;
     letter-spacing: 0.5px;
     margin: 18px 90px 35px 90px;
@@ -509,7 +518,7 @@
 .elementor-939 .elementor-element.elementor-element-00b903a > .elementor-container {
     max-width: 1190px;
     min-height: 500px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 }
 
 .elementor-939 .elementor-element.elementor-element-00b903a:not(.elementor-motion-effects-element-type-background), .elementor-939 .elementor-element.elementor-element-00b903a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
@@ -527,7 +536,8 @@
 }
 
 .elementor-939 .elementor-element.elementor-element-c52b79f .elementor-heading-title {
-    font-family: "DM Sans", Sans-serif;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: Manrope, sans-serif;
     font-size: 60px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -545,7 +555,8 @@
 }
 
 .elementor-939 .elementor-element.elementor-element-8ed5b65 .elementor-button {
-    font-family: "DM Sans", Sans-serif;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: Manrope, sans-serif;
     font-size: 14px;
     font-weight: 500;
     background-color: var( --e-global-color-secondary );

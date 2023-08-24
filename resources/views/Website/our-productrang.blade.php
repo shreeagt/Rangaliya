@@ -72,11 +72,22 @@ button.product_type_external:hover {
 .category-card {
   background-color: #ffffff;
   padding: 20px;
-  width: 340px;
-  height: 300px;
+  /* width: 340px;
+  height: 300px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.category-img.text-center.hover-effect_2 {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background: #f1f1f1; */
 }
 
 .category-card:hover {
@@ -84,8 +95,8 @@ button.product_type_external:hover {
 }
 
 .category-card img {
-  width: 300px;
-  height: 300px;
+  /* width: 300px;
+  height: 300px; */
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
@@ -274,7 +285,7 @@ button.product_type_external:hover {
                         </div>
                         <div class="elementor-element elementor-element-af9e7b4 elementor-widget elementor-widget-heading" data-id="af9e7b4" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default">New Arrivals</h2>
+                              <h2 class="elementor-heading-title elementor-size-default"><b>New</b> Arrivals</h2>
                            </div>
                         </div>
                      </div>
@@ -351,7 +362,8 @@ button.product_type_external:hover {
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-332e5ef elementor-widget elementor-widget-heading" data-id="332e5ef" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default">Why Choose Us</h2>
+                              <h2 class="elementor-heading-title elementor-size-default"><b>Why
+                              </b> Choose Us</h2>
                            </div>
                         </div>
                         <section class="elementor-section elementor-inner-section elementor-element elementor-element-1cfe0df elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cfe0df" data-element_type="section">

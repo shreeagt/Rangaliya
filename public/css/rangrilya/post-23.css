@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 
 .elementor-23 .elementor-element.elementor-element-0d12b0c>.elementor-container {
     max-width: 1290px;
@@ -45,7 +46,7 @@
     /* font-size: 45px; */
     font-size: 1.5em;
     font-weight: 400;
-    letter-spacing: 0px;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -63,7 +64,7 @@
     /* color: var(--e-global-color-primary); */
     color: #777;
     /* font-family: "DM Sans", Sans-serif; */
-    font-family: "Manrope", "Open Sans";
+    font-family: 'Karla', sans-serif;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
@@ -121,7 +122,7 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-7a6c77c .elementor-button {
-    font-family: "DM Sans", Sans-serif;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 14px;
     font-weight: 500;
     letter-spacing: 0.2px;
@@ -187,7 +188,7 @@
     /* font-size: 36px; */
     font-size:1.5em;
     font-weight: 400;
-    letter-spacing: 0px;
+    letter-spacing: 3px;
 }
 
 .elementor-23 .elementor-element.elementor-element-68abaa8>.elementor-widget-container {
@@ -550,7 +551,8 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-0ddc93a .elementor-button {
-    font-family: "DM Sans", Sans-serif;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: 'Manrope', sans-serif;
     font-weight: 500;
     letter-spacing: 0px;
     fill: #FFFFFF;
@@ -718,7 +720,8 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-012520e>.elementor-element-populated {
-    padding: 10px 10px 0px 10px;
+    /* padding: 10px 10px 0px 10px; */
+    padding: 10px 10px 30px 10px;
 }
 
 .elementor-23 .elementor-element.elementor-element-705ce04 {
@@ -755,6 +758,7 @@
 
 .elementor-23 .elementor-element.elementor-element-c6321e0>.elementor-container {
     max-width: 1190px;
+    padding: 10px;
 }
 
 .elementor-bc-flex-widget .elementor-23 .elementor-element.elementor-element-d819d54.elementor-column .elementor-widget-wrap {
@@ -1019,9 +1023,10 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-327258a .elementor-heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 36px;
-    font-weight: 400;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5em;
+    /* font-size: 36px; */
+    font-weight: 500;
 }
 
 .elementor-23 .elementor-element.elementor-element-67729fe>.elementor-container {
@@ -1042,8 +1047,9 @@
 
 .elementor-23 .elementor-element.elementor-element-3d871ef .tetimonial-content {
     text-align: center;
-    color: var(--e-global-color-primary);
-    font-size: 24px;
+    color: #777;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
     line-height: 1.7em;
     letter-spacing: 0.5px;
     margin: 18px 90px 32px 90px;
@@ -1112,7 +1118,8 @@
 
 .elementor-23 .elementor-element.elementor-element-423d450:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-23 .elementor-element.elementor-element-423d450>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #F9F9F9;
+    background-color: #fff;
+    /* background-color: #F9F9F9; */
 }
 
 .elementor-23 .elementor-element.elementor-element-423d450>.elementor-element-populated {
@@ -1128,10 +1135,10 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-251742b .elementor-heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 36px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 1.5em;
     font-weight: 400;
-    letter-spacing: 0px;
+    letter-spacing: 3px;
 }
 
 .elementor-23 .elementor-element.elementor-element-251742b>.elementor-widget-container {
@@ -1171,7 +1178,8 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-3614924 h3.blog-entry-title {
-    font-size: 24px;
+    font-size: 1.3em;
+    font-family: 'Manrope', sans-serif;
     font-weight: 400;
     line-height: 1.5em;
     letter-spacing: 0px;
@@ -1194,15 +1202,15 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-3614924 .mintie-blog-slider-widget .blog-header-info .entry-meta {
-    color: #858585;
+    color: #777777;
 }
 
 .elementor-23 .elementor-element.elementor-element-3614924 .mintie-blog-slider-widget .blog-header-info .entry-meta .if-item span {
-    color: #858585;
+    color: #777777;
 }
 
 .elementor-23 .elementor-element.elementor-element-3614924 .mintie-blog-slider-widget .blog-header-info .entry-meta .if-item a {
-    color: #858585;
+    color: #777777;
 }
 
 .elementor-23 .elementor-element.elementor-element-3614924 .mintie-blog-slider-widget .blog-header-info .entry-meta .if-item a:hover {

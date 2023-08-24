@@ -5,7 +5,7 @@ margin: auto;
    }
 
    .footer .icon-cover .elementor-icon{
-      font-size: 30px;
+      font-size: 25px;
    }
 
    .foot_ht{

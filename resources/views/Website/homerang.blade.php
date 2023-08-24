@@ -19,7 +19,9 @@
 
 .content-info-product, .mintie-style-style3 {
   text-align: center;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
+
 .home-showcase{
    margin-bottom: 0px;
 }
@@ -509,48 +511,23 @@
                </div>
             </section>
             <!-- deals of the day start -->
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-d6efc6b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
-               <div class="elementor-container elementor-column-gap-default">
+            {{-- <section class="elementor-section elementor-top-section elementor-element elementor-element-d6efc6b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section"> --}}
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-0d12b0c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
+               <div class="elementor-container elementor-column-gap-default" style="background: #fff">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cd711f" data-id="7cd711f" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
-                        <!-- <div class="elementor-element elementor-element-4c17592 elementor-view-default elementor-widget elementor-widget-icon" data-id="4c17592" data-element_type="widget" data-widget_type="icon.default">
-                           <div class="elementor-widget-container">
-                              <div class="elementor-icon-wrapper">
-                                 <div class="elementor-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 511 347.95">
-                                       <defs>
-                                          <style>.cls-1h1{fill:#ce373a;}.cls-2h1{fill:#f4a2a6;}</style>
-                                       </defs>
-                                       <title>heading-icon</title>
-                                       <path class="cls-1h1" d="M412.49,215.45A52.15,52.15,0,0,1,430,200.7c56.58,33.21,44,95.51,38.7,114A2,2,0,0,1,465,315a70.74,70.74,0,0,0-14.44-20.1c-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-2h1" d="M412.49,215.45c32.57,22,39,54.46,38.06,79.4-13.09-13.06-28.94-21.17-36.28-30.25C401.19,248.48,401.83,229.78,412.49,215.45Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-1h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15a71.21,71.21,0,0,0,18.45-18,2,2,0,0,1,3.64.91c2.09,19.09,4.08,82.62-57.28,105.85a53.26,53.26,0,0,1-13.5-15.07C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-2h1" d="M426.47,135.06c8.6-7.56,25.13-12.86,40-23.15-2.66,24.62-13.44,56.52-48.69,73.72C408.13,169.21,410.07,149.47,426.47,135.06Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-1h1" d="M296.71,241.87a54.17,54.17,0,0,1,6.8-15.42c65.6.92,85.39,61.31,89.95,80a2,2,0,0,1-3.11,2.1c-8.88-6.3-18.62-9.66-28.14-11.71-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-1h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,4.65-8.62,8.45-18.25,9.42-29.17a2,2,0,0,1,3.62-1c11.24,15.56,44.35,69.81,2.49,120.33a56.67,56.67,0,0,1-11.82-3C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-2h1" d="M296.71,241.87c36.4,6.67,55.68,33.42,65.5,54.93-15.87-3.42-31.13-3.2-40.84-7C299.85,281.37,291.51,261.78,296.71,241.87Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-2h1" d="M266.1,171c3.4-9.83,13.4-21.26,21.09-35.46,10.66,20.52,21.17,53.64,3.71,87.17C269.57,214.72,258,194.45,266.1,171Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-1h1" d="M188.77,297.14a55.74,55.74,0,0,1,1.92-12c62.9-18.61,99.74,33.18,109.64,49.64a2,2,0,0,1-2.36,2.93,71,71,0,0,0-25.51-3.15c-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-1h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07a71.53,71.53,0,0,0-.51-25.71,2,2,0,0,1,3.15-2c15.35,11.53,63.09,53.49,38.11,114.16a55.26,55.26,0,0,1-12.21.67C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-2h1" d="M188.77,297.14c40.43-5.32,68.43,18.72,83.69,37.4-18.08.79-34.48,6.59-45.9,5.76C201.76,338.53,187.69,319.9,188.77,297.14Z" transform="translate(0 -81.84)"></path>
-                                       <path class="cls-2h1" d="M141.43,241.68c.35-11.46,7.81-27.17,10.46-45.07,17,17.1,38,47.42,28.54,87.08C157.72,282.4,140.65,266.5,141.43,241.68Z" transform="translate(0 -81.84)"></path>
-                                       <path d="M1.28,280.57C23,312.84,59.22,321.32,98,317.84a53.94,53.94,0,0,1,41.5,63.24C132.56,416,87.35,426,70.17,400.38a31.64,31.64,0,0,1-4.79-23.91c3.94-20,29.78-25.8,39.45-11.37,3.87,5.79,4.28,14.18-.41,19.32a13.14,13.14,0,1,0-16.74,17.95c3.94,2.05,14.43,2.17,22.81-3.45,14.08-9.42,15.91-28.66,6.84-42.2-17.09-25.51-60.16-16.32-66.71,16.83a46.6,46.6,0,0,0,7,35.2c16.27,24.29,49.48,26.8,72.48,11.4,36.33-24.34,32.91-80.86-4.65-106.57a366,366,0,0,0,55.79-17.11c-1.49,28.23,16.66,49.33,44.74,51.35,13.62,1,31.58-5.85,50.41-5.85,21,0,23.41,7.42,29.79,4.45a7.5,7.5,0,0,0,4-4.64c1-3.36-.12-5.28-3.18-10.43-9.33-15.68-23.1-31.22-38.86-41.75a7.53,7.53,0,0,0-8.36,12.52,112.7,112.7,0,0,1,26.42,25.36c-23.1-2.7-44.51,5.38-57.39,5.38-21.25,0-36.33-17.25-31.85-41.66a77.51,77.51,0,0,1,37.87-.34,7.53,7.53,0,1,0,3.66-14.6,86.51,86.51,0,0,0-8.57-1.69c25.75-13.12,29.54-17.34,58.78-31.58-4.78,23.7,6.89,44.83,29.87,53.82,18.09,7.08,48.79,1.72,71.1,20.76a7.54,7.54,0,0,0,12.32-6.92,136,136,0,0,0-17.48-45c-12.74-20.67-30-34.75-50.65-41.7,29.8-10.52,54.46-14.8,74.55-15.51-15,17.74-15.73,41.61-.05,61C420.65,284.44,450,295,460,322.52a7.53,7.53,0,0,0,14.12.08c6-16,9-40.62,5.81-61.17a7.53,7.53,0,0,0-14.88,2.3,113,113,0,0,1-.58,35.69C450,279.88,428,269.55,420.11,259.87c-14.39-17.75-8.7-38.49,9.81-50.39A77.51,77.51,0,0,1,456.5,237.7a7.52,7.52,0,1,0,13.24-7.14,86.92,86.92,0,0,0-10-14.69c26.44,9.89,36.84,25.89,37.33,26.66a7.52,7.52,0,0,0,12.78-7.94c-.65-1.06-16.33-25.82-56.58-36.55,21.25-13.71,35.21-34.73,40.82-61.79a135.43,135.43,0,0,0,1.07-48.31,7.53,7.53,0,0,0-13.93-2.3c-14.48,25.5-45.17,30.94-59.76,43.76-19.9,17.49-22.29,43.06-7.77,63.79-31.67.07-63.75,8.35-93.37,19.63a89,89,0,0,0,9.34-27.7,7.52,7.52,0,0,0-14.86-2.38,77.71,77.71,0,0,1-15.22,34.7c-21.17-4.82-33.92-22.31-26.41-44,4.08-11.81,21.29-29,28.18-52.28a112.58,112.58,0,0,1,12.91,34.24,7.52,7.52,0,0,0,14.79-2.77c-6-32.23-25.68-55.59-26.51-56.56a7.53,7.53,0,0,0-13.26,4.88c0,29.36-24,49.17-30.34,67.57-8.81,25.5,2.24,49.27,25.65,59.76q-16.89,8.13-34.51,18.08l-.22.13A508.8,508.8,0,0,1,204.72,270c6.25-26.54.78-52.85-16.18-76.92A135.38,135.38,0,0,0,154,159.31a7.53,7.53,0,0,0-11.2,8.59c8.72,28-8.29,54.11-8.9,73.54-.65,20.63,9.7,38.17,28.6,45.88C111,305.5,44.23,317.44,13.77,272.17a7.53,7.53,0,1,0-12.49,8.4ZM431.43,140.71c9.36-8.23,32.87-14.71,50.35-31.53,0,37.12-14.9,68.1-49.12,82.85C416.47,177.24,414.19,155.87,431.43,140.71ZM307.69,234.26l.26-.12c37.37,2.28,61.68,26.63,74.24,61.12-22.18-9.86-46.48-7.93-58.08-12.47C302.93,274.5,297.53,253.82,307.69,234.26ZM149,241.91c.39-12.45,11.73-34,11.39-58.3,27,25.36,39.56,57.36,26.91,92.49C165.56,277.79,148.22,265,149,241.91Z" transform="translate(0 -81.84)"></path>
-                                    </svg>
-                                 </div>
-                              </div>
-                           </div>
-                        </div> -->
+       
                         <div class="elementor-element elementor-element-af9e7b4 elementor-widget elementor-widget-heading" data-id="af9e7b4" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default"><center>Top Seller</center></h2>
+                              <h2 class="elementor-heading-title elementor-size-default"><center><b>Top</b> Seller</center></h2>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-1cccd51 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section">
-               <div class="elementor-container elementor-column-gap-default">
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-0d12b0c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section">
+               <div class="elementor-container elementor-column-gap-default" style="background: #fff">
                   <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bad5e7c" data-id="bad5e7c" data-element_type="column">
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-8225fc1 elementor-widget elementor-widget-products" data-id="8225fc1" data-element_type="widget" data-widget_type="products.default">
@@ -665,10 +642,10 @@
                                           <style>/*! elementor - v3.5.5 - 03-02-2022 */
                                              .elementor-widget-divider{--divider-border-style:none;--divider-border-width:1px;--divider-color:#2c2c2c;--divider-icon-size:20px;--divider-element-spacing:10px;--divider-pattern-height:24px;--divider-pattern-size:20px;--divider-pattern-url:none;--divider-pattern-repeat:repeat-x}.elementor-widget-divider .elementor-divider{display:-webkit-box;display:-ms-flexbox;display:flex}.elementor-widget-divider .elementor-divider__text{font-size:15px;line-height:1;max-width:95%}.elementor-widget-divider .elementor-divider__element{margin:0 var(--divider-element-spacing);-ms-flex-negative:0;flex-shrink:0}.elementor-widget-divider .elementor-icon{font-size:var(--divider-icon-size)}.elementor-widget-divider .elementor-divider-separator{display:-webkit-box;display:-ms-flexbox;display:flex;margin:0;direction:ltr}.elementor-widget-divider--view-line_icon .elementor-divider-separator,.elementor-widget-divider--view-line_text .elementor-divider-separator{-webkit-box-align:center;-ms-flex-align:center;align-items:center}.elementor-widget-divider--view-line_icon .elementor-divider-separator:after,.elementor-widget-divider--view-line_icon .elementor-divider-separator:before,.elementor-widget-divider--view-line_text .elementor-divider-separator:after,.elementor-widget-divider--view-line_text .elementor-divider-separator:before{display:block;content:"";border-bottom:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--element-align-left .elementor-divider .elementor-divider-separator>.elementor-divider__svg:first-of-type{-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:100;flex-shrink:100}.elementor-widget-divider--element-align-left .elementor-divider-separator:before{content:none}.elementor-widget-divider--element-align-left .elementor-divider__element{margin-left:0}.elementor-widget-divider--element-align-right .elementor-divider .elementor-divider-separator>.elementor-divider__svg:last-of-type{-webkit-box-flex:0;-ms-flex-positive:0;flex-grow:0;-ms-flex-negative:100;flex-shrink:100}.elementor-widget-divider--element-align-right .elementor-divider-separator:after{content:none}.elementor-widget-divider--element-align-right .elementor-divider__element{margin-right:0}.elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator{border-top:var(--divider-border-width) var(--divider-border-style) var(--divider-color)}.elementor-widget-divider--separator-type-pattern{--divider-border-style:none}.elementor-widget-divider--separator-type-pattern.elementor-widget-divider--view-line .elementor-divider-separator,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:after,.elementor-widget-divider--separator-type-pattern:not(.elementor-widget-divider--view-line) .elementor-divider-separator:before,.elementor-widget-divider--separator-type-pattern:not([class*=elementor-widget-divider--view]) .elementor-divider-separator{width:100%;min-height:var(--divider-pattern-height);-webkit-mask-size:var(--divider-pattern-size) 100%;mask-size:var(--divider-pattern-size) 100%;-webkit-mask-repeat:var(--divider-pattern-repeat);mask-repeat:var(--divider-pattern-repeat);background-color:var(--divider-color);-webkit-mask-image:var(--divider-pattern-url);mask-image:var(--divider-pattern-url)}.elementor-widget-divider--no-spacing{--divider-pattern-size:auto}.elementor-widget-divider--bg-round{--divider-pattern-repeat:round}.rtl .elementor-widget-divider .elementor-divider__text{direction:rtl}
                                           </style>
-                                          <div class="elementor-divider">
+                                          {{-- <div class="elementor-divider">
                                              <span class="elementor-divider-separator">
                                              </span>
-                                          </div>
+                                          </div> --}}
                                        </div>
                                     </div>
                                  </div>
@@ -681,9 +658,9 @@
             </section>
             
              <!-- new arrival end  -->
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-d6efc6b elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-d565763 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6efc6b" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cd711f" data-id="7cd711f" data-element_type="column">
+                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7cd711f" data-id="7cd711f" data-element_type="column" style="background:#f8f8f8">
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <!-- <div class="elementor-element elementor-element-4c17592 elementor-view-default elementor-widget elementor-widget-icon" data-id="4c17592" data-element_type="widget" data-widget_type="icon.default">
                            <div class="elementor-widget-container">
@@ -714,16 +691,17 @@
                         </div> -->
                         <div class="elementor-element elementor-element-af9e7b4 elementor-widget elementor-widget-heading" data-id="af9e7b4" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default"><center>New Arrivals</center></h2>
+                              <h2 class="elementor-heading-title elementor-size-default"><center><b>New</b> Arrivals</center></h2>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
             </section>
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-1cccd51 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section">
+            {{-- <section class="elementor-section elementor-top-section elementor-element elementor-element-0d12b0c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section"> --}}
+            <section class="elementor-section elementor-top-section elementor-element elementor-element-0d12b0c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bad5e7c" data-id="bad5e7c" data-element_type="column">
+                  <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-bad5e7c" data-id="bad5e7c" data-element_type="column" style="background:#f8f8f8;">
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-8225fc1 elementor-widget elementor-widget-products" data-id="8225fc1" data-element_type="widget" data-widget_type="products.default">
                            <div class="elementor-widget-container">
@@ -974,7 +952,7 @@
                                  <div class="elementor-widget-wrap elementor-element-populated">
                                     <div class="elementor-element elementor-element-327258a elementor-widget elementor-widget-heading" data-id="327258a" data-element_type="widget" data-widget_type="heading.default">
                                        <div class="elementor-widget-container">
-                                          <h2 class="elementor-heading-title elementor-size-default">People Loves Us</h2>
+                                          <h2 class="elementor-heading-title elementor-size-default"><b>People</b> Loves Us</h2>
                                        </div>
                                     </div>
                                     <section class="elementor-section elementor-inner-section elementor-element elementor-element-67729fe elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="67729fe" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -1148,7 +1126,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-251742b elementor-widget elementor-widget-heading" data-id="251742b" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default">Latest News</h2>
+                              <h2 class="elementor-heading-title elementor-size-default"><b>Latest</b> News</h2>
                            </div>
                         </div>
                         <section class="elementor-section elementor-inner-section elementor-element elementor-element-b2776b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="b2776b5" data-element_type="section">

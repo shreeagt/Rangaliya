@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
 .archive .container.blogpreset4 {
   margin-top: 100px;
 }
@@ -94,9 +95,10 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: DM Sans;
+  font-family: 'Manrope', sans-serif;
   font-weight: 500;
-  letter-spacing: 0px;
+  font-size:35px;
+  letter-spacing: 3px;
   line-height: 1.4em;
   color: #2d3448;
 }
@@ -317,24 +319,28 @@ button:not(.search-submit, .wp-block-search__button, .mintie-arrows, .js-search-
 }
 
 .woocommerce-loop-product__title {
-  font-family: DM Sans;
+  /* font-family: DM Sans; */
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.26px;
   line-height: 2;
-  color: #2d3448;
+  /* color: #2d3448; */
+  color: #111;
 }
 
 .content-info-product .price {
-  font-family: DM Sans;
+  /* font-family: DM Sans; */
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
-  color: #717171;
+  color: #777777;
 }
 
 .content-info-product .price ins {
-  font-family: DM Sans;
+  /* font-family: DM Sans; */
+  font-family: 'Manrope', sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
@@ -488,6 +494,7 @@ button:not(.search-submit, .wp-block-search__button, .mintie-arrows, .js-search-
 .mintie-style-style3:hover {
   transition: all 0.3s;
   transform: translateY(-10px);
+  box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
 }
 
 

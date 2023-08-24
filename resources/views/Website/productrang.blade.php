@@ -67,20 +67,21 @@ media='all' />
     <section class="sproduct my-5 pt-5">
         <div class="row justify-content-evenly">
             <div class="col-lg-5 col-md-12 col-12">
-                <img id="mainImage" class="img-fluid w-100 pb-1 xzoom-main" src="/img/new1/IMG_7210.jpg" alt="">
+                <img id="mainImage" class="img-fluid w-100 pb-1 xzoom-main" src="{{$product->images}}" alt="{{ $product->product_title }}">
             
                 <div class="small-img-group">
                     <div class="small-img-col">
-                        <img src="/img/new1/IMG_7210.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7210.jpg')">
+                        {{-- <img src="/img/new1/IMG_7210.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7210.jpg')"> --}}
+                        <img src="{{$product->images}}" alt="{{ $product->product_title }}" onclick="changeMainImage('{{$product->images}}')">
                     </div>
                     <div class="small-img-col">
-                        <img src="/img/new1/IMG_7125.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7125.jpg')">
+                        <img src="{{$product->images}}" alt="{{ $product->product_title }}" onclick="changeMainImage('{{$product->images}}')">
                     </div>
                     <div class="small-img-col">
-                        <img src="/img/new1/IMG_7100.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7100.jpg')">
+                        <img src="{{$product->images}}" alt="{{ $product->product_title }}" onclick="changeMainImage('{{$product->images}}')">
                     </div>
                     <div class="small-img-col">
-                        <img src="/img/new1/IMG_7099.jpg" alt="" onclick="changeMainImage('/img/new1/IMG_7099.jpg')">
+                        <img src="{{$product->images}}" alt="{{ $product->product_title }}" onclick="changeMainImage('{{$product->images}}')">
                     </div>
                 </div>
             </div>

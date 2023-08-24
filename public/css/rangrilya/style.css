@@ -23,6 +23,9 @@ TABLE OF CONTENTS:
 */
 /* VARIABLES */
 /* Arrows */
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 .slick-prev,
 .slick-next {
   position: absolute;
@@ -14008,8 +14011,18 @@ dd {
   bottom: 2px;
 }
 
+
 .btnblog-readmore:hover:before {
   animation: underline-link 0.8s cubic-bezier(0.58, 0.3, 0.005, 1) 0s 1;
+}
+
+.product-section-description {
+    color: #777;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    line-height: 1.7em;
+    letter-spacing: 0.5px;
+
 }
 
 .blog-read-more {
@@ -23011,7 +23024,8 @@ input[type='text'], input[type='email'], input[type='url'], input[type='password
 .products .product {
   list-style: none;
   float: left;
-  margin: 0 30px 30px 0;
+  /* margin: 0 30px 30px 0; */
+  margin: 10px;
   position: relative;
   /* label plugin */
 }
@@ -26167,6 +26181,8 @@ form.woocommerce-checkout .shop_table td, form.woocommerce-checkout .shop_table 
   transform: translateY(103%) translateZ(0);
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  background: #111;
+    font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .mintie-style-style3 .mintie-add-btn a {
@@ -26178,7 +26194,7 @@ form.woocommerce-checkout .shop_table td, form.woocommerce-checkout .shop_table 
   font-size: 14px;
   letter-spacing: 0.2;
   font-weight: 400;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .mintie-style-style3 .mintie-add-btn .loading:before {
