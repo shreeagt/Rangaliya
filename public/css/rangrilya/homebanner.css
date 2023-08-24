@@ -9,8 +9,11 @@
   }
 }
 @media (min-width: 1024px) {
-  .bigTitle {
+  /* .bigTitle {
     font-size: 6vw;
+  } */
+  .bigTitle {
+    font-size: 5.5vw;
   }
 }
 .bigTitle .orangeIcon {
@@ -38,7 +41,8 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-family: "CabinetGrotesk-extrabold", sans-serif;
+  /* font-family: "CabinetGrotesk-extrabold", sans-serif; */
+  font-family: "Open Sans", sans-serif;
   color: #000;
   transition: padding 1s cubic-bezier(0.16, 1, 0.3, 1);
   width: fit-content;
@@ -124,7 +128,9 @@
 .home-showcase .home-showcaseSlider .swiper-wrapper .swiper-slide .swiper-image .text-container .bigTitle {
   transform: translate(-140%, 0);
   transition: transform 1.15s cubic-bezier(0.58, 0, 0.28, 0.99) 0.4s;
-  color: #2d3448;
+  /* color: #2d3448; */
+  font-family: "Manrope", "Open Sans";
+  color: #111;
   margin: 0 0 2.5rem;
   text-shadow: #21212121 0px 0px 5px;
 }

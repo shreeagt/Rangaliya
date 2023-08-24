@@ -164,7 +164,7 @@
                         </div>
                         <div class="elementor-element elementor-element-b710be3 elementor-widget elementor-widget-heading" data-id="b710be3" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default">Crafting With Love</h2>
+                              <h2 class="elementor-heading-title elementor-size-default"><b>Crafting</b> With Love</h2>
                            </div>
                         </div>
                         <section class="elementor-section elementor-inner-section elementor-element elementor-element-dc9c27a elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="dc9c27a" data-element_type="section">
@@ -262,7 +262,7 @@
                      <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-68abaa8 elementor-widget elementor-widget-heading" data-id="68abaa8" data-element_type="widget" data-widget_type="heading.default">
                            <div class="elementor-widget-container">
-                              <h2 class="elementor-heading-title elementor-size-default">Why Choose Us</h2>
+                              <h2 class="elementor-heading-title elementor-size-default"><b>Why</b> Choose Us</h2>
                            </div>
                         </div>
                         <section class="elementor-section elementor-inner-section elementor-element elementor-element-06ae09e elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="06ae09e" data-element_type="section">

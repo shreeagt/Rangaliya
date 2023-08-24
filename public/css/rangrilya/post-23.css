@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 .elementor-23 .elementor-element.elementor-element-0d12b0c>.elementor-container {
     max-width: 1290px;
 }
@@ -38,10 +40,13 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-b710be3 .elementor-heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 45px;
+    /* font-family: "Playfair Display", Sans-serif; */
+    font-family: "Manrope", "Open Sans";
+    /* font-size: 45px; */
+    font-size: 1.5em;
     font-weight: 400;
     letter-spacing: 0px;
+    text-transform: uppercase;
 }
 
 .elementor-23 .elementor-element.elementor-element-b710be3>.elementor-widget-container {
@@ -55,8 +60,10 @@
 
 .elementor-23 .elementor-element.elementor-element-288b82f {
     text-align: center;
-    color: var(--e-global-color-primary);
-    font-family: "DM Sans", Sans-serif;
+    /* color: var(--e-global-color-primary); */
+    color: #777;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: "Manrope", "Open Sans";
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
@@ -85,11 +92,14 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-46e353a {
-    font-family: "DM Sans", Sans-serif;
+    font-family: 'Karla', sans-serif;
+    /* font-family: "DM Sans", Sans-serif; */
     font-size: 15px;
     font-weight: 400;
     line-height: 1.6em;
     width: 374px;
+    color: #777;
+    letter-spacing: 0.2px;
     max-width: 374px;
 }
 
@@ -171,8 +181,11 @@
 }
 
 .elementor-23 .elementor-element.elementor-element-68abaa8 .elementor-heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 36px;
+    /* font-family: "Playfair Display", Sans-serif; */
+    font-family: "Manrope", "Open Sans";
+    text-transform: uppercase;
+    /* font-size: 36px; */
+    font-size:1.5em;
     font-weight: 400;
     letter-spacing: 0px;
 }
@@ -192,8 +205,10 @@
 
 .elementor-23 .elementor-element.elementor-element-5ef9e69 {
     text-align: center;
-    color: var(--e-global-color-primary);
-    font-family: "DM Sans", Sans-serif;
+    /* color: var(--e-global-color-primary); */
+    color: #777;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: 'Karla', sans-serif;
     font-size: 12px;
     font-weight: 500;
     text-transform: uppercase;
@@ -245,8 +260,12 @@
 
 .elementor-23 .elementor-element.elementor-element-248840e {
     text-align: center;
-    color: var(--e-global-color-dc16e6d);
-    font-family: "DM Sans", Sans-serif;
+    /* color: var(--e-global-color-dc16e6d);
+    font-family: "DM Sans", Sans-serif; */
+        /* color: var(--e-global-color-primary); */
+        color: #777;
+        /* font-family: "DM Sans", Sans-serif; */
+        font-family: 'Karla', sans-serif;
     font-size: 15px;
     font-weight: 400;
     width: 284px;
@@ -292,8 +311,11 @@
 
 .elementor-23 .elementor-element.elementor-element-f09242b {
     text-align: center;
-    color: var(--e-global-color-dc16e6d);
-    font-family: "DM Sans", Sans-serif;
+    /* color: var(--e-global-color-dc16e6d);
+    font-family: "DM Sans", Sans-serif; */
+    color: #777;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: 'Karla', sans-serif;
     font-size: 15px;
     font-weight: 400;
     width: 284px;
@@ -339,8 +361,8 @@
 
 .elementor-23 .elementor-element.elementor-element-91011fa {
     text-align: center;
-    color: var(--e-global-color-dc16e6d);
-    font-family: "DM Sans", Sans-serif;
+    color: #777;
+    font-family: 'Karla', sans-serif;
     font-size: 15px;
     font-weight: 400;
     width: 284px;
