@@ -20,7 +20,9 @@
 .content-info-product, .mintie-style-style3 {
   text-align: center;
 }
-
+.home-showcase{
+   margin-bottom: 0px;
+}
 
 </style>
 <main id="main" class="page-content">
@@ -1166,14 +1168,14 @@
                                                    <article class="post-blog-slider">
                                                       <div class="blog-box-slider no-excerpt">
                                                          <div class="blog-entry-thumbnail blog-thumbnail-box-slider">
-                                                            <a href="#"><img loading="lazy" width="770" height="500" src="{{$item->blog_thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image" decoding="async" srcset="{{$item->blog_thumbnail}}" />	</a>
+                                                            <a href="/blogs"><img loading="lazy" width="770" height="500" src="{{$item->blog_thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image" decoding="async" srcset="{{$item->blog_thumbnail}}" />	</a>
                                                          </div>
                                                          <div class="blog-category">
                                                             
                                                          </div>
                                                          <div class="blog-entry-header entry-wrapper blog-detail-box-slider">
                                                             <h3 class="blog-entry-title">
-                                                               <a href="#">
+                                                               <a href="/blogs">
                                                                {{ $item->blog_title }}	
                                                                </a>
                                                             </h3>

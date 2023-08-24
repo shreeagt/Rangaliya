@@ -1,7 +1,5 @@
-
-
-    
 @include('layouts.headerrang')
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typicons/2.0.9/typicons.min.css" integrity="sha512-HsTt69nTtZcFtB8QnTtwlC0CB+klLbyNlV7QaA1zuSl/W1dxZzeb65/jrgPw00wzLjS7fUgR5U/G1Hx5F3q4FA==" crossorigin="anonymous" />
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{asset('css/rangrilya/post-15.css') }}" type='text/css' media='all' />
 <link rel='stylesheet' id='wc-blocks-vendors-style-css' href="{{asset('css/rangrilya/style2.css') }}" type='text/css' media='all' />
@@ -30,12 +28,24 @@ button.product_type_external:hover {
 
  .mintie-style-style3 {
     text-align: center;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
  .mintie-style-style3:hover {
     transition: all 0.3s;
     transform: translateY(-10px);
     box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.category-card:hover {
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.category-img:hover {
+   outline: none;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.category-card h3 {
+  font-size: 24px;
+  margin: 0;
 }
 </style>
 
@@ -47,53 +57,12 @@ button.product_type_external:hover {
       </header>
       <div data-elementor-type="wp-page" data-elementor-id="15" class="elementor elementor-15" data-elementor-settings="[]">
          <div class="elementor-section-wrap">
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-3756b41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3756b41" data-element_type="section">
-               <div class="elementor-container elementor-column-gap-default">
-                  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-acbf47b elementor-widget elementor-widget-mintie-category-box" data-id="acbf47b" data-element_type="widget" data-widget_type="mintie-category-box.default">
-                           <div class="elementor-widget-container">
-                              <div class="mintie-category-box-wrapper">
-                                 <div class="mintie-category-box-image hover-effect_2">
-                                    <a href="https://rangaliya.matrixpanel.in/categoryview/Holding" class="mintie-category-box-link"></a>
-                                    <img decoding="async" src="https://shreeagt-prod.s3.ap-south-1.amazonaws.com/inocare/1690208791-IMG_7109.jpg" alt="image">
-                                 </div>
-                                 <div class="mintie-category-box-content">
-                                    <h3 class="mintie-category-box-title">
-                                       <a href="https://rangaliya.matrixpanel.in/categoryview/Holding">
-                                       Holding
-                                       </a>
-                                    </h3>
-                                    <p class="mintie-category-description effect-ef_none">
-                                       0 Items
-                                    </p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
-                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-acbf47b elementor-widget elementor-widget-mintie-category-box" data-id="acbf47b" data-element_type="widget" data-widget_type="mintie-category-box.default">
-                           <div class="elementor-widget-container">
-                              <div class="mintie-category-box-wrapper">
-                                 <div class="mintie-category-box-image hover-effect_2">
-                                    <a href="https://rangaliya.matrixpanel.in/categoryview/Shoes" class="mintie-category-box-link"></a>
-                                    <img decoding="async" src="https://shreeagt-prod.s3.ap-south-1.amazonaws.com/inocare/1690212583-toys.jpg" alt="image">
-                                 </div>
-                                 <div class="mintie-category-box-content">
-                                    <h3 class="mintie-category-box-title">
-                                       <a href="https://rangaliya.matrixpanel.in/categoryview/Shoes">
-                                       Shoes
-                                       </a>
-                                    </h3>
-                                    <p class="mintie-category-description effect-ef_none">
-                                       53 Items
-                                    </p>
-                                 </div>
-                              </div>
-                           </div>
+            <section>
+               <div class="category-header">
+                  <div class="category-header-wrapper">
+                     <div class="category-title">
+                        <div class="title-wrapper">
+                           <h3 class="title text-center">Category Name</h3>
                         </div>
                      </div>
                   </div>
@@ -164,6 +133,88 @@ button.product_type_external:hover {
                   </div>
                </div>
             </section>
+
+            <section>
+               <div class="category-other">
+                  <div class="category-other-wrapper">
+                     <div class="category-title">
+                        <div class="title-wrapper">
+                           <h3 class="title text-center">Other Category</h3>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+
+            <section class="product-category">
+               <div class="container">
+                  <div class="category-section">
+                     <div class="category-section-wrapper">
+                        <div class="row">
+                           <div class="mb-4">
+                              <div class="col-lg-4 col-md-6 col-sm-12">
+                                 <div class="category">
+                                    <div class="category-card">
+                                    <div class="category-card-wrapper">
+                                       <div class="category-img text-center hover-effect_2">
+                                          <a href="#" class="mintie-category-box-link"></a>
+                                          <img decoding="async" src="/img/new1/IMG_7125.jpg" alt="image">
+                                       </div>
+                                       <div class="category-name">
+                                          <h3 class="mintie-category-box-title text-center">
+                                          <a href="#">Example
+                                          </a>
+                                          </h3>
+                                          <p class="mintie-category-description effect-ef_none  text-center"></p>
+                                       </div>
+                                    </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-6 col-sm-12">
+                                 <div class="category">
+                                    <div class="category-card">
+                                    <div class="category-card-wrapper">
+                                       <div class="category-img text-center hover-effect_2">
+                                          <a href="#" class="mintie-category-box-link"></a>
+                                          <img decoding="async" src="/img/new1/IMG_7125.jpg" alt="image">
+                                       </div>
+                                       <div class="category-name">
+                                          <h3 class="mintie-category-box-title text-center">
+                                          <a href="#">Example
+                                          </a>
+                                          </h3>
+                                          <p class="mintie-category-description effect-ef_none  text-center"></p>
+                                       </div>
+                                    </div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="col-lg-4 col-md-6 col-sm-12">
+                                 <div class="category">
+                                    <div class="category-card">
+                                    <div class="category-card-wrapper">
+                                       <div class="category-img text-center hover-effect_2">
+                                          <a href="#" class="mintie-category-box-link"></a>
+                                          <img decoding="async" src="/img/new1/IMG_7210.jpg" alt="image">
+                                       </div>
+                                       <div class="category-name">
+                                          <h3 class="mintie-category-box-title text-center">
+                                          <a href="#">Example
+                                          </a>
+                                          </h3>
+                                          <p class="mintie-category-description effect-ef_none  text-center"></p>
+                                       </div>
+                                    </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+              </section>
          </div>
       </div>
    </div>
