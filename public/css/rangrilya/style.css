@@ -8389,8 +8389,11 @@ body .wp-block-cover-text {
 }
 
 .form-page-contact label {
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
+  text-transform: uppercase;
   letter-spacing: 0.26px;
   font-weight: 500;
+  font-size: .8em;
 }
 
 .form-page-contact textarea,
@@ -16176,6 +16179,7 @@ a {
   font-weight: 500;
   line-height: 1.6;
   letter-spacing: 0.2px;
+  font-family: "Montserrat", "Open Sans", "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .elementor-widget-container .mintie-entries li.mintie-entry .mintie-recent-post-detail .mintie-recent-post-on {
@@ -22763,12 +22767,35 @@ table.quantity-discount-table .quantity-discount-item.disabled label {
 }
 
 input[type='text'], input[type='email'], input[type='url'], input[type='password'], input[type='search'], input[type='number'], input[type='tel'] {
-  width: 100%;
+  /* width: 100%;
   padding: 3px 15px;
   min-height: 40px;
   outline: none;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 500; */
+
+  height: 40px;
+    padding-left: 20px;
+    border: 1px solid #ddd;
+    /* border-radius: 0; */
+    box-shadow: none;
+    line-height: 22px;
+    letter-spacing: .5px;
+    -webkit-transition: border-color 0.5s;
+    transition: border-color 0.5s;
+}
+
+.wpcf7-text{
+  margin-top: 6px;
+  height: 40px;
+  padding-left: 20px;
+  border: 1px solid #ddd;
+  /* border-radius: 0; */
+  box-shadow: none;
+  line-height: 22px;
+  letter-spacing: .5px;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
 }
 
 #woosw_copy_btn {

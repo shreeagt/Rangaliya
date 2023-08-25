@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 .elementor-8248 .elementor-element.elementor-element-a00d218>.elementor-container {
     max-width: 1190px;
     min-height: 300px;
@@ -102,6 +105,8 @@
     font-weight: 400;
     line-height: 1.4em;
     margin-top: 19px;
+    font-family: "Manrope", "Open Sans";
+
 }
 
 .elementor-8248 .elementor-element.elementor-element-623a0f2 .widget-blog-post .entry-title a,

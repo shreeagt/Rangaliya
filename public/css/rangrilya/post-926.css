@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
 .elementor-926 .elementor-element.elementor-element-af8cc86 iframe {
     height: 600px;
 }
@@ -21,15 +24,16 @@
 }
 
 .elementor-926 .elementor-element.elementor-element-0c19dba .elementor-heading-title {
-    font-family: "Playfair Display", Sans-serif;
-    font-size: 45px;
+    font-family: Manrope, sans-serif;
+    letter-spacing: 3px;
+    font-size: 1.5em;
     font-weight: 400;
 }
 
 .elementor-926 .elementor-element.elementor-element-145ebcf {
     text-align: center;
-    color: var( --e-global-color-dc16e6d );
-    font-family: "DM Sans", Sans-serif;
+    color: #777;
+    font-family: 'Karla', sans-serif;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
@@ -88,14 +92,15 @@
 }
 
 .elementor-926 .elementor-element.elementor-element-171a6fc .elementor-heading-title {
-    font-family: "DM Sans", Sans-serif;
+    font-family: Manrope, sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .elementor-926 .elementor-element.elementor-element-4306fcf {
-    color: var( --e-global-color-dc16e6d );
-    font-family: "DM Sans", Sans-serif;
+    color: #999;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
@@ -145,14 +150,15 @@
 }
 
 .elementor-926 .elementor-element.elementor-element-2d001c6 .elementor-heading-title {
-    font-family: "DM Sans", Sans-serif;
+    font-family: Manrope, sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .elementor-926 .elementor-element.elementor-element-77a91e4 {
-    color: var( --e-global-color-dc16e6d );
-    font-family: "DM Sans", Sans-serif;
+    color: #999;
+    /* font-family: "DM Sans", Sans-serif; */
+    font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
@@ -202,14 +208,14 @@
 }
 
 .elementor-926 .elementor-element.elementor-element-ff1e3ca .elementor-heading-title {
-    font-family: "DM Sans", Sans-serif;
+    font-family: Manrope, sans-serif;
     font-size: 18px;
     font-weight: 400;
 }
 
 .elementor-926 .elementor-element.elementor-element-13a6ceb {
-    color: var( --e-global-color-dc16e6d );
-    font-family: "DM Sans", Sans-serif;
+    color:#999;
+    font-family: "Open Sans", "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
     font-size: 15px;
     font-weight: 400;
 }
@@ -219,7 +225,7 @@
 }
 
 .elementor-926 .elementor-element.elementor-element-4e649ed .elementor-heading-title {
-    font-family: "DM Sans", Sans-serif;
+    font-family: Manrope, sans-serif;
     font-size: 18px;
     font-weight: 400;
     letter-spacing: 0.28px;

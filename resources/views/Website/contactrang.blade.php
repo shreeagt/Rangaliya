@@ -56,7 +56,7 @@
               <div class="elementor-widget-wrap elementor-element-populated">
                 <div class="elementor-element elementor-element-0c19dba elementor-widget elementor-widget-heading" data-id="0c19dba" data-element_type="widget" data-widget_type="heading.default">
                   <div class="elementor-widget-container">
-                    <h2 class="elementor-heading-title elementor-size-default">Get in touch with us </h2>
+                    <h2 class="elementor-heading-title elementor-size-default"><b>Get</b> in touch with us </h2>
                   </div>
                 </div>
                 <div class="elementor-element elementor-element-145ebcf elementor-widget__width-initial elementor-widget elementor-widget-text-editor" data-id="145ebcf" data-element_type="widget" data-widget_type="text-editor.default">
@@ -249,7 +249,7 @@
                                   </span>
                                 </div>
                               </div>
-                              <div class="col-md-6">
+                              <div class="col-md-4">
                                 <div class="contact-form">
                                   <label>Mobile <span>*</span>
                                   </label>
@@ -259,10 +259,10 @@
                                   </span>
                                 </div>
                               </div>
-                              <div class="col-md-6">
+                              {{-- <div class="col-md-6">
                                  <span></span>
-                              </div>
-   <div class="col-md-6">
+                              </div> --}}
+   <div class="col-md-4">
      <label>State <span>*</span>
      </label>
      <span class="wpcf7-form-control-wrap your-email">
@@ -308,7 +308,7 @@
                        </select>
                      </span>
    </div>
-   <div class="col-md-6">
+   <div class="col-md-4">
      <label for="inputDistrict">District <span>*</span></label>
      <span class="wpcf7-form-control-wrap your-email">
       <select name="inputDistrict" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email input-contact" aria-required="true" aria-invalid="false" placeholder="Your District" required id="inputDistrict">
