@@ -124,6 +124,8 @@ Route::group(['prefix' => '/admin','middleware'=>'admin-auth'], function () {
     Route::get('/product/edit/{id}','Admin\ProductController@editProduct')->name('admin.edit-product');
     Route::get('/product/delete/{id}','Admin\ProductController@deleteProduct')->name('admin.destroy-product');
 
+    //Add More Product
+    Route::get('/add-more-product','Admin\ProductController@addProduct');
 
     // Category
     Route::get('/category','Admin\CategoryController@showCategories')->name('categories.index');

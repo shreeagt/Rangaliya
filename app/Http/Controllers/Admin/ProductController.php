@@ -64,6 +64,17 @@ class ProductController extends Controller
         return view('admin.login');
     }
 
+
+        // Add More Products
+        public function addProduct(){
+          
+      
+            return view('main.pages.products.addproduct');  
+                
+            }
+        
+        
+
     // Store Products
     public function storeProduct(Request $request){
         if(Auth::check())
