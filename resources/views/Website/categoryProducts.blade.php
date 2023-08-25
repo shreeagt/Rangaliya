@@ -57,7 +57,7 @@ button.product_type_external:hover {
       </header>
       <div data-elementor-type="wp-page" data-elementor-id="15" class="elementor elementor-15" data-elementor-settings="[]">
          <div class="elementor-section-wrap">
-            <section>
+         {{--   <section>
                <div class="category-header">
                   <div class="category-header-wrapper">
                      <div class="category-title">
@@ -67,7 +67,41 @@ button.product_type_external:hover {
                      </div>
                   </div>
                </div>
-            </section>
+            </section>--}}
+
+            <section class="product-category">
+            <div class="container">
+               <div class="category-section">
+                  <div class="category-section-wrapper">
+                     <div class="row">
+                     @foreach($categories as $index => $category)
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                           <div class="category">
+                              <div class="category-card">
+                              <div class="category-card-wrapper">
+                                 <div class="category-img text-center hover-effect_2">
+                                    <a href="{{ route('category-view', $category->category_name) }}" class="mintie-category-box-link"></a>
+                                    <img decoding="async" src="{{ $category->banner_image }}" alt="image">
+                                 </div>
+                                 <div class="category-name">
+                                    <h3 class="mintie-category-box-title text-center">
+                                    <a href="{{ route('category-view', $category->category_name) }}">
+                                       {{ $category->category_name }}
+                                    </a>
+                                    </h3>
+                                    <p class="mintie-category-description effect-ef_none  text-center">  {{ $productCount }} Items </p>
+                                 </div>
+                              </div>
+                              </div>
+                           </div>
+                        </div>
+                        @endforeach 
+      
+                     </div>
+                  </div>
+               </div>
+            </div>
+           </section>
     
             <section class="elementor-section elementor-top-section elementor-element elementor-element-1cccd51 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1cccd51" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
@@ -134,18 +168,8 @@ button.product_type_external:hover {
                </div>
             </section>
 
-            <section>
-               <div class="category-other">
-                  <div class="category-other-wrapper">
-                     <div class="category-title">
-                        <div class="title-wrapper">
-                           <h3 class="title text-center">Other Category</h3>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </section>
-
+ 
+{{--
             <section class="product-category">
                <div class="container">
                   <div class="category-section">
@@ -215,6 +239,8 @@ button.product_type_external:hover {
                   </div>
                </div>
               </section>
+
+--}}
          </div>
       </div>
    </div>

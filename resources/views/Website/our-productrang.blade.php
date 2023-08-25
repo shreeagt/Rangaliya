@@ -146,10 +146,10 @@ button.product_type_external:hover {
       </header>
       <div data-elementor-type="wp-page" data-elementor-id="15" class="elementor elementor-15" data-elementor-settings="[]">
          <div class="elementor-section-wrap">
-            <section class="elementor-section elementor-top-section elementor-element elementor-element-3756b41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3756b41" data-element_type="section">
+         {{--  <section class="elementor-section elementor-top-section elementor-element elementor-element-3756b41 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3756b41" data-element_type="section">
                <div class="elementor-container elementor-column-gap-default">
                    @foreach($categories as $index => $category)
-                   {{-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
+                   <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-39e4c78" data-id="39e4c78" data-element_type="column">
                        <div class="elementor-widget-wrap elementor-element-populated">
                            <div class="elementor-element elementor-element-acbf47b elementor-widget elementor-widget-mintie-category-box" data-id="acbf47b" data-element_type="widget" data-widget_type="mintie-category-box.default">
                                <div class="elementor-widget-container">
@@ -165,28 +165,33 @@ button.product_type_external:hover {
                                                </a>
                                            </h3>
                                            <p class="mintie-category-description effect-ef_none">
-                                               @if ($index === 0)
+                                               <!-- @if ($index === 0)
                                                {{ $productCount }} Items
                                                @elseif ($index === 1)
                                                53 Items
                                                @elseif ($index === 2)
                                                47 Items
-                                               @endif
+                                               @endif -->
+                                               
+                                               {{ $productCount }} Items
+                                        
+                                       
                                            </p>
                                        </div>
                                    </div>
                                </div>
                            </div>
                        </div>
-                   </div> --}}
+                   </div>
                    @endforeach
                </div>
-           </section>
-           <section class="product-category">
+           </section>--}} 
+    <section class="product-category">
             <div class="container">
                <div class="category-section">
                   <div class="category-section-wrapper">
                      <div class="row">
+                     @foreach($categories as $index => $category)
                         <div class="col-lg-4 col-md-6 col-sm-12">
                            <div class="category">
                               <div class="category-card">
@@ -201,13 +206,14 @@ button.product_type_external:hover {
                                        {{ $category->category_name }}
                                     </a>
                                     </h3>
-                                    <p class="mintie-category-description effect-ef_none  text-center"> @if ($index === 0) {{ $productCount }} Items @elseif ($index === 1) 53 Items @elseif ($index === 2) 47 Items @endif </p>
+                                    <p class="mintie-category-description effect-ef_none  text-center">  {{ $productCount }} Items </p>
                                  </div>
                               </div>
                               </div>
                            </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        @endforeach 
+                        <!-- <div class="col-lg-4 col-md-6 col-sm-12">
                            <div class="category">
                               <div class="category-card">
                               <div class="category-card-wrapper">
@@ -246,7 +252,7 @@ button.product_type_external:hover {
                               </div>
                               </div>
                            </div>
-                        </div>
+                        </div> -->
                      </div>
                   </div>
                </div>
