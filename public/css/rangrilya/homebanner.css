@@ -13,8 +13,9 @@
     font-size: 6vw;
   } */
   .bigTitle {
-    font-size: 5.5vw;
-  }
+    font-size: 3.5vw;
+    line-height: 1.2;
+}
 }
 .bigTitle .orangeIcon {
   width: 10px;

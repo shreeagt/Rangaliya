@@ -38,7 +38,7 @@
                 <div class="swiper-slide">
                     <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_o.jpg')">
                         <div class="text-container">
-                            <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                            <h1 class="bigTitle">Chic Storage Solutions  <br> Discover Decorative Boxes  <span class="orangeIcon"></span></h1>
                             <div class="container-arrow-button">
                                 <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
                                     Shop with us
@@ -55,7 +55,7 @@
                 <div class="swiper-slide">
                     <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_t.jpg')">
                         <div class="text-container">
-                            <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                            <h1 class="bigTitle">Treasure in Boxes <br> Artful Storage for Every Corner <span class="orangeIcon"></span></h1>
                             <div class="container-arrow-button">
                                 <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
                                 Shop with us
@@ -72,7 +72,7 @@
                 <div class="swiper-slide">
                     <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_th.jpg')">
                           <div class="text-container">
-                              <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                              <h1 class="bigTitle">Step into Luxury <br>   Designs that Elevate <span class="orangeIcon"></span></h1>
                               <div class="container-arrow-button">
                                   <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
                                     Shop with us
@@ -89,7 +89,7 @@
                 <div class="swiper-slide">
                     <div class="swiper-image" data-swiper-parallax-x="3%" style="background-image:url('/img/rang_f.jpg')">
                             <div class="text-container">
-                                <h1 class="bigTitle">Lorem ipsum dolor<span class="orangeIcon"></span> <br> Sit amet <span class="orangeIcon"></span> <br> Consectetur <span class="orangeIcon"></span></h1>
+                                <h1 class="bigTitle">Where Fashion Meets Art <br> Discover Our  Designs <span class="orangeIcon"></span></h1>
                                 <div class="container-arrow-button">
                                     <a class="cta arrow-button" href="{{ route('shop.index') }}"> 
                                     Shop with us
