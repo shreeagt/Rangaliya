@@ -38,6 +38,10 @@ button.product_type_external:hover {
 .category-card:hover {
    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+.category-card.active {
+    box-shadow: rgba(0, 0, 0, 0.15) 0.95px 1.95px 4.6px;
+}
 .category-img:hover {
    outline: none;
    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -46,6 +50,53 @@ button.product_type_external:hover {
 .category-card h3 {
   font-size: 24px;
   margin: 0;
+}
+
+
+.category{
+   display: flex;
+   justify-content: center;
+}
+.category-card {
+  background-color: #ffffff;
+  padding: 20px;
+  /* width: 340px;
+  height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category-img.text-center.hover-effect_2 {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    /* background: #f1f1f1; */
+}
+
+.category-card:hover {
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.category-card img {
+  /* width: 300px;
+  height: 300px; */
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.category-card h3 {
+  font-size: 24px;
+  margin: 0;
+}
+.category-img:hover {
+   outline: none;
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 </style>
 
@@ -69,6 +120,10 @@ button.product_type_external:hover {
                </div>
             </section>--}}
 
+            @php
+               $activeCategory = request()->segment(2); 
+            @endphp
+
             <section class="product-category">
             <div class="container">
                <div class="category-section">
@@ -76,8 +131,8 @@ button.product_type_external:hover {
                      <div class="row">
                      @foreach($categories as $index => $category)
                         <div class="col-lg-4 col-md-6 col-sm-12">
-                           <div class="category">
-                              <div class="category-card">
+                           <div class="category ">
+                              <div class="category-card {{ $activeCategory === $category->category_name ? 'active' : '' }}">
                               <div class="category-card-wrapper">
                                  <div class="category-img text-center hover-effect_2">
                                     <a href="{{ route('category-view', $category->category_name) }}" class="mintie-category-box-link"></a>
@@ -89,7 +144,7 @@ button.product_type_external:hover {
                                        {{ $category->category_name }}
                                     </a>
                                     </h3>
-                                    <p class="mintie-category-description effect-ef_none  text-center">  {{ $productCount }} Items </p>
+                                    {{-- <p class="mintie-category-description effect-ef_none  text-center">  {{ $productCount }} Items </p> --}}
                                  </div>
                               </div>
                               </div>

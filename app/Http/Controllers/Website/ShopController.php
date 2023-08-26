@@ -48,9 +48,13 @@ class ShopController extends Controller
     }
     public function productListByCategory($category_name)
     {
+
+        $productCount = Product::where('category', 'electronics')->get()->count(); //harry
+        $categories = Category::withCount('products')->get();
+
    
         $products = Product::all();
-        $categories = Category::all();
+        // $categories = Category::all();
         //$categoryProduct = Product::where('category', $request->category)->get();
         // $categoryProduct = Category::join('products', 'products.category', '=', 'category.category_name')
         //                     ->select('products.*')
@@ -63,6 +67,7 @@ class ShopController extends Controller
             'categoryProduct' => $categoryProduct,
             'categories' => $categories,
             'products' => $products,
+            'productCount'=>$productCount
         ]);
     }
 

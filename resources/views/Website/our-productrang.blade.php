@@ -206,7 +206,7 @@ button.product_type_external:hover {
                                        {{ $category->category_name }}
                                     </a>
                                     </h3>
-                                    <p class="mintie-category-description effect-ef_none  text-center">  {{ $productCount }} Items </p>
+                           {{---        <p class="mintie-category-description effect-ef_none  text-center">  {{ $productCount }} Items </p>--}} 
                                  </div>
                               </div>
                               </div>
