@@ -15,12 +15,14 @@ use App\Model\ProductTabs;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\ProductNewImage;
 use Illuminate\Support\Facades\Hash;
 
 class ProductController extends Controller
 {
-    private function storeFile($file) {
-        
+    private function storeFile($file)
+    {
+
         $name = $file->getClientOriginalName();
         $name = pathinfo($name, PATHINFO_FILENAME);
         $name = str_replace(' ', '_', $name);
@@ -43,194 +45,231 @@ class ProductController extends Controller
 
         return $url;
     }
-     // Products
-     public function viewProducts(){
-    
-        $products=Product::all();
-      
-        return view('main.pages.products.browse',['products'=>$products]);
+    // Products
+    public function viewProducts()
+    {
+
+        $products = Product::all();
+
+        return view('main.pages.products.browse', ['products' => $products]);
     }
 
     // Products
-    public function createProduct(){
-        if(Auth::check())
-        {
+    public function createProduct()
+    {
+        if (Auth::check()) {
             $allCategory = Category::all()->toArray();
-            $all_tabs=Tabs::where('status','=','Y')->get();
-            $products=Product::all();
-          
-            return view('main.pages.products.create', ['allCategory' =>$allCategory,'all_tabs'=>$all_tabs,'products'=>$products]);
+            $all_tabs = Tabs::where('status', '=', 'Y')->get();
+            $products = Product::all();
+
+            return view('main.pages.products.create', ['allCategory' => $allCategory, 'all_tabs' => $all_tabs, 'products' => $products]);
         }
         return view('admin.login');
     }
 
 
-        // Add More Products
-        public function addProduct(){
-          
-      
-            return view('main.pages.products.addproduct');  
-                
+    // Add More Products
+    public function addProduct()
+    {
+        return view('main.pages.products.addproduct');
+    }
+
+    //Add the product image
+    public function storeImage(Request $request)
+    {
+        if (Auth::check()) {
+            $allFiles = $request->allFiles();
+            $product_image = null;
+            if (isset($allFiles['image'])) {
+
+                $product_image = $this->storeFile($allFiles['image']);
             }
-        
-        
+
+            $product_video = null;
+            if (isset($allFiles['video'])) {
+                $product_video = $this->storeFile($allFiles['video']);
+            }
+
+            $latestProduct = Product::latest()->first();
+            $lastInsertedId = $latestProduct->id;
+
+            $product_data = new ProductNewImage();
+
+            $product_data->product_id = $lastInsertedId;
+            if ($product_image != null) {
+                $product_data->product_image = $product_image;
+            }
+            if ($product_video != null) {
+                $product_data->product_video = $product_video;
+            }
+            $product_data->youtube_link = $request->youtube_link;    
+
+            $product_data->save();
+
+            return redirect()->route('admin.add-product')->with('success_message', 'Product Data Added Successfully!');
+
+        }
+    }
+
+
 
     // Store Products
-    public function storeProduct(Request $request){
-        if(Auth::check())
-        {
+    public function storeProduct(Request $request)
+    {
+        if (Auth::check()) {
             $allFiles = $request->allFiles();
-            if(isset($request->table_id) && $request->table_id!=null){
+            if (isset($request->table_id) && $request->table_id != null) {
                 $image = null;
                 if (isset($allFiles['banner_image'])) {
-    
+
                     $image = $this->storeFile($allFiles['banner_image']);
                 }
 
                 $og_image = null;
                 if (isset($allFiles['og_image'])) {
-    
+
                     $og_image = $this->storeFile($allFiles['og_image']);
                 }
 
-                $product=Product::find($request->table_id);
-                $product->product_title=$request->product_title;
-                $product->description=$request->description;
-                $product->product_url=$request->product_url;
-                $product->category=$request->category;
-                $product->price=$request->price;
-                $product->quantity=$request->quantity;
-                if($image!=null){
-                $product->images=$image;
+                $product = Product::find($request->table_id);
+                $product->product_title = $request->product_title;
+                $product->description = $request->description;
+                $product->product_url = $request->product_url;
+                $product->category = $request->category;
+                $product->price = $request->price;
+                $product->quantity = $request->quantity;
+                if ($image != null) {
+                    $product->images = $image;
                 }
 
-                if(isset($request->best_seller)){
+                if (isset($request->best_seller)) {
                     $bestSeller = 1;
-                } else{
+                } else {
                     $bestSeller = 0;
                 }
 
-                if(isset($request->home)){
+                if (isset($request->home)) {
                     $home = 1;
-                } else{
+                } else {
                     $home = 0;
                 }
                 $product->best_seller = $bestSeller;
                 $product->home = $home;
-                $product->sub_services=$request->sub_services;
+                $product->sub_services = $request->sub_services;
 
-                $product->meta_title=$request->meta_title;
-                $product->meta_desc=$request->meta_desc;
-                $product->meta_keywords=$request->meta_keywords;
-                $product->og_title=$request->og_title;
-                $product->og_desc=$request->og_desc;
-                if($og_image!=null){
-                    $product->og_image=$og_image;
+                $product->meta_title = $request->meta_title;
+                $product->meta_desc = $request->meta_desc;
+                $product->meta_keywords = $request->meta_keywords;
+                $product->og_title = $request->og_title;
+                $product->og_desc = $request->og_desc;
+                if ($og_image != null) {
+                    $product->og_image = $og_image;
                 }
-               
+
                 $product->save();
-                
-                return redirect()->route('admin-products.index')->with('success_message','Product Edited Successfully!');
-    
-            }else{
 
-            $image = '';
-            if (isset($allFiles['banner_image'])) {
+                return redirect()->route('admin-products.index')->with('success_message', 'Product Edited Successfully!');
+            } else {
 
-                $image = $this->storeFile($allFiles['banner_image']);
+                $image = '';
+                if (isset($allFiles['banner_image'])) {
+
+                    $image = $this->storeFile($allFiles['banner_image']);
+                }
+
+                $og_image = null;
+                if (isset($allFiles['og_image'])) {
+
+                    $og_image = $this->storeFile($allFiles['og_image']);
+                }
+
+                $products = new Product();
+                $products->product_title = $request->product_title;
+                $products->description = $request->description;
+                $products->product_url = $request->product_url;
+                $products->category = $request->category;
+                $products->price = $request->price;
+                $products->quantity = $request->quantity;
+                if ($image != null) {
+                    $products->images = $image;
+                }
+
+                if (isset($request->best_seller)) {
+                    $bestSeller = 1;
+                } else {
+                    $bestSeller = 0;
+                }
+
+                if (isset($request->home)) {
+                    $home = 1;
+                } else {
+                    $home = 0;
+                }
+                $products->best_seller = $bestSeller;
+                $products->home = $home;
+
+                $data = isset($request['sub_services']) && is_array($request['sub_services']) ? $request['sub_services'] : [];
+
+                $sub_services = implode(',', $data);
+
+                // $sub_services = implode(",", $request->get('sub_services'));
+
+                $products->sub_services = $sub_services;
+                $products->meta_title = $request->meta_title;
+                $products->meta_desc = $request->meta_desc;
+                $products->meta_keywords = $request->meta_keywords;
+                $products->og_title = $request->og_title;
+                $products->og_desc = $request->og_desc;
+                if ($og_image != null) {
+                    $products->og_image = $og_image;
+                }
+
+                $products->save();
+
+                // For Extra Tabs
+                if (isset($request->content) && $request->content != null) {
+                    foreach ($request->content as $key => $value) {
+                        $new_product_tab = new ProductTabs();
+                        $new_product_tab->product_id = $products->id;
+                        $new_product_tab->tab_id = $request->tab_id[$key];
+                        $new_product_tab->value = $value;
+                        $new_product_tab->save();
+                    }
+                }
+                return redirect()->route('admin.add-product')->with('success_message', 'Product Added Successfully!');
             }
-
-            $og_image = null;
-            if (isset($allFiles['og_image'])) {
-
-                $og_image = $this->storeFile($allFiles['og_image']);
-            }
-
-            $products = new Product();
-            $products->product_title=$request->product_title;
-            $products->description=$request->description;
-            $products->product_url=$request->product_url;
-            $products->category=$request->category;
-            $products->price=$request->price;
-            $products->quantity=$request->quantity;
-            if($image!=null){
-            $products->images=$image;
-            }
-
-            if(isset($request->best_seller)){
-                $bestSeller = 1;
-            } else{
-                $bestSeller = 0;
-            }
-
-            if(isset($request->home)){
-                $home = 1;
-            } else{
-                $home = 0;
-            }
-            $products->best_seller = $bestSeller;
-            $products->home = $home;
-
-            $data = isset($request['sub_services']) && is_array($request['sub_services']) ? $request['sub_services'] : [];
-
-            $sub_services =implode(',', $data);
-
-            // $sub_services = implode(",", $request->get('sub_services'));
-
-            $products->sub_services=$sub_services;
-            $products->meta_title=$request->meta_title;
-            $products->meta_desc=$request->meta_desc;
-            $products->meta_keywords=$request->meta_keywords;
-            $products->og_title=$request->og_title;
-            $products->og_desc=$request->og_desc;
-            if($og_image!=null){
-                $products->og_image=$og_image;
-            }
-
-            $products->save();
-
-            // For Extra Tabs
-            if(isset($request->content) && $request->content!=null){
-            foreach ($request->content as $key => $value){
-                $new_product_tab= new ProductTabs();
-                $new_product_tab->product_id=$products->id;
-                $new_product_tab->tab_id=$request->tab_id[$key];
-                $new_product_tab->value=$value;
-                $new_product_tab->save();
-             }
-            }
-            return redirect()->route('admin-products.index')->with('success_message','Product Added Successfully!');
-        }
-            
-            
         }
         return view('admin.login');
     }
 
-    public function editProduct($id){
-        $products=Product::all();
-        $product_details=Product::find($id);
+    public function editProduct($id)
+    {
+        $products = Product::all();
+        $product_details = Product::find($id);
         $category_data = Category::all();
-        $all_tabs=Tabs::where('status','=','Y')->get();
-        return view('main.pages.products.edit',['product_details'=>$product_details,'category_data' =>$category_data,'all_tabs'=>$all_tabs,'products'=>$products]);
+        $all_tabs = Tabs::where('status', '=', 'Y')->get();
+        return view('main.pages.products.edit', ['product_details' => $product_details, 'category_data' => $category_data, 'all_tabs' => $all_tabs, 'products' => $products]);
     }
- 
-    public function deleteProduct($id){
+
+    public function deleteProduct($id)
+    {
         Product::find($id)->delete();
-        return redirect()->back()->with('success_message','Product Deleted Successfully!');
+        return redirect()->back()->with('success_message', 'Product Deleted Successfully!');
     }
-    public function addcategories(){
-        if(Auth::check()){
+    public function addcategories()
+    {
+        if (Auth::check()) {
             return view('admin.categories');
         }
     }
 
-    public function storecategory(Request $request){
-        if(Auth::check()){
+    public function storecategory(Request $request)
+    {
+        if (Auth::check()) {
             $category = new Category();
 
-            $category->name=$request->category_name;
-            $category->slug=$request->category_slug;
+            $category->name = $request->category_name;
+            $category->slug = $request->category_slug;
 
             $category->save();
 

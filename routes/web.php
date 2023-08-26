@@ -125,8 +125,8 @@ Route::group(['prefix' => '/admin','middleware'=>'admin-auth'], function () {
     Route::get('/product/delete/{id}','Admin\ProductController@deleteProduct')->name('admin.destroy-product');
 
     //Add More Product
-    Route::get('/add-more-product','Admin\ProductController@addProduct');
-
+    Route::get('/add-more-product','Admin\ProductController@addProduct')->name('admin.add-product');
+    Route::post('/store-more-image','Admin\ProductController@storeImage')->name('admin.storemoreimage');
     // Category
     Route::get('/category','Admin\CategoryController@showCategories')->name('categories.index');
     Route::get('/category/create','Admin\CategoryController@showCategoryPage')->name('category.show');
